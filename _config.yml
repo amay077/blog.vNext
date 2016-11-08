@@ -1,0 +1,41 @@
+# Welcome to Amplified for Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Experiments Never Fail
+email: your-email@domain.com
+description: >
+  Try and try again
+logo: "/assets/images/logo.png"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://blog.amay077.net" # the base hostname & protocol for your site
+
+permalink: /blog/:year/:month/:day/:title/
+
+paginate:	10 # The number of posts to show per page on your homepage
+
+name: 'amay077'
+bio: >
+  Microsoft MVP(Xamarin). フルリモートワーカー. Geospatial Mobile app developer. 
+  BUILD InsiderでXamarin逆引きTips http://j.mp/xamtips 連載中。
+  Android,iOS,C#,Rx,OpenData,地図とか。
+author_image: "/assets/images/author.png"
+twitter_username: amay077
+github_username:  amay077
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: 
+    - autolink
+    - hard_wrap
+    - tables
+
+highlighter: rouge
+
+gems:
+  - jekyll-paginate
