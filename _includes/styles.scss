@@ -1,5 +1,5 @@
 @import 'bourbon/bourbon';
-@import 'syntax-highlighting';
+/*@import 'syntax-highlighting';*/
 
 $grey-color:       #828282;
 
@@ -506,10 +506,11 @@ body {
 
 pre,
 code {
+  font-family: Menlo,'Bitstream Vera Sans Mono','DejaVu Sans Mono',Monaco,Consolas,monospace;
   font-size: 15px;
-  border: 1px solid #e8e8e8;
-  border-radius: 3px;
-  background-color: #eeeeff;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  background-color: #f8f8f8;
 }
 
 code {
