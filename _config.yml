@@ -37,5 +37,8 @@ redcarpet:
 
 highlighter: rouge
 
+# Disqus Comments
+disqus_short_name: experimentsneverfail
+
 gems:
   - jekyll-paginate
