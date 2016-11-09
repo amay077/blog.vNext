@@ -421,6 +421,15 @@ body {
         border-radius: 100%;
         text-indent: -9999px;
       }
+      .mvp-image {
+        background-image: url(/assets/images/mvp_logo_v.png);
+        display: block;
+        width: 80px;
+        height: 127px;
+        float: left;
+        background-size: cover;
+        text-indent: -9999px;
+      }
       h4 {
         font-size: 18px;
         line-height: 1.1;

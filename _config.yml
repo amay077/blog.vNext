@@ -20,9 +20,7 @@ paginate:	10 # The number of posts to show per page on your homepage
 
 name: 'amay077'
 bio: >
-  Microsoft MVP(Xamarin). フルリモートワーカー. Geospatial Mobile app developer. 
-  BUILD Insiderで [Xamarin逆引きTips](http://j.mp/xamtips) 連載中。
-  Android,iOS,C#,Rx,OpenData,地図とか。
+  Microsoft MVP(Xamarin). フルリモートワーカー. Geospatial Mobile app developer. Love C#.
 author_image: "/assets/images/author.png"
 twitter_username: amay077
 github_username:  amay077
