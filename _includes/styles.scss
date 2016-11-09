@@ -480,7 +480,7 @@ body {
 
 .share {
   text-align: right;
-  padding: 20px 0 0;
+  padding: 0 0 20px 0;
   a {
     text-decoration: none;
     color: #bbbbbb;
@@ -523,6 +523,7 @@ pre {
 
 .categories {
   overflow: hidden;
+  padding: 20px 0 0 0;
 }
 
 .category {
@@ -545,3 +546,11 @@ pre {
     text-decoration: none;
   }
 } 
+
+.published {
+  float: left;
+  padding: 0px 3px;
+  margin: 1px 4px 1px 0px;
+  line-height: 30px;
+  color: #777777;
+}

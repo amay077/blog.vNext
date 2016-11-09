@@ -17,6 +17,7 @@ layout: default
         {% for category in  page.categories %}
         <div class="category">{{ category }}</div>
         {% endfor %}
+        <p class="published">published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
       </section>
       
       <section class="share">
@@ -70,8 +71,6 @@ layout: default
               {% endif %}
             </span>
           </p>
-          <hr>
-          <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
         </section>
       </div>
       {{post}}
