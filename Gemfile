@@ -5,3 +5,4 @@ gem 'jekyll-paginate'
 gem 'jekyll-compose', group: [:jekyll_plugins]
 gem "redcarpet"
 gem "rouge"
+gem "jekyll-sitemap"
