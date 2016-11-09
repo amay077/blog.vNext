@@ -12,6 +12,13 @@ layout: default
       {{content}}
     </section>
     <footer class="post-footer">
+
+      <section class="categories">
+        {% for category in  page.categories %}
+        <div class="category">{{ category }}</div>
+        {% endfor %}
+      </section>
+      
       <section class="share">
         <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
           Share on
@@ -45,6 +52,7 @@ layout: default
         </section>
       </div>
       {{post}}
+
       <div class="isRight">
         <h5 class="index-headline featured"><span>Supported by</span></h5>
         <footer class="site-footer">

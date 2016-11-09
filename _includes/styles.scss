@@ -520,3 +520,21 @@ pre {
 .pagination .disabled {
     opacity: 0;
 }
+
+.categories {
+  overflow: hidden;
+}
+
+.category {
+  float: left;
+  border: 1px;
+  border-radius: 3px;
+  background-color: #eeeeee;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #dddddd;
+  padding: 0px 3px;
+  margin: 1px 4px 1px 0px;
+  line-height: 30px;
+  color: #777777;
+}
