@@ -12,7 +12,7 @@ Android で GPS の位置を受信する場合、LocationListener というイ�
 
 結局自力でタイムアウト処理を書いて GPS を止めるハメになるのですが、いつも同じ処理を書くのが面倒なので、共通っぽいクラスにしてみました。
 
-{% gist 777790 %}
+gist 777790
 
 LocationListener の代わりにこの TimeoutableLocationListener をセットします。いつもと違うのは以下の2箇所です。
 
