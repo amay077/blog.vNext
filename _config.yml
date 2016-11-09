@@ -7,7 +7,7 @@
 
 # Site settings
 title: Experiments Never Fail
-email: your-email@domain.com
+email: okuokuoku[at]gmail.com
 description: >
   Try and try again
 logo: "/assets/images/logo.png"
@@ -21,7 +21,7 @@ paginate:	10 # The number of posts to show per page on your homepage
 name: 'amay077'
 bio: >
   Microsoft MVP(Xamarin). フルリモートワーカー. Geospatial Mobile app developer. 
-  BUILD InsiderでXamarin逆引きTips http://j.mp/xamtips 連載中。
+  BUILD Insiderで [Xamarin逆引きTips](http://j.mp/xamtips) 連載中。
   Android,iOS,C#,Rx,OpenData,地図とか。
 author_image: "/assets/images/author.png"
 twitter_username: amay077
