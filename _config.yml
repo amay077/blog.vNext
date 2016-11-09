@@ -40,5 +40,8 @@ highlighter: rouge
 # Disqus Comments
 disqus_short_name: experimentsneverfail
 
+# Google Analytics
+google_analytics_tracking_id: UA-224332-7
+
 gems:
   - jekyll-paginate
