@@ -43,3 +43,8 @@ google_analytics_tracking_id: UA-224332-7
 
 gems:
   - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  
