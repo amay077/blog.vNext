@@ -49,7 +49,8 @@ Xamarin.Forms のお供、CustomRenderer です。
 
 ``MasterDetailPage`` の iOS向けCustomRenderer を作って、ネイティブ側でナビゲーションバーをカスタマイズしてみます。
 
-```csharp CustomMasterDetailRenderer.cs
+```csharp
+// CustomMasterDetailRenderer.cs
 using System;
 using MasterDetail.iOS;
 using MonoTouch.UIKit;
@@ -79,6 +80,7 @@ namespace MasterDetail.iOS
     }
 }
 ```
+
 「MENU」ってボタンを、ナビゲーションバーの左側に追加しています。
 こんな CustomRenderer を iOS 側のプロジェクトに追加して実行してみます。
 
@@ -100,7 +102,8 @@ namespace MasterDetail.iOS
 
 では、``CustomMasterDetailRenderer.cs`` を Effects に変えてみましょう。
 
-```csharp CustomMasterDetailEffect.cs
+```csharp 
+// CustomMasterDetailEffect.cs
 using System;
 using MasterDetail.iOS;
 using MonoTouch.UIKit;
@@ -158,7 +161,8 @@ namespace MasterDetail.iOS
 
 Effect は、 ``ResolutionGroupName`` と ``ExportEffect`` で定義した名称を使って、PCL側プロジェクトで Page に追加します。
 
-```csharp RootPage.cs
+```csharp 
+// RootPage.cs
 public class RootPage : MasterDetailPage
 {
     public RootPage ()
