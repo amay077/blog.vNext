@@ -26,14 +26,14 @@ twitter_username: amay077
 github_username:  amay077
 
 # Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: 
-    - autolink
-    - hard_wrap
-    - tables
-
-highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: KramdownEasyLink
+  hard_wrap: true
+  parse_block_html: true
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: false
 
 # Disqus Comments
 disqus_short_name: experimentsneverfail
