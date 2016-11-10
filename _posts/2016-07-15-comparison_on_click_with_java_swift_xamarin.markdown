@@ -20,7 +20,8 @@ categories: [Android, Xamarin, Swift, C#, iOS]
 ----
 ## Android-Java
 
-```java MainActivity.java
+```java 
+//MainActivity.java
 button1.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
@@ -31,14 +32,16 @@ button1.setOnClickListener(new View.OnClickListener() {
 ----
 ## Xamarin.Android(C#)
 
-```csharp MainActivity.cs
+```csharp 
+//MainActivity.cs
 buttonOk.Click += (_, e)
     => label1.Text = "pushed!!";
 ```
 ----
 ## iOS-Swift
 
-```java ViewController.swift
+```java 
+//ViewController.swift
 buttonOK.addTarget(self, action: 
     #selector(ViewController.onTouch(_:)), 
     forControlEvents: .TouchUpInside)
@@ -50,7 +53,8 @@ func onTouch(sender: AnyObject) {
 ----
 ## Xamarin.iOS(C#)
 
-```csharp ViewColtroller.cs
+```csharp 
+//ViewColtroller.cs
 buttonOk.TouchUpInside += (_, e) 
     => label1.Text = "pushed!!";
 ```

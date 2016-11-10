@@ -13,7 +13,8 @@ categories: [C#, Android, Xamarin]
 
 に回答したので、その関連でやってみた。
 
-```csharp MainActivity.cs
+```csharp 
+//MainActivity.cs
 [Activity(Label = "AudioFocusSample", MainLauncher = true, Icon = "@mipmap/icon")]
 public class MainActivity : Activity, AudioManager.IOnAudioFocusChangeListener
 {

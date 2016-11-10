@@ -9,7 +9,7 @@ categories: [RxJava, Java, ReactiveX, ズンドコキヨシ]
 調子に乗って RxJava でもやってみた。
 <!--more-->
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Javaの講義、試験が「自作関数を作り記述しなさい」って問題だったから<br>「ズン」「ドコ」のいずれかをランダムで出力し続けて「ズン」「ズン」「ズン」「ズン」「ドコ」の配列が出たら「キ・ヨ・シ！」って出力した後終了って関数作ったら満点で単位貰ってた</p>&mdash; てくも (@kumiromilk) <a href="https://twitter.com/kumiromilk/status/707437861881180160">2016年3月9日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Javaの講義、試験が「自作関数を作り記述しなさい」って問題だったからズン」「ドコ」のいずれかをランダムで出力し続けて「ズン」「ズン」「ズン」「ズン」「ドコ」の配列が出たら「キ・ヨ・シ！」って出力した後終了って関数作ったら満点で単位貰ってた</p>&mdash; てくも (@kumiromilk) <a href="https://twitter.com/kumiromilk/status/707437861881180160">2016年3月9日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 * [C# と Reactive Extensions でズンドコキヨシ](http://qiita.com/amay077/items/85dfc4bd194f57c52c57)
@@ -17,8 +17,8 @@ categories: [RxJava, Java, ReactiveX, ズンドコキヨシ]
 
 がんばって [``Observable.window``](http://reactivex.io/documentation/operators/window.html) を使ってみた。
 
-```java zondoko.java
-
+```java 
+//zondoko.java
 // なんちゃってラムダ使用。あと Android。
 public void doZondoko() {
     final Random random = new Random();
@@ -73,20 +73,21 @@ private String dump(List<String> list) {
 }
 ```
 
-> どこ, ずん, どこ, どこ, ずん<br/>
-ずん, どこ, どこ, ずん, どこ<br/>
-どこ, どこ, ずん, どこ, ずん<br/>
-どこ, ずん, どこ, ずん, どこ<br/>
-ずん, どこ, ずん, どこ, どこ<br/>
-どこ, ずん, どこ, どこ, ずん<br/>
-ずん, どこ, どこ, ずん, ずん<br/>
-どこ, どこ, ずん, ずん, ずん<br/>
-どこ, ずん, ずん, ずん, ずん<br/>
+> どこ, ずん, どこ, どこ, ずん
+ずん, どこ, どこ, ずん, どこ
+どこ, どこ, ずん, どこ, ずん
+どこ, ずん, どこ, ずん, どこ
+ずん, どこ, ずん, どこ, どこ
+どこ, ずん, どこ, どこ, ずん
+ずん, どこ, どこ, ずん, ずん
+どこ, どこ, ずん, ずん, ずん
+どこ, ずん, ずん, ずん, ずん
 ずん, ずん, ずん, ずん, どこ, キ・ヨ・シ！
 
 「window(5, 1) -> toList -> concat してるならそれは ``buffer(5, 1)`` やんけ」というのを [こちら](http://qiita.com/do6gop/items/c4941f6fb2bdc1c0c0f1) で知って、 ``buffer`` 版も書いてみた。
 
-```java Zondoko_buffer.java
+```java 
+//Zondoko_buffer.java
 public void doZondoko() {
     final Random random = new Random();
     final List<String> PATTERN = Arrays.asList("ずん", "ずん", "ずん", "ずん", "どこ");

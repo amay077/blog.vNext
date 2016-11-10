@@ -9,7 +9,7 @@ Xamarin.Forms.GoogleMaps v1.4.0 をリリースしました。
 
 <!--more-->
 
-* [NuGet Gallery | Xamarin.Forms.GoogleMaps 1.4.0](https://www.nuget.org/packages/Xamarin.Forms.GoogleMaps/1.4.0)
+* [NuGet Xamarin.Forms.GoogleMaps 1.4.0](https://www.nuget.org/packages/Xamarin.Forms.GoogleMaps/1.4.0)
 
 待望？のカスタムマーカーに対応しました。
 
