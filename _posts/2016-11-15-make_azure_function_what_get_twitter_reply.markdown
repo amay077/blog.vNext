@@ -154,7 +154,7 @@ node.js でまともなプログラムを作るのは初めてでした。
 
 特に ``request`` を使用した Twitter API の使い方は、
 
-* [Node.jsでのTwitterタイムライン取得方法 | りぷろぐ | りぷろぐ](http://ripplation.co.jp/blogs/tech/archives/196)
+* [Node.jsでのTwitterタイムライン取得方法 - りぷろぐ](http://ripplation.co.jp/blogs/tech/archives/196)
 
 を参考にさせてもらいました。
 
@@ -162,7 +162,7 @@ node.js でまともなプログラムを作るのは初めてでした。
 
 #### Azure Functions への npm install の仕方
 
-* [Azure Functions NodeJS 開発者向けリファレンス | Microsoft Azure](https://azure.microsoft.com/ja-jp/documentation/articles/functions-reference-node/#node)
+* [Azure Functions NodeJS 開発者向けリファレンス - Microsoft Azure](https://azure.microsoft.com/ja-jp/documentation/articles/functions-reference-node/#node)
 
 の手順に沿うと、ブラウザ上で Terminal が使えるので、そこで ``npm install request-promise`` などとできます。``package.json`` ？、まだよく知らないです。
 
@@ -170,7 +170,7 @@ node.js でまともなプログラムを作るのは初めてでした。
 
 Mac と Visual Studio Code を使いました。
 
-* [Visual Studio CodeによるNode.jsのデバッグ（その１） ｜ Developers.IO](http://dev.classmethod.jp/server-side/vscode-nodejs-1/)
+* [Visual Studio CodeによるNode.jsのデバッグ（その１） - Developers.IO](http://dev.classmethod.jp/server-side/vscode-nodejs-1/)
 
 がとても参考になりました（インテリセンスを使うための設定はしませんでした）。
 
