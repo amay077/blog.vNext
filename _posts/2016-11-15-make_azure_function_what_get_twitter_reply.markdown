@@ -1,14 +1,17 @@
 ---
 layout: post
 title: "Azure Functions で Twitter のリプライを受け取る WebAPI を作ってみた"
-date: 2016/11/15 23:59:59 +0900
+date: 2016/11/14 23:59:59 +0900
 comments: true
 categories: [Azure,Node.js,AzureFunctions,JavaScript,VisualStudioCode]
 ---
-## 作りたいもののイメージ
+BOT Framework とか使えよｗ というものですが、 Twitter の自動応答BOTをWebAPI化してみたかったんですね。
+
 <!--more-->
 
-###リクエスト
+## 作りたいもののイメージ
+
+### リクエスト
 
 ``https://xxxx.azurewebsites.net/api/myfunc1?text=明日の天気は？``
 
@@ -16,11 +19,9 @@ categories: [Azure,Node.js,AzureFunctions,JavaScript,VisualStudioCode]
 
 > 晴れのちくもり
 
-BOT Framework とか使えよｗ というものですが、 Twitter の自動応答BOTをWebAPI化してみたかったんですね。
-
 ## Azure Functions を作る
 
-* [Create your first Azure Function | Microsoft Azure](https://azure.microsoft.com/ja-jp/documentation/articles/functions-create-first-azure-function/)
+* [Create your first Azure Function - Microsoft Azure](https://azure.microsoft.com/ja-jp/documentation/articles/functions-create-first-azure-function/)
 
 を参考に Javascript で作りました。
 （C# で作ろうと思ったんだけど、作成直後にエラーが出たもので。そっちは [MSDNフォーラムに投げたら速攻で回答してもらえた](https://social.msdn.microsoft.com/Forums/ja-JP/91983eb4-d9e1-4183-a332-be3e576d7846/c-azure-functions-?forum=windowsazureja#91983eb4-d9e1-4183-a332-be3e576d7846) のでありがたかったけどね。）
