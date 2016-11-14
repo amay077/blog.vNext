@@ -36,17 +36,17 @@ private Observable<Integer> fatTask(final int x) {
 
 このプログラムの出力はこうなります。
 
-> 出力:<br/>
-> fatTask(1) - start.<br/>
-fatTask(2) - start.<br/>
-fatTask(3) - start.<br/>
-fatTask(4) - start.<br/>
-fatTask(5) - start.<br/>
-onNext - 3<br/>
-onNext - 5<br/>
-onNext - 4<br/>
-onNext - 2<br/>
-onNext - 1<br/>
+> 出力:
+> fatTask(1) - start.
+fatTask(2) - start.
+fatTask(3) - start.
+fatTask(4) - start.
+fatTask(5) - start.
+onNext - 3
+onNext - 5
+onNext - 4
+onNext - 2
+onNext - 1
 
 fatTask は 1,2,3,4,5 の順で *完了を待たずに* 呼びだされます。
 が、それぞれ処理にかかる時間が異なるので、 ``onNext`` が呼ばれる順は 1〜 とは限りません。
@@ -85,17 +85,17 @@ public void start() {
 
 このプログラムの出力はこうなります。
 
-> 出力<br/>
-fatTask(1) - start.<br/>
-onNext - 1<br/>
-fatTask(2) - start.<br/>
-onNext - 2<br/>
-fatTask(3) - start.<br/>
-onNext - 3<br/>
-fatTask(4) - start.<br/>
-onNext - 4<br/>
-fatTask(5) - start.<br/>
-onNext - 5<br/>
+> 出力
+fatTask(1) - start.
+onNext - 1
+fatTask(2) - start.
+onNext - 2
+fatTask(3) - start.
+onNext - 3
+fatTask(4) - start.
+onNext - 4
+fatTask(5) - start.
+onNext - 5
 
 ``fatTask(1)`` の完了を待ってから、次の ``fatTask(2)`` が実行されています。
 
@@ -142,14 +142,14 @@ public void start() {
 
 このプログラムの出力はこうなります。
 
-> 出力<br/>
-fatTask(0) - start.<br/>
-onNext - 0<br/>
-fatTask(1) - start.<br/>
-onNext - 1<br/>
-fatTask(2) - start.<br/>
-onNext - 2<br/>
-…つづく<br/>
+> 出力
+fatTask(0) - start.
+onNext - 0
+fatTask(1) - start.
+onNext - 1
+fatTask(2) - start.
+onNext - 2
+…つづく
 
 無限リストながら、並列処理せずに順序通り動いてくれます。
 

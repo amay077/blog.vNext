@@ -1,3 +1,4 @@
+jekyll build
 cd _site
 git add .
 git commit -m "site update"

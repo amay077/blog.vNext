@@ -14,7 +14,8 @@ categories: [RxJava, RxAndroid, Android]
 
 　例えば、画面に ``EditBox`` と ``Button`` があって、「文字列の入力」と「ボタンが押されたか」を監視、◯秒間操作がなかったら××する、という処理をしたい時、RxJava+RxAndroid では以下のように書けます。
 
-```java MyActivity.java
+```java 
+//MyActivity.java
 public class MyActivity extends Activity {
     private static final String TAG = "MyActivity";
     private Subscription _subscription;
@@ -85,7 +86,8 @@ public class MyActivity extends Activity {
 
 　さて Xamarin です。Xamarin では本家の [Reactive Extensions](https://rx.codeplex.com/) が使用できます。RxAndroid と同じことをやると下のように書けます、スマート。
 
-```csharp MainActivity.cs
+```csharp
+//MainActivity.cs
 [Activity(Label = "RxJavaSample", MainLauncher = true, Icon = "@drawable/icon")]
 public class MainActivity : Activity
 {

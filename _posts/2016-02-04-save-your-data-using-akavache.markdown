@@ -81,7 +81,8 @@ Shared Code: は、'Use Portable Class Library' を選択します。
 AkavacheSample プロジェクトの App.cs を以下のようにします。テキストボックス２つとボタン２つが縦に並んでいるだけの簡単な画面です。
 
 
-```csharp AkavacheSample.cs
+```csharp
+//AkavacheSample.cs
 public class App : Application
 {
     public App()
@@ -118,7 +119,8 @@ public class App : Application
 
 名前と年齢をひとまとめに保存したいので、Person というクラスを作ります。
 
-```csharp Person.cs
+```csharp
+//Person.cs
 public class Person
 {
     public string PersonName { get; set; }
@@ -133,8 +135,8 @@ public class Person
 Akavache はキー・バリュー・ストアなので、保存・読み出し時のキーを ```"person"``` としています。
 
 
-```csharp AkavacheSample.cs
-
+```csharp
+//AkavacheSample.cs
 public class App : Application
 {
     public App()

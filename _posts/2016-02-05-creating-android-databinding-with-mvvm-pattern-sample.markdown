@@ -32,7 +32,8 @@ categories: [Android, MVVM, DataBinding, RxJava]
 
 ``@{ }`` で  ``MainViewModel`` に用意した ``ObservableField<T>`` または、イベントハンドラとバインドしてます。
 
-```xml activity_main.xml
+```xml 
+<!--activity_main.xml-->
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -92,7 +93,8 @@ ListView で ``app:formattedLaps="@{viewModel}"`` としているところだけ
 
 ``MainActivity.java`` はこんな感じ。
 
-```java MainActivity.java
+```java 
+//MainActivity.java
 public class MainActivity extends AppCompatActivity {
 
     private /* final */  MainViewModel _viewModel;

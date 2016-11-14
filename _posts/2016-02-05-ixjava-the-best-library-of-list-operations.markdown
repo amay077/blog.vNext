@@ -58,7 +58,8 @@ dependencies {
 
 #### 抽出(filter)、並べ替え(orderBy)、射影(map)
 
-```java ixjava
+```java 
+//ixjava
 Ix.from(Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7, 8, 9))
   .filter(x -> x % 2 == 0) // 可視性向上の為のなんちゃってラムダ
   .orderBy(x-> -x)  // OrderByDescending がないので
@@ -73,7 +74,8 @@ Ix.from(Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7, 8, 9))
 
 #### 平坦化して射影(flatMap)
 
-```java ixjava
+```java 
+//ixjava
 Ix.from(Arrays.asList(1, 2, 3, 4, 5))
   .flatMap(x −> Ix.range(x * 10, x))
   .toList();
@@ -92,7 +94,8 @@ Ix.from(Arrays.asList(1, 2, 3, 4, 5))
 
 Stream API には無いが IxJava にはあるのだよ。
 
-```java ixjava
+```java 
+//ixjava
 Ix.from(Arrays.asList(1, 2, 3, 4, 5))
   .zip(Ix.from(Arrays.asList("hoge", "fuga", "piyo")), 
     (x, y) -> new Pair<Integer, String>(x, y))

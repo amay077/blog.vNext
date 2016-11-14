@@ -165,7 +165,8 @@ Androidでも一部のライブラリや、[今後公式にデータバインデ
 
 ViewModelが「画面遷移を要求するメッセージ」を投げ、それをViewが受信して画面遷移を行います。
 
-```java メッセージ送信側(MainViewModel.java)
+```java 
+//メッセージ送信側(MainViewModel.java)
 public final Command commandNextView = new Command() {
     @Override
     public void execute() {
@@ -176,7 +177,8 @@ public final Command commandNextView = new Command() {
 };
 ```
 
-```java メッセージ受信側(MainActivity.java)
+```java 
+//メッセージ受信側(MainActivity.java)
 // 画面遷移のメッセージ受信
 _viewModel.messenger.register(StartActivityMessage.class.getName(), new Action1<Message>() {
     @Override

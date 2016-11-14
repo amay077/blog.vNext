@@ -14,7 +14,8 @@ categories: [C#, ReactiveProperty, ReactiveX]
 
 ReactiveCommand は ``IObservable<T>``、そしてロジックの方も ``IObservable<T>`` で作ることが多いのですが、その場合「ボタンをクリックした時に、ロジックを実行する」というコードは大抵以下のようになります。
 
-```csharp MainViewModel.cs 
+```csharp
+//MainViewModel.cs 
 public class MainViewModel
 {
     public ReactiveCommand TestCommand { get; }
@@ -53,7 +54,8 @@ public class MainViewModel
 はい、
 
 
-```csharp MainViewModel.cs
+```csharp
+//MainViewModel.cs
 public class MainViewModel
 {
     public ReactiveCommand TestCommand { get; }

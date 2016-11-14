@@ -48,4 +48,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - deploy.sh
-  - CNAME

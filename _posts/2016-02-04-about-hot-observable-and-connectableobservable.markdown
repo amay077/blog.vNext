@@ -59,21 +59,21 @@ findViewById(R.id.buttonSubscribe2).setOnClickListener(v -> {
 });
 ```
 
->結果:<br/>
-D/MainActivity: buttonSubscribe1 click!<br/>
-D/MainActivity: subscriber1 - onNext - 0<br/>
-D/MainActivity: subscriber1 - onNext - 1<br/>
-D/MainActivity: subscriber1 - onNext - 2<br/>
-D/MainActivity: subscriber1 - onNext - 3<br/>
-D/MainActivity: subscriber1 - onNext - 4<br/>
-D/MainActivity: subscriber1 - onNext - 5<br/>
-D/MainActivity: buttonSubscribe2 click!<br/>
-D/MainActivity: subscriber1 - onNext - 6<br/>
-D/MainActivity: subscriber2 - onNext - 0<br/>
-D/MainActivity: subscriber1 - onNext - 7<br/>
-D/MainActivity: subscriber2 - onNext - 1<br/>
-D/MainActivity: subscriber1 - onNext - 8<br/>
-D/MainActivity: subscriber2 - onNext - 2<br/>
+>結果:
+D/MainActivity: buttonSubscribe1 click!
+D/MainActivity: subscriber1 - onNext - 0
+D/MainActivity: subscriber1 - onNext - 1
+D/MainActivity: subscriber1 - onNext - 2
+D/MainActivity: subscriber1 - onNext - 3
+D/MainActivity: subscriber1 - onNext - 4
+D/MainActivity: subscriber1 - onNext - 5
+D/MainActivity: buttonSubscribe2 click!
+D/MainActivity: subscriber1 - onNext - 6
+D/MainActivity: subscriber2 - onNext - 0
+D/MainActivity: subscriber1 - onNext - 7
+D/MainActivity: subscriber2 - onNext - 1
+D/MainActivity: subscriber1 - onNext - 8
+D/MainActivity: subscriber2 - onNext - 2
 
 buttonSubscribe1 を押すとデータ(０から連番)が流れ始めます。
 しばらくして buttonSubscribe2 を押すと、1 とは関係なく、また 0 から流れ始めます。
@@ -114,22 +114,22 @@ findViewById(R.id.buttonDisConnect).setOnClickListener(v -> {
 });
 ```
 
->結果:<br/>
-D/MainActivity: buttonSubscribe1 click!<br/>
-D/MainActivity: buttonConnect click!      // ←数秒経過している<br/>
-D/MainActivity: subscriber1 - onNext - 0<br/>
-D/MainActivity: subscriber1 - onNext - 1<br/>
-D/MainActivity: subscriber1 - onNext - 2<br/>
-D/MainActivity: subscriber1 - onNext - 3<br/>
-D/MainActivity: buttonSubscribe2 click!<br/>
-D/MainActivity: subscriber1 - onNext - 4<br/>
-D/MainActivity: subscriber2 - onNext - 4<br/>
-D/MainActivity: subscriber1 - onNext - 5<br/>
-D/MainActivity: subscriber2 - onNext - 5<br/>
-D/MainActivity: subscriber1 - onNext - 6<br/>
-D/MainActivity: subscriber2 - onNext - 6<br/>
-D/MainActivity: buttonDisConnect click!<br/>
--これ以降 onNext は出力されない-<br/>
+>結果:
+D/MainActivity: buttonSubscribe1 click!
+D/MainActivity: buttonConnect click!      // ←数秒経過している
+D/MainActivity: subscriber1 - onNext - 0
+D/MainActivity: subscriber1 - onNext - 1
+D/MainActivity: subscriber1 - onNext - 2
+D/MainActivity: subscriber1 - onNext - 3
+D/MainActivity: buttonSubscribe2 click!
+D/MainActivity: subscriber1 - onNext - 4
+D/MainActivity: subscriber2 - onNext - 4
+D/MainActivity: subscriber1 - onNext - 5
+D/MainActivity: subscriber2 - onNext - 5
+D/MainActivity: subscriber1 - onNext - 6
+D/MainActivity: subscriber2 - onNext - 6
+D/MainActivity: buttonDisConnect click!
+-これ以降 onNext は出力されない-
 
 buttonSubscribe1 を押しても、まだデータは流れてきません。
 数秒後、buttonConnect を押すとデータが流れ始めます。
@@ -193,29 +193,29 @@ findViewById(R.id.buttonUnsubscribe2).setOnClickListener(v -> {
 });
 ```
 
->結果:<br/>
-D/MainActivity: buttonSubscribe1 click!<br/>
-D/MainActivity: subscriber1 - onNext - 0<br/>
-D/MainActivity: subscriber1 - onNext - 1<br/>
-D/MainActivity: subscriber1 - onNext - 2<br/>
-D/MainActivity: buttonSubscribe2 click!<br/>
-D/MainActivity: subscriber1 - onNext - 3<br/>
-D/MainActivity: subscriber2 - onNext - 3<br/>
-D/MainActivity: subscriber1 - onNext - 4<br/>
-D/MainActivity: subscriber2 - onNext - 4<br/>
-D/MainActivity: subscriber1 - onNext - 5<br/>
-D/MainActivity: subscriber2 - onNext - 5<br/>
-D/MainActivity: subscriber1 - onNext - 6<br/>
-D/MainActivity: subscriber2 - onNext - 6<br/>
-D/MainActivity: subscriber1 - onNext - 7<br/>
-D/MainActivity: subscriber2 - onNext - 7<br/>
-D/MainActivity: buttonUnsubscribe1 click!<br/>
-D/MainActivity: subscriber2 - onNext - 8<br/>
-D/MainActivity: subscriber2 - onNext - 9<br/>
-D/MainActivity: subscriber2 - onNext - 10<br/>
-D/MainActivity: subscriber2 - onNext - 11<br/>
-D/MainActivity: buttonUnsubscribe2 click!<br/>
--これ以降 onNext は出力されない-<br/>
+>結果:
+D/MainActivity: buttonSubscribe1 click!
+D/MainActivity: subscriber1 - onNext - 0
+D/MainActivity: subscriber1 - onNext - 1
+D/MainActivity: subscriber1 - onNext - 2
+D/MainActivity: buttonSubscribe2 click!
+D/MainActivity: subscriber1 - onNext - 3
+D/MainActivity: subscriber2 - onNext - 3
+D/MainActivity: subscriber1 - onNext - 4
+D/MainActivity: subscriber2 - onNext - 4
+D/MainActivity: subscriber1 - onNext - 5
+D/MainActivity: subscriber2 - onNext - 5
+D/MainActivity: subscriber1 - onNext - 6
+D/MainActivity: subscriber2 - onNext - 6
+D/MainActivity: subscriber1 - onNext - 7
+D/MainActivity: subscriber2 - onNext - 7
+D/MainActivity: buttonUnsubscribe1 click!
+D/MainActivity: subscriber2 - onNext - 8
+D/MainActivity: subscriber2 - onNext - 9
+D/MainActivity: subscriber2 - onNext - 10
+D/MainActivity: subscriber2 - onNext - 11
+D/MainActivity: buttonUnsubscribe2 click!
+-これ以降 onNext は出力されない-
 
 buttonSubscribe1 を押すと、その時点でデータが流れ始めます(refCount による自動制御)。
 buttonSubscribe2 を押すと、subscriber1 と同じタイミングで、同じ値を受信できます(Hot だから)。
