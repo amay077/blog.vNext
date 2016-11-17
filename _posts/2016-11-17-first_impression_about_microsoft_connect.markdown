@@ -18,8 +18,6 @@ Xamarin Studio をベースにした IDE だけど、 .NET Core アプリ開発�
 
 個人的には、これは標準のIDEとして使いつつも、コーディングには JetBrains の [Rider](https://www.jetbrains.com/rider/) に期待している。VS for Mac にも Resharper や CodeLens 並みの機能が載ってくれば別だけど。
 
-今まで UWP 向けのアセンブリをビルドしたいがためだけに Windows を使っていたので、 Visual Studio for Mac でも UWP が対応されるのは嬉しい。
-
 Xamarin Studio は OSS だったけど、VS for Mac はどうなんだろう？ MonoDevelop との関係は？
 
 ## Visual Studio 2017
