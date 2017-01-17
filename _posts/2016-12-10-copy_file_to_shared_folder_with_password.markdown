@@ -5,6 +5,7 @@ date: 2016/12/10 23:59:59 +0900
 comments: true
 categories: [VisualBasic]
 ---
+[Visual Basic Advent Calendar 2016](http://qiita.com/advent-calendar/2016/vb) 10日目です。
 「ユーザー／パスワードが必要な共有フォルダにファイルをコピーしたい」という要件がありまして。なぜかそれが Visual Basic のプログラムだったので参加してみました。
 
 <!--more-->
