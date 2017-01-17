@@ -10,8 +10,8 @@ CARTO やるやる詐欺してました、すみません。
 CARTO といえば、地図関連で今一番イケてるサービスの一つですね。
 <!--more-->
 
-* [CARTO — Predict through location](https://carto.com/)
-* [ChizuDB | CARTO 日本向けサービス](http://chizudb.jp/)
+* [CARTO - Predict through location](https://carto.com/)
+* [ChizuDB - CARTO 日本向けサービス](http://chizudb.jp/)
 
 紹介される媒体が Web なので、Web地図の事例しか見たことなくて、「スマホアプリで表示できないのかなー」と思っていましたら…あるじゃん！モバイル用の CARTO SDK が！
 
