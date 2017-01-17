@@ -26,19 +26,19 @@ Build Insider にて、 [Xamarin逆引きTips](http://www.buildinsider.net/mobil
 
 ほぼいつも居ます。
 
-* https://twitter.com/amay077
+* [https://twitter.com/amay077](https://twitter.com/amay077)
 
 ### Qiita
 
 Xamarin や Android などの開発ネタを投稿してます。
 
-* http://qiita.com/amay077
+* [http://qiita.com/amay077](http://qiita.com/amay077)
 
 ### GitHub
 
 自作OSSプログラムやサンプルコードなどを公開してます。
 
-* https://github.com/amay077
+* [https://github.com/amay077](https://github.com/amay077)
 
 ### Q&Aサイト
 
