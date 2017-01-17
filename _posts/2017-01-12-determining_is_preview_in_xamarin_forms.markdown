@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Xamarin.Forms で XAML Preview 中かどうかを判別する方法"
-date: 2017/01/12 23:59:59 +0900
+date: 2017/01/12 23:59:58 +0900
 comments: true
 categories: [Xamarin, Xamarin.Forms]
 ---
