@@ -52,7 +52,7 @@ public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompa
 
 * [39765 – WindowSoftInputMode Attribute is Ignored When Using AppCompat](https://bugzilla.xamarin.com/show_bug.cgi?id=39765#c4)
 
-> Application.Current.On<Android>().UseWindowSoftInputModeAdjust(
+> ``Application.Current.On<Android>().UseWindowSoftInputModeAdjust(``
 
 Xamarin.Forms の 2.3.3 以降で、上記メソッドが使えるらしい、と。
 現在の Stable は 2.3.3.180 なので使えますね、使ってみましょう。
