@@ -208,17 +208,27 @@ ListView + Entry のチャット画面に加えて、 ScrollView を使った画
 
 このポストのきっかけは、
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">あとFormsでLINEっぽいの作ってるが、keyboardにentryが隠れるんどうしたらえぇんや・・・教えて偉い人！<br>scrollviewに置いても上手くいかへん・・・<br>そも②listviewにscrollview乗せたらロクなこと起こらん；；<a href="https://twitter.com/hashtag/xamarinforms?src=hash">#xamarinforms</a></p>&mdash; あるま ゆま＠ノベルゲーム製作中 (@ArmaYuma) <a href="https://twitter.com/ArmaYuma/status/818794518849781760">2017年1月10日</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<amp-twitter
+ 	data-tweetid="818794518849781760"
+ 	width="800"
+ 	height="600"
+ 	layout="responsive"></amp-twitter>
 
 からの [一連の流れ](https://twitter.com/amay077/status/819123872611975168) です。もともと自分のプログラムでも懸案だったので調べてみました。
 
 ここに書かなかったけど知見になりそうなツイートを貼っておきます。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/ArmaYuma">@ArmaYuma</a> <a href="https://twitter.com/amay077">@amay077</a> これを使ったら一応できました。仕様というよりバグなんですかね？<a href="https://t.co/6cgM7yABIU">https://t.co/6cgM7yABIU</a> <a href="https://t.co/lGjXtfQNC6">pic.twitter.com/lGjXtfQNC6</a></p>&mdash; サンテア (@Santea3173) <a href="https://twitter.com/Santea3173/status/819142125929447424">2017年1月11日</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<amp-twitter
+ 	data-tweetid="819142125929447424"
+ 	width="800"
+ 	height="600"
+ 	layout="responsive"></amp-twitter>
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/amay077">@amay077</a> iOSではTableView、ListView、ScrollViewがKeyboardInsetTrackerというクラスを使ってキーボード表示、非表示を監視してるようなので、追いかけてみるといいかも？</p>&mdash; ざまりん.ふぉーむずマン👀 (@ticktackmobile) <a href="https://twitter.com/ticktackmobile/status/819103490609856513">2017年1月11日</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<amp-twitter
+ 	data-tweetid="819103490609856513"
+ 	width="800"
+ 	height="600"
+ 	layout="responsive"></amp-twitter>
 
 関わっていただいた皆さん、ありがとうございました。
