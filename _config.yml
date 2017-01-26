@@ -10,7 +10,7 @@ title: Experiments Never Fail
 email: okuokuoku[at]gmail.com
 description: >
   Try and try again
-logo: "/assets/images/logo.png"
+logo: "/assets/images/logo.svg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.amay077.net" # the base hostname & protocol for your site
 
@@ -21,7 +21,7 @@ paginate:	10 # The number of posts to show per page on your homepage
 name: 'amay077'
 bio: >
   Microsoft MVP(Xamarin). フルリモートワーカー. Geospatial Mobile app developer. Love C#.
-author_image: "/assets/images/author.png"
+author_image: "/assets/images/author.svg"
 twitter_username: amay077
 github_username:  amay077
 
@@ -48,3 +48,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - deploy.sh
+  - AmpImgnizer/
