@@ -17,7 +17,7 @@ Mac編と言っているけど、Windows でもやる事は全く同じなので
 
 まずは Android Studio をダウンロードしてインストールしましょう。
 
-* [Android Studio と SDK ツールをダウンロードする | Android Studio](https://developer.android.com/studio/index.html?hl=ja)
+* [Android Studio と SDK ツールをダウンロードする Android Studio](https://developer.android.com/studio/index.html?hl=ja)
 
 Xamarin 使ってる人、「オレ Xamarin だから関係ないわｗ」とか言わないで。
 Android SDK が２重に入っちゃうけど、まずはそのまま入れて下さい。
