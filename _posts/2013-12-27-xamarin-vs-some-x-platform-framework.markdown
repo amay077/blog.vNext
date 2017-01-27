@@ -148,7 +148,7 @@ C++ で書くんですよね？ってくらいしか分かりませんすいま�
 ### Xamarin
 
 * [How it Works - Xamarin](http://xamarin.com/how-it-works)
-* [Xamarin 2.0 | ++C++; // 未確認飛行 C ブログ](http://ufcpp.wordpress.com/2013/02/24/xamarin-2-0/)
+* [Xamarin 2.0 ｜ ++C++; // 未確認飛行 C ブログ](http://ufcpp.wordpress.com/2013/02/24/xamarin-2-0/)
 * [How Xamarin.Android works [ja]](https://docs.google.com/presentation/d/1QS9gWRGIzTiXqD9GK3X4JsskskHp2NcNBQJBly96Eis)
 
 ### Titanium Mobile

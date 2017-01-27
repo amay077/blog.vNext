@@ -55,5 +55,5 @@ v2 の使い方を説明するブログやサイトで、これが含まれて�
 ## 参考
 
 * [AndroidでGoogle Maps v2 をエミュレータで動かしてしかも爆速 - リア充爆発日記](http://d.hatena.ne.jp/ria10/20121218/1355794748)
-* [エミュレータでGoogle Maps for Android V2を動かす方法 | アプリ開発とRaspberry PIとArduino実験](http://denshikousaku.net/how-to-make-android-google-maps-v2-work-in-android-emulator)
+* [エミュレータでGoogle Maps for Android V2を動かす方法｜ アプリ開発とRaspberry PIとArduino実験](http://denshikousaku.net/how-to-make-android-google-maps-v2-work-in-android-emulator)
 * [Running Google Maps v2 on Android Emulator - Stack Overflow](http://stackoverflow.com/questions/14040185/running-google-maps-v2-on-android-emulator)

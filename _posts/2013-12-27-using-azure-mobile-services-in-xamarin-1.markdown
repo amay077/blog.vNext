@@ -36,7 +36,7 @@ Microsoft と Xamarin との提携により、Xamarin から Azure モバイル�
 
 手順は↓が詳しいので割愛します。
 
-* [Windows Azureに登録する | 初心者でも30分でできる　ビジネスで使える！WordPressでWebサイト](http://wordpress-web.azurewebsites.net/guide)
+* [Windows Azureに登録する ｜ 初心者でも30分でできる　ビジネスで使える！WordPressでWebサイト](http://wordpress-web.azurewebsites.net/guide)
 
 ### 2. モバイルサービスを作成する
 

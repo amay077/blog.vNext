@@ -7,7 +7,7 @@ categories: [mvvm, reactiveextensions, rxjava, reactivecocoa, xamarin, android, 
 ---
 * [ReactiveCocoa Tokyo #rac_tokyo - connpass](http://connpass.com/event/8680/)
 * [RxJava Night #rxjnight - connpass](http://connpass.com/event/9061/)
-* [#10 node.js sideshow | mozaic.fm](http://mozaic.fm/post/100741841543/10-node-js-sideshow)
+* [#10 node.js sideshow ｜ mozaic.fm](http://mozaic.fm/post/100741841543/10-node-js-sideshow)
 
 <!--more-->
 

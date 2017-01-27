@@ -7,7 +7,7 @@ categories: [Android]
 ---
 2009年の情報なんですけどね。
 <!--more-->
-* [Avoiding memory leaks | Android Developers Blog](http://android-developers.blogspot.jp/2009/01/avoiding-memory-leaks.html)
+* [Avoiding memory leaks ｜ Android Developers Blog](http://android-developers.blogspot.jp/2009/01/avoiding-memory-leaks.html)
 * [Avoiding memory leaks （超訳） - Android Zaurusの日記](http://d.hatena.ne.jp/androidzaurus/20090121/1232519066)
 * [暇なメモ帳: Androidのソースコードレビュー(メモリリーク)](http://tomokey.blogspot.jp/2011/05/android.html)
 

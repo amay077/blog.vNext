@@ -66,7 +66,7 @@ android-ndk-r4b-windows.zip を
 NDK_PROJECT_PATH を定義しろ、といってるようだったので、 HOME と同じように環境変数に 「/home/h_oku/project」 と定義しました。
 
 ## サンプルを NDK でビルド
-[Android NDK | Android Developers](http://developer.android.com/sdk/ndk/index.html) の
+[Android NDK ｜ Android Developers](http://developer.android.com/sdk/ndk/index.html) の
 
 Getting Started with the NDK
 

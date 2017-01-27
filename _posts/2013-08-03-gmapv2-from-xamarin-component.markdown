@@ -7,7 +7,7 @@ categories: [Xamarin, C#, Android, GoogleMapsAPI]
 ---
 Xamarin Components に「Google Play Services」が追加されまして。
 <!--more-->
-* [Introducing the Google Play Services Component for Xamarin.Android | Xamarin Blog](http://blog.xamarin.com/introducing-the-google-play-services-component-for-xamarin-android/)
+* [Introducing the Google Play Services Component for Xamarin.Android ｜ Xamarin Blog](http://blog.xamarin.com/introducing-the-google-play-services-component-for-xamarin-android/)
 
 これが何を意味するかと言うと、これまで Google Play Service を利用するには、ライブラリプロジェクトを作って、アプリから参照するという煩わしい手順が必要でした。
 

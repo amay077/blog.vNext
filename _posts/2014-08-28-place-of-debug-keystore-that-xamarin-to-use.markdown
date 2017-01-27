@@ -11,7 +11,7 @@ Google Maps などを使用する時、開発中ならば ``debug.keystore`` の
 
 から書いておくと
 
-* [Obtaining a Google Maps API Key | Xamarin](http://developer.xamarin.com/guides/android/platform_features/maps_and_location/maps/obtaining_a_google_maps_api_key/)
+* [Obtaining a Google Maps API Key ｜ Xamarin](http://developer.xamarin.com/guides/android/platform_features/maps_and_location/maps/obtaining_a_google_maps_api_key/)
 
 に書いてある通りで、
 

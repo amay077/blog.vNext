@@ -8,7 +8,7 @@ categories: [Xamarin, Android, iOS]
 　Android では、例えば画面の幅に対して、複数のボタンを同じ幅でいい感じに Fill させることができます。(これを均等割り付けというのが正しいのかはよくわかりませんが)
 <!--more-->
 * [LinearLayout を使って均等割り付け : layout_weight - 戌印-INUJIRUSHI- （Androidあれこれ） -](http://inujirushi123.blog.fc2.com/blog-entry-106.html)
-* [Androidレイアウトの要点だけ: LinearLayoutでパーツを均等に配置したい | スマートフォン要点だけブログ](http://blog.imho.jp/2011/08/android-linearlayout.html)
+* [Androidレイアウトの要点だけ: LinearLayoutでパーツを均等に配置したい ｜ スマートフォン要点だけブログ](http://blog.imho.jp/2011/08/android-linearlayout.html)
 
 これで画面の解像度が違っても、横向きになっても、同じ幅のボタンで埋まる、という事ができます。
 

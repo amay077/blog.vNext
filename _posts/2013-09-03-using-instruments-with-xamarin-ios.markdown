@@ -9,7 +9,7 @@ Xamarin.iOS(旧MonoTouch)では、Xcode のプロファイラである Instrumen
 <!--more-->
 ## デモプロジェクト
 
-* [Instruments Walkthrough | xamarin](http://docs.xamarin.com/guides/ios/deployment%2C_testing%2C_and_metrics/instruments_walkthrough)
+* [Instruments Walkthrough ｜ xamarin](http://docs.xamarin.com/guides/ios/deployment%2C_testing%2C_and_metrics/instruments_walkthrough)
 
 にある ``MemoryDemo.zip`` をダウンロード、解凍します。2つプロジェクトが含まれていますが、 ``before`` を使います。
 
@@ -80,8 +80,8 @@ Xamarin.iOS+iOS Simulator での Instruments の導入部分を説明しまし�
 下に紹介するサイトが公式の情報です。
 ここには、実機にインストールしたアプリのプロファイル方法や、Instruments の使い方などが説明されているので合わせてどうぞ。
 
-* [Profiling Xamarin.iOS Applications with Instruments | xamarin](http://docs.xamarin.com/guides/ios/deployment%2C_testing%2C_and_metrics/using_instruments_to_detect_native_leaks_using_markheap)
-* [Instruments Walkthrough | xamarin](http://docs.xamarin.com/guides/ios/deployment%2C_testing%2C_and_metrics/instruments_walkthrough)
+* [Profiling Xamarin.iOS Applications with Instruments ｜ xamarin](http://docs.xamarin.com/guides/ios/deployment%2C_testing%2C_and_metrics/using_instruments_to_detect_native_leaks_using_markheap)
+* [Instruments Walkthrough ｜ xamarin](http://docs.xamarin.com/guides/ios/deployment%2C_testing%2C_and_metrics/instruments_walkthrough)
 * [iOS Simulator Help: Setting Instruments to Launch an iOS App in Simulator](https://developer.apple.com/library/ios/recipes/instruments_help-launch-into-simulator-help/LaunchIntoSimulator.html)
 
 ※ [Instruments Walkthrough](http://docs.xamarin.com/guides/ios/deployment%2C_testing%2C_and_metrics/instruments_walkthrough) の No.14 の [この画像](http://docs.xamarin.com/static/guides/ios/deployment,_testing,_and_metrics/instruments_walkthrough/Images/05_related_code.png) には、Instruments に Xamarin.iOS(C#) のソースコードが表示されているように見えるんだけど、これどうやるのかなあ。。手順通り動かしたつもりが出てこない。。。SourceMap の設定みたいなのが要るのかなあ。 

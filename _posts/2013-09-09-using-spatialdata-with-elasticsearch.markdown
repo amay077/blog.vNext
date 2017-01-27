@@ -233,13 +233,13 @@ Tokyo St だけがヒットしました。
 
 位置情報関係の情報を探したい時は、公式サイトの GUIDE
 
-* [Reference Guide | Elasticsearch](http://www.elasticsearch.org/guide/)
+* [Reference Guide ｜ Elasticsearch](http://www.elasticsearch.org/guide/)
 
 の検索バーで 「geo」で検索すると、有用な情報が得られます。
 
 ## 参考
 
-* [Open Source Distributed Real Time Search & Analytics | Elasticsearch](http://www.elasticsearch.org/)
-* [Geo Location And Search | Blog | Elasticsearch](http://www.elasticsearch.org/blog/geo-location-and-search/)
+* [Open Source Distributed Real Time Search & Analytics ｜ Elasticsearch](http://www.elasticsearch.org/)
+* [Geo Location And Search ｜ Blog ｜ Elasticsearch](http://www.elasticsearch.org/blog/geo-location-and-search/)
 * [Spatial Search ElasticSearch tutorial - ElasticSearch Tutorial.com](http://www.elasticsearchtutorial.com/spatial-search-tutorial.html)
 * [ElasticSearch geo distance filter with multiple locations in array - possible? - Stack Overflow](http://stackoverflow.com/questions/16113439/elasticsearch-geo-distance-filter-with-multiple-locations-in-array-possible)

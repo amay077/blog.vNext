@@ -35,7 +35,7 @@ WPF, Silverlight, Windows Store App など、異なるプラットフォーム�
 
 そして、先日、Xamarin.Android と iOS でもポータルクラスライブラリが使える/作れるようになりました。
 
-* [PCL Projects and Visual Studio 2013 Support | Xamarin Blog](http://blog.xamarin.com/pcl-projects-and-vs2013/)
+* [PCL Projects and Visual Studio 2013 Support ｜ Xamarin Blog](http://blog.xamarin.com/pcl-projects-and-vs2013/)
 
 ポータブルクラスライブラリとして作られた DLL は、WPF でも Store App でも Android でも iOS でも使いまわせる、という事です。
 

@@ -15,7 +15,7 @@ Xamarin.iOS は、 iOS の APIセットが全て C# で使えますので、 iBe
 
 Xamarin で iBeacons を使うサンプルは、Xamarin 自体が既に公開しています。
 
-* [Play ‘Find The Monkey’ with iOS 7 iBeacons | Xamarin Blog](http://blog.xamarin.com/play-find-the-monkey-with-ios-7-ibeacons/)
+* [Play ‘Find The Monkey’ with iOS 7 iBeacons ｜ Xamarin Blog](http://blog.xamarin.com/play-find-the-monkey-with-ios-7-ibeacons/)
 * [mikebluestein/FindTheMonkey](https://github.com/mikebluestein/FindTheMonkey)
 
 これらは iOS7 のリリースから僅か7日後のできごとであり、Xamarin の新OSへの対応力に驚いたものでした。
@@ -27,7 +27,7 @@ Xamarin で iBeacons を使うサンプルは、Xamarin 自体が既に公開し
 対象にするのは iBeacon の受信の方です。
 
 * [iBeaconの解説 - Reinforce-Lab.'s Blog](http://reinforce-lab.github.com/blog/2013/10/21/ibeacon/)
-* [iBeacon Tips: 正しいビーコン監視方法 | ブライテクノBlog](http://brightechno.com/blog/archives/220)
+* [iBeacon Tips: 正しいビーコン監視方法 ｜ ブライテクノBlog](http://brightechno.com/blog/archives/220)
 
 などで勉強したところ、受信の流れは下図のようになるかと思います。
 

@@ -13,7 +13,7 @@ Android の EditText の文字列と、String 変数値を同期させたいケ�
 
 例えば、以下で紹介されている方法
 
-* [TextWatcherでEditTextの入力内容をリアルタイムに反映する | GE Android Blog](http://blog.global-eng.co.jp/android/2011/04/08/textwatcher%e3%81%a7edittext%e3%81%ae%e5%85%a5%e5%8a%9b%e5%86%85%e5%ae%b9%e3%82%92%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%bf%e3%82%a4%e3%83%a0%e3%81%ab%e5%8f%8d%e6%98%a0%e3%81%99%e3%82%8b/)
+* [TextWatcherでEditTextの入力内容をリアルタイムに反映する ｜ GE Android Blog](http://blog.global-eng.co.jp/android/2011/04/08/textwatcher%e3%81%a7edittext%e3%81%ae%e5%85%a5%e5%8a%9b%e5%86%85%e5%ae%b9%e3%82%92%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%bf%e3%82%a4%e3%83%a0%e3%81%ab%e5%8f%8d%e6%98%a0%e3%81%99%e3%82%8b/)
 
 を実装しますと、IME確定前の文字列もじゃんじゃん同期してくれちゃいます。
 
@@ -21,7 +21,7 @@ Android の EditText の文字列と、String 変数値を同期させたいケ�
 
 そんな時、こちら↓
 
-* [Android/EditTextでIMEの未確定文字列が確定された瞬間 | SpiriteK Blog](http://www.spiritek.co.jp/spkblog/2012/10/25/androidedittext%e3%81%a7ime%e3%81%ae%e6%9c%aa%e7%a2%ba%e5%ae%9a%e6%96%87%e5%ad%97%e5%88%97%e3%81%8c%e7%a2%ba%e5%ae%9a%e3%81%95%e3%82%8c%e3%81%9f%e7%9e%ac%e9%96%93/)
+* [Android/EditTextでIMEの未確定文字列が確定された瞬間 ｜ SpiriteK Blog](http://www.spiritek.co.jp/spkblog/2012/10/25/androidedittext%e3%81%a7ime%e3%81%ae%e6%9c%aa%e7%a2%ba%e5%ae%9a%e6%96%87%e5%ad%97%e5%88%97%e3%81%8c%e7%a2%ba%e5%ae%9a%e3%81%95%e3%82%8c%e3%81%9f%e7%9e%ac%e9%96%93/)
 
 の記事にめぐり逢いまして、まさに私が求めていたそのもの。
 

@@ -9,7 +9,7 @@ categories: [Xamarin,C#,Android,iOS]
 いやー起きたら驚きました。いつも午前中は仕事があまり捗らないのですが(ぉぃ、今日はさらに手につきませんでした。
 <!--more-->
 
-* [A Xamarin + Microsoft Future | Xamarin Blog](https://blog.xamarin.com/a-xamarin-microsoft-future/)
+* [A Xamarin + Microsoft Future ｜ Xamarin Blog](https://blog.xamarin.com/a-xamarin-microsoft-future/)
 * [Microsoft to acquire Xamarin and empower more developers to build apps on any device - The Official Microsoft Blog](http://blogs.microsoft.com/blog/2016/02/24/microsoft-to-acquire-xamarin-and-empower-more-developers-to-build-apps-on-any-device/)
 * [【速報】Xamarin が Microsoft に買収されました - Xamarin 日本語情報](http://ytabuchi.hatenablog.com/entry/2016/02/25/084553)
 

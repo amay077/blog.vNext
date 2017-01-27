@@ -7,7 +7,7 @@ categories: [Xamarin, C#, Android, iOS]
 ---
 [Xamarin が Microsoft に買収されたので、今後を勝手に予想](http://qiita.com/amay077/items/4aa25db9509216cf5bf0) の答え合わせなんですが…
 <!--more-->
-* [Xamarin for Everyone | Xamarin Blog](https://blog.xamarin.com/xamarin-for-all/)
+* [Xamarin for Everyone ｜ Xamarin Blog](https://blog.xamarin.com/xamarin-for-all/)
 * [【速報】Xamarin のこれからについて！ - Xamarin 日本語情報](http://ytabuchi.hatenablog.com/entry/ms-xamarin)
 
 **Xamarin は無料ですべての Visual Studio に同梱されることになりました！**
@@ -97,7 +97,7 @@ Xamarin（もとい Microsoft ）の中の人曰く、
 
 とのことです。（Android Studio さん聴いてる？）
 
-Keynote Day 2 の動画あったのでデモ見られます→ [Microsoft Build 2016 | Keynote Day 2 (HD) - YouTube](https://www.youtube.com/watch?v=WC7ijoFzjEg&feature=youtu.be&t=16m) （このデモの後ほどなくして "making Xamarin available at no extra charge." →大歓声、ですね）
+Keynote Day 2 の動画あったのでデモ見られます→ [Microsoft Build 2016 ｜ Keynote Day 2 (HD) - YouTube](https://www.youtube.com/watch?v=WC7ijoFzjEg&feature=youtu.be&t=16m) （このデモの後ほどなくして "making Xamarin available at no extra charge." →大歓声、ですね）
 # まとめ
 
 ということで、総じて言えば、皆さんの期待にすべて応える感じで、Xamarin のパワーを活かして開発者を増やしていきたいという意思が表れていましたね。

@@ -8,7 +8,7 @@ categories: [Android, Java, AR, QCAR]
 QCAR とは クアルコム社 が[提供している](http://japanese.engadget.com/2010/10/07/android-ar-sdk/) Android 用の AR（拡張現実） SDK です。
 <!--more-->
 
-[Qualcomm Developper Network - AR SDK | Qualcomm Augmented Reality](https://ar.qualcomm.com/qdevnet/sdk)
+[Qualcomm Developper Network - AR SDK ｜ Qualcomm Augmented Reality](https://ar.qualcomm.com/qdevnet/sdk)
 
 こちらの方々
 
@@ -62,7 +62,7 @@ QCAR SDK のページに 「Xperia で動かすとバグがある」的な情報
 
 > Note: We have currently identified a bug that prevents the SDK from working correctly on the Sony Ericsson Xperia X10i (QSD 8250) running Android 2.1. This page will be updated once it is fixed.
 >
-> via [AR SDK | Qualcomm Augmented Realit](https://ar.qualcomm.com/qdevnet/sdk)
+> via [AR SDK ｜ Qualcomm Augmented Realit](https://ar.qualcomm.com/qdevnet/sdk)
 
 ### 追記（2010.12.2）：認識できる画像について
 

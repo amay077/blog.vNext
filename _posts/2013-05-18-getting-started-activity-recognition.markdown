@@ -390,7 +390,7 @@ on_foot ってのが「歩いてる」ってやつですね。
 
 公式のコンプリートな Getting Started は
 
-* [Recognizing the User's Current Activity | Android Developers](http://developer.android.com/training/location/activity-recognition.html)
+* [Recognizing the User's Current Activity ｜ Android Developers](http://developer.android.com/training/location/activity-recognition.html)
 
 にありますので、こちらを読まれた方が確実です。
 

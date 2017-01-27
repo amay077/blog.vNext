@@ -119,7 +119,7 @@ curl -XPUT 'http://localhost:9200/towns/town/_mapping' -d '
 
 ``properties.geometry`` は、「geo_shape」 として扱う事を宣言しています。他の２つの設定は、インデックスの種類と精度を意味しますが、よく分かってません。
 
-* [Geo Shape Type | Reference Guide | Elasticsearch](http://www.elasticsearch.org/guide/reference/mapping/geo-shape-type/)
+* [Geo Shape Type ｜ Reference Guide ｜ Elasticsearch](http://www.elasticsearch.org/guide/reference/mapping/geo-shape-type/)
 
 で勉強しましょう。
 

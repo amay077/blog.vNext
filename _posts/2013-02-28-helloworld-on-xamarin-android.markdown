@@ -137,6 +137,6 @@ Obj-C やりたくねー、って思ってた人にもちょうど良いかも�
 
 ## 参考
 
-* [Xamarin 2.0 | ++C++; // 未確認飛行 C ブログ](http://ufcpp.wordpress.com/2013/02/24/xamarin-2-0/)
+* [Xamarin 2.0 ｜ ++C++; // 未確認飛行 C ブログ](http://ufcpp.wordpress.com/2013/02/24/xamarin-2-0/)
 
 Mono ランタイムが同梱されているのですね。上の HelloWorld で 1.2MB くらいでした。

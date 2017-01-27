@@ -71,7 +71,7 @@ Apple よ、これが線路だ！
 
 いかがでしたか？
 
-OpenStreetMap は、誰もが編集できる自由な地図です。日夜マッパーさん達が新しい道路や建物を描いてくださっています。そのため、情報量では、少なくともiOS6地図よりは優っています。(場所によっては Googleマップより詳細な地域も ex:[北朝鮮までカバー！地図のWikipedia「OpenStreetMap（OSM）」がすごい件 | ihayato.news](http://www.ikedahayato.com/index.php/archives/15493))
+OpenStreetMap は、誰もが編集できる自由な地図です。日夜マッパーさん達が新しい道路や建物を描いてくださっています。そのため、情報量では、少なくともiOS6地図よりは優っています。(場所によっては Googleマップより詳細な地域も ex:[北朝鮮までカバー！地図のWikipedia「OpenStreetMap（OSM）」がすごい件 ｜ ihayato.news](http://www.ikedahayato.com/index.php/archives/15493))
 
 しかし地図デザインはというと、洗練されてはいません。
 OpenStreetMap はデータであり、デザインは範疇ではない、と言えます(補足２へ)。

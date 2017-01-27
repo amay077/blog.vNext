@@ -7,7 +7,7 @@ categories: [Android]
 ---
 Android のサービスは、``startService`` で「開始状態」、``bindService`` で「接続状態」となり、サービスを停止させる ``stopService`` は、``unbindService`` で接続を解除してから実行しないと止まらない、とドキュメントに書いてあります。
 <!--more-->
-[Managing the Lifecycle of a Service | Android Developers](http://developer.android.com/guide/components/services.html#Lifecycle) より
+[Managing the Lifecycle of a Service ｜ Android Developers](http://developer.android.com/guide/components/services.html#Lifecycle) より
 
 > In cases like this, stopService() or stopSelf() does not actually stop the service until all clients unbind.
 
@@ -15,7 +15,7 @@ Android のサービスは、``startService`` で「開始状態」、``bindServ
 
 * [Androidアプリ開発メモ032:サービス その4:バインドされたサービス: ぷ～ろぐ](http://into.cocolog-nifty.com/pulog/2011/10/android032-4-aa.html)
 * [Serviceのライフサイクルの動作確認 - DenkiYagi](http://terurou.hateblo.jp/entry/20100519/1274252852)
-* [Binding to a Service - Bound Services | Android Developers](http://developer.android.com/guide/components/bound-services.html#Binding)
+* [Binding to a Service - Bound Services ｜ Android Developers](http://developer.android.com/guide/components/bound-services.html#Binding)
 
 > onServiceDisconnected()
 The Android system calls this when the connection to the service is unexpectedly lost, such as when the service has crashed or has been killed. This is **not** called when the client unbinds.

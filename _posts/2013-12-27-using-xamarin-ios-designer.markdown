@@ -183,5 +183,5 @@ Visual Studio の Addin にも搭載されるようですが、今それが使�
 ## 参考
 
 * [Evolve 2013 Conference – Xamarin](http://xamarin.com/evolve/2013) の 「iOS Designer」のチャプターから。歓声がすごいｗ
-* [Designer | Xamarin](http://docs.xamarin.com/guides/ios/user_interface/designer/)
-* [Hands-on: Xamarin Studio’s powerful new iOS designer | Xamarin Blog](http://blog.xamarin.com/hands-on-xamarin-studio%e2%80%99s-powerful-new-ios-designer/)
+* [Designer ｜ Xamarin](http://docs.xamarin.com/guides/ios/user_interface/designer/)
+* [Hands-on: Xamarin Studio’s powerful new iOS designer ｜ Xamarin Blog](http://blog.xamarin.com/hands-on-xamarin-studio%e2%80%99s-powerful-new-ios-designer/)

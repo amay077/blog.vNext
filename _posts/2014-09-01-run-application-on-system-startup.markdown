@@ -70,7 +70,7 @@ public class StartupReceiver extends BroadcastReceiver {
 
 ## 端末を再起動して試す
 
-* [AndroidのBOOT_COMPLETEDの受信とテスト | 9ensanのLifeHack](http://9ensan.com/blog/smartphone/android/android-boot_completed-adb-shell-am-broadcast/)
+* [AndroidのBOOT_COMPLETEDの受信とテスト ｜ 9ensanのLifeHack](http://9ensan.com/blog/smartphone/android/android-boot_completed-adb-shell-am-broadcast/)
 
 で知った ``adb shell am broadcast -a android.intent.action.BOOT_COMPLETED`` は GenyMotion でも使えました。
 ``RECEIVE_BOOT_COMPLETED`` の位置によっては、テストが成功したりしなかったりだと書かれておられますが、上記の ``AndroidManifest.xml`` では、テストも実際の再起動も成功しました。
@@ -78,6 +78,6 @@ public class StartupReceiver extends BroadcastReceiver {
 ## 参考
 
 * [システムの起動時にサービスを実行する « Tech Booster](http://techbooster.jpn.org/andriod/application/1100/)(2010年なのでだいぶ古い、要注意)
-* [AndroidのBOOT_COMPLETEDの受信とテスト | 9ensanのLifeHack](http://9ensan.com/blog/smartphone/android/android-boot_completed-adb-shell-am-broadcast/)(2012年、まだまだ古い)
+* [AndroidのBOOT_COMPLETEDの受信とテスト ｜ 9ensanのLifeHack](http://9ensan.com/blog/smartphone/android/android-boot_completed-adb-shell-am-broadcast/)(2012年、まだまだ古い)
 * [broadcastreceiver - BOOT_COMPLETED not working Android - Stack Overflow](http://stackoverflow.com/questions/20441308/boot-completed-not-working-android/20441442#20441442)(2013年、これなら何とか)
 * [BOOT_COMPLETEDが受信出来ない - Google グループ](https://groups.google.com/forum/#!topic/android-group-japan/D1EKohMIji0) SDカードにインストールされるとこのブロードキャストを受信できないそうです

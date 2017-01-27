@@ -250,7 +250,7 @@ GPS と WiFi と センサーフル活用。GPS が捕捉できなくても数�
 
 公式のコンプリートな Getting Started は
 
-* [Retrieving the Current Location | Android Developers](http://developer.android.com/training/location/retrieve-current.html)
+* [Retrieving the Current Location ｜ Android Developers](http://developer.android.com/training/location/retrieve-current.html)
 
 にありますので、こちらを読まれた方が確実です。
 

@@ -9,7 +9,7 @@ categories: [Xamarin, iOS, C#]
 <!--more-->
 本日の Obj-C の先生はこちら。
 
-* [Gesture Recognizers 〜簡単にタッチ操作を検知 | iPad Techfirm Lab ](http://labs.techfirm.co.jp/ipad/cho/466)
+* [Gesture Recognizers 〜簡単にタッチ操作を検知 ｜ iPad Techfirm Lab ](http://labs.techfirm.co.jp/ipad/cho/466)
 
 このサンプルを Xamarin.iOS に移植してみます。
 

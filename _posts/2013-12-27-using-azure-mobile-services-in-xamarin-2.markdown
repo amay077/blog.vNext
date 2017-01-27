@@ -13,7 +13,7 @@ categories: [Xamarin, XAC13, iOS, Android, C#, Azure, BaaS]
 
 認証を組み込むためのチュートリアルはこちら
 
-* [Get started with authentication (Xamarin iOS) | Mobile Dev Center](http://www.windowsazure.com/en-us/develop/mobile/tutorials/get-started-with-users-xamarin-ios/)
+* [Get started with authentication (Xamarin iOS) ｜ Mobile Dev Center](http://www.windowsazure.com/en-us/develop/mobile/tutorials/get-started-with-users-xamarin-ios/)
 
 英語版だからと謝罪してくれるのは Microsoft だけですね。
 

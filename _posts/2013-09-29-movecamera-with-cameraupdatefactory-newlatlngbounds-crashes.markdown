@@ -7,7 +7,7 @@ categories: [Android, Java, GoogleMapsAPI]
 ---
 Google Map Android API v2 では、指定した範囲にいいかんじにズームしてくれるメソッドがあって（これを使うと下記事のようなことができる）、とても便利なのですが、普通に使ってたら落ちました（泣
 <!--more-->
-* [Android GooglMapを使い、現在値と目的地を（２点間）を表示させる。 | App Camp](http://tryworks-design.com/?p=1530)
+* [Android GooglMapを使い、現在値と目的地を（２点間）を表示させる。 ｜ App Camp](http://tryworks-design.com/?p=1530)
 
 その理由と、対策を記録しておきます。
 

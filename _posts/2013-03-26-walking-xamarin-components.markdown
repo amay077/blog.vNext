@@ -146,7 +146,7 @@ Xamarin Studio に統合された Component Store はとても簡単に使うこ
 また、Component Store でなくても、.NET framework の基本的なクラスのみで書かれた(**POCO** な)ライブラリであれば、Xamarin でも概ね使うことができます。
 例えば、Amazon Web Services の .NET SDK
 
-* [AWS SDK for .NET | アマゾン ウェブ サービス（AWS 日本語）](http://aws.amazon.com/jp/sdkfornet/)
+* [AWS SDK for .NET ｜ アマゾン ウェブ サービス（AWS 日本語）](http://aws.amazon.com/jp/sdkfornet/)
 
 は、Xamarin.Mac で使うことができました。(Xamain.iOS/Android は未確認)
 

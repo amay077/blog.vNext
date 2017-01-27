@@ -17,7 +17,7 @@ Yahoo! Japan が提供する地図SDKです。Google Maps にはない魅力と�
 
 ## Xamarin.iOS で Objective-C ライブラリを使う方法
 
-* [Binding Objective-C | Xamarin](http://docs.xamarin.com/guides/ios/advanced_topics/binding_objective-c/)
+* [Binding Objective-C ｜ Xamarin](http://docs.xamarin.com/guides/ios/advanced_topics/binding_objective-c/)
 
 「Binding」と呼ばれます。
 Obj-Cライブラリを呼び出すラッパーのようなものを C# で記述し、それを Xamarin.iOS アプリケーションから使用することが出来ます。
@@ -140,7 +140,7 @@ YMapApp を iOSシミュレータで実行してみます。
 
 この例ではコンストラクタ1つしか定義しませんでしたが、これを他のコンストラクタ、メソッド、プロパティ、イベントについて行う必要があります。これを助けるツールとして [Objective Sharpie](http://docs.xamarin.com/guides/ios/advanced_topics/binding_objective-c/objective_sharpie/) が公開されていますが、あまり期待しない方が良さそうです。Yahoo! iOSマップSDK をこのツールにかけてみましたが、出来上がった定義ファイルはエラーがたくさん出ました。
 
-* [Binding Objective-C | Xamarin](http://docs.xamarin.com/guides/ios/advanced_topics/binding_objective-c/)
+* [Binding Objective-C ｜ Xamarin](http://docs.xamarin.com/guides/ios/advanced_topics/binding_objective-c/)
 
 を理解した上で、Objective Sharpie の結果を参考にして、作っていく必要がありそうです。
 

@@ -35,6 +35,6 @@ categories: [Xamarin, Xamarin.Forms, C#]
 
 ## 参考
 
-* [Xamarin Studio がビルドエラーでビルドできなくなった話 | rksoftware](https://rksoftware.wordpress.com/2016/04/24/001-16/)
+* [Xamarin Studio がビルドエラーでビルドできなくなった話 ｜ rksoftware](https://rksoftware.wordpress.com/2016/04/24/001-16/)
 * [xamarin - error : Error initializing task XamlG: Not registered task XamlG - Stack Overflow](http://stackoverflow.com/questions/27873185/error-error-initializing-task-xamlg-not-registered-task-xamlg)
 * [Error compiling Xamarin Forms new project - Stack Overflow](http://stackoverflow.com/questions/34501301/error-compiling-xamarin-forms-new-project)

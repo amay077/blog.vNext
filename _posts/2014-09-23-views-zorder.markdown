@@ -9,7 +9,7 @@ Android 開発でボタンを意図的に重ねたい時ってあんまりない
 <!--more-->
 具体的には、
 
-* [デザインの勉強にもなる、CSSで実装するパンくずのまとめ | コリス](http://coliss.com/articles/build-websites/operation/css/10-css-breadcrumbs.html)
+* [デザインの勉強にもなる、CSSで実装するパンくずのまとめ ｜ コリス](http://coliss.com/articles/build-websites/operation/css/10-css-breadcrumbs.html)
 
 みたいなパンくずリストを作りたい時。変な形のボタンを作るのは骨が折れるので、ボタンを重ねて、左側の方が手前に表示されるようにしたいわけです。(なぜそうしたいかはたぶん伝わらないので割愛)
 

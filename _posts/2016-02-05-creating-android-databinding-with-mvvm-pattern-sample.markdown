@@ -185,6 +185,6 @@ ViewModel→Viewの通知
 
 ## 参考
 
-* [Data Binding Guide | Android Developers](http://developer.android.com/intl/ja/tools/data-binding/guide.html)
+* [Data Binding Guide ｜ Android Developers](http://developer.android.com/intl/ja/tools/data-binding/guide.html)
 * [Android - Butter Knife、今までありがとう。 Data Binding、これからよろしく。 - Qiita](http://qiita.com/izumin5210/items/2784576d86ce6b9b51e6#after-listview)
 * [[Android] – Data Bindingつかってみた – NET BIZ DIV. TECH BLOG](http://tech.recruit-mp.co.jp/mobile/android-data-binding/)

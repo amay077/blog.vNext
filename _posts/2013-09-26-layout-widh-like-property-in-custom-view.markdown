@@ -9,7 +9,7 @@ categories: [Android]
 <!--more-->
 自作ビュー(カスタムビュー)の作りかたは下などを参照。
 
-* [Androidでxmlファイルを用いてカスタムViewを作る方法 | Tech Booster](
+* [Androidでxmlファイルを用いてカスタムViewを作る方法 ｜ Tech Booster](
 http://techbooster.org/android/application/7361/)
 
 で、``android:layout_width`` のマネをするには、 attrs.xml に以下のように書く。

@@ -59,4 +59,4 @@ public class ClikcableSpanTestActivity extends Activity {
 
 * [Y.A.M の 雑記帳: Android Spannable を使って文字列の一部を装飾する](http://y-anz-m.blogspot.com/2011/08/androidspannable.html)
 * [Tips TextView を使いこなそう ～表示編～ その4 - - Google Android - 雑記帳](http://d.hatena.ne.jp/androidprogram/20100529/1275086958)
-* [android.text.style | Android Developers](http://developer.android.com/reference/android/text/style/package-summary.html)
+* [android.text.style ｜ Android Developers](http://developer.android.com/reference/android/text/style/package-summary.html)

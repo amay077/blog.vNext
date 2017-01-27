@@ -324,7 +324,7 @@ Toast表示のためだけに取得できればいいやと思いこうしたの
 
 ``Observable.interval(1ms)`` ってやっちゃいましたが、START の時間を覚えておいて、LAP, STOP された時に、現在時刻との差分を取ればよかったですね。基本的なムダで反省。
 
-[JXUG で話した MVVM の活用の解説を | Moonmile Solutions Blog](http://www.moonmile.net/blog/archives/7627) より
+[JXUG で話した MVVM の活用の解説を ｜ Moonmile Solutions Blog](http://www.moonmile.net/blog/archives/7627) より
 > Lap ボタンを押したタイミングで DateTime.Now を取得すればよいわけで、何も定期的に内部データを更新する必要はありません
 
 その通りですね。。。
@@ -370,6 +370,6 @@ ListView とのバインディングも同じで、onNext を受信する度に�
 # 参考
 
 * [MVVMのModelにまつわる誤解 - the sea of fertility](http://ugaya40.hateblo.jp/entry/model-mistake)
-* [JXUG で話した MVVM の活用の解説を | Moonmile Solutions Blog](http://www.moonmile.net/blog/archives/7627) - タイマを View/ViewModel/Model に持つそれぞれの理由が解説されています。
+* [JXUG で話した MVVM の活用の解説を ｜ Moonmile Solutions Blog](http://www.moonmile.net/blog/archives/7627) - タイマを View/ViewModel/Model に持つそれぞれの理由が解説されています。
 * [RxJava - Rxで知っておくと便利なSubjectたち - Qiita](http://qiita.com/hide92795/items/f7205c8171826cc2153b)
 * [RxJava - Hot Observable と ConnectableObservable について - Qiita](http://qiita.com/amay077/items/4bb6b09a1911b074f50c)

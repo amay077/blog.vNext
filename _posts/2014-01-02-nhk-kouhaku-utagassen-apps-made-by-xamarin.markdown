@@ -28,7 +28,7 @@ categories: [Xamarin, Android, iOS, C#]
 
 開発は、[スレイプニル](http://www.fenrir-inc.com/) で有名なフェンリルさんのようですね。
 
-* [フェンリル株式会社 | スマートフォンアプリ開発 実績 NHK 紅白](http://biz.fenrir-inc.com/application_development/casestudy_app/nhk_kouhaku.html)
+* [フェンリル株式会社 ｜ スマートフォンアプリ開発 実績 NHK 紅白](http://biz.fenrir-inc.com/application_development/casestudy_app/nhk_kouhaku.html)
 
 2年連続で作っておられるようですが、おととしから Mono(MonoTouch/Mono for Android) 製だったのかな？いやスゴいです！
 

@@ -184,7 +184,7 @@ A:au だと GLOBAL PASSPORT のおかげで手続きなしに海外でも端末�
 
 A:仮にソフトバンクの iPhone5 に乗り換えるとすると、
 
-* [iPhone 料金シミュレーション | iPhone | ソフトバンクモバイル](http://www.softbank.jp/mobile/iphone/price_plan/simulate/)
+* [iPhone 料金シミュレーション ｜ iPhone ｜ ソフトバンクモバイル](http://www.softbank.jp/mobile/iphone/price_plan/simulate/)
 
 によれば、4,900円/月 + あんしん保証パック 498円/月 なので、2年総額に消費税も加えると **136,029円** となり、IP+MVNO とほぼ同等となります。けど、**iPhone イヤなんですよ**。
 

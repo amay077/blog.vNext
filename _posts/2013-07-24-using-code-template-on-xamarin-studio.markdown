@@ -16,7 +16,7 @@ MvvmCross っていうフレームワークの Tutorial 動画で Visual Studio 
 
 例えばこれ
 
-* [N=0 : A first MvvmCross Application (N+1 days of MvvmCross) | N+1 days of MvvmCross](https://www.youtube.com/watch?v=_DHDMNB_IeY&list=PLR6WI6W1JdeYSXLbm58jwAKYT7RQR31-W&feature=player_detailpage&t=178)
+* [N=0 : A first MvvmCross Application (N+1 days of MvvmCross) ｜ N+1 days of MvvmCross](https://www.youtube.com/watch?v=_DHDMNB_IeY&list=PLR6WI6W1JdeYSXLbm58jwAKYT7RQR31-W&feature=player_detailpage&t=178)
 
 ## 手順
 

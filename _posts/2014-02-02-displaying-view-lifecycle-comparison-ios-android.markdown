@@ -86,7 +86,7 @@ Android でも、onCreate でレイアウト処理するとハマることがあ
 
 ### Android
 
-* [Starting an Activity | Android Developers](http://developer.android.com/training/basics/activity-lifecycle/starting.html)
-* [Activity | Android Developers](http://developer.android.com/reference/android/app/Activity.html)
+* [Starting an Activity ｜ Android Developers](http://developer.android.com/training/basics/activity-lifecycle/starting.html)
+* [Activity ｜ Android Developers](http://developer.android.com/reference/android/app/Activity.html)
 * [moveCamera(CameraUpdateFactory.newLatLngBounds(… で落ちる](http://qiita.com/amay077/items/070ac1db6b52dd03505f)
 

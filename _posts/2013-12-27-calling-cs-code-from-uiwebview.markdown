@@ -7,7 +7,7 @@ categories: [Xamarin, XAC13, iOS, C#]
 ---
 まあ、
 
-* [WebView で Javascript と Objective-C のコードを相互に呼び出す方法 | 【スマホ×HTML5】Web&ハイブリッドアプリ開発者ブログ](http://i26.jp/html5dev/webview-%e3%81%a7-javascript-%e3%81%a8-objective-c-%e3%81%ae%e3%82%b3%e3%83%bc%e3%83%89%e3%82%92%e7%9b%b8%e4%ba%92%e3%81%ab%e5%91%bc%e3%81%b3%e5%87%ba%e3%81%99%e6%96%b9%e6%b3%95/)
+* [WebView で Javascript と Objective-C のコードを相互に呼び出す方法 ｜ 【スマホ×HTML5】Web&ハイブリッドアプリ開発者ブログ](http://i26.jp/html5dev/webview-%e3%81%a7-javascript-%e3%81%a8-objective-c-%e3%81%ae%e3%82%b3%e3%83%bc%e3%83%89%e3%82%92%e7%9b%b8%e4%ba%92%e3%81%ab%e5%91%bc%e3%81%b3%e5%87%ba%e3%81%99%e6%96%b9%e6%b3%95/)
 
 を Xamarin.iOS でやってみたという話なだけです。
 <!--more-->
@@ -62,7 +62,7 @@ Obj-C のデリゲートは、Xamarin.iOS では全てイベントになって�
 
 Xamarin.iOS の APIデザインについては、公式サイトに説明があります。
 
-* [API Design | Xamarin](http://docs.xamarin.com/guides/ios/advanced_topics/api_design/)
+* [API Design ｜ Xamarin](http://docs.xamarin.com/guides/ios/advanced_topics/api_design/)
 
 ガッツリ熟読した方がよさそうですねえ。
 

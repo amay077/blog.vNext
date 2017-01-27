@@ -76,7 +76,7 @@ private static int HeavyCalc()
 
 async/await については、ググればたくさん情報が出てきますが、探した中でもっとも簡単とおもわれる例を紹介します。
 
-* [[C#]async/awaitの使い方メモ、その１。 | Kimux.Net](http://kimux.net/?p=902)
+* [[C#]async/awaitの使い方メモ、その１。 ｜ Kimux.Net](http://kimux.net/?p=902)
 
 さて、先ほどのプログラムを、async/await 構文を使って非同期化してみます。
 
@@ -185,7 +185,7 @@ private async void button1_Click(Object sender, EventArgs e)
 * async/await が使えるようになるまでは ``Task.Factory.StartNew`` で。
 
 ## 参考
-* [Xamarin previews C# async on iOS and Android | Xamarin Blog](http://blog.xamarin.com/brave-new-async-mobile-world/)
-* [[C#]async/awaitの使い方メモ、その１。 | Kimux.Net](http://kimux.net/?p=902)
+* [Xamarin previews C# async on iOS and Android ｜ Xamarin Blog](http://blog.xamarin.com/brave-new-async-mobile-world/)
+* [[C#]async/awaitの使い方メモ、その１。 ｜ Kimux.Net](http://kimux.net/?p=902)
 * [async/await : xin9le note](http://xin9le.net/archives/tag/async-await/page/2)
 * [.NET開発における非同期処理の基礎と歴史 － ＠IT](http://www.atmarkit.co.jp/fdotnet/chushin/masterasync_01/masterasync_01_01.html)

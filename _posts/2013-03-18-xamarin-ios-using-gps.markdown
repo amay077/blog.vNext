@@ -49,4 +49,4 @@ Xamarin.iOS のクラスライブラリが CoreLocation をうまくラップし
 
 ## 参考
 * [GPSを利用する方法 - プログラミングノート](http://d.hatena.ne.jp/ntaku/20090228/1235816377)
-* [Core Location | xamarin](http://docs.xamarin.com/samples/CoreLocation)
+* [Core Location ｜ xamarin](http://docs.xamarin.com/samples/CoreLocation)

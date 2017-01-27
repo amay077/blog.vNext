@@ -11,8 +11,8 @@ categories: [Geo, GoogleMapsAPI, JavaScript, HTML]
 
 電子国土Web.NEXT という名称で試験公開されていたものが、「地理院地図」「地理院タイル」として正式公開されました。
 
-* [地理院地図の公開について | 国土地理院](http://www.gsi.go.jp/johofukyu/johofukyu40032.html)
-* [地理院タイルを用いた開発 | 地理院地図](http://portal.cyberjapan.jp/help/development.html#siyou)
+* [地理院地図の公開について ｜ 国土地理院](http://www.gsi.go.jp/johofukyu/johofukyu40032.html)
+* [地理院タイルを用いた開発 ｜ 地理院地図](http://portal.cyberjapan.jp/help/development.html#siyou)
 
 地理院タイルは [従来版タイル](http://portal.cyberjapan.jp/help/development/oldScheme.html) と仕様が異なります。従来版タイルは **2013年度中に提供終了予定** との事ですし、新しい地理院タイルの方が大幅に仕様が簡略化されたので、こちらを使った方が良いです。
 

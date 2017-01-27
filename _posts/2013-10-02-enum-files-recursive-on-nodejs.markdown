@@ -7,7 +7,7 @@ categories: [Node.js, JavaScript]
 ---
 [@_shimizu](https://twitter.com/_shimizu) さんの
 <!--more-->
-* [[node.js]ディレクトリを再帰的にたどってファイル一覧をJSONとして出力する | GUNMA GIS GEEK](http://shimz.me/blog/node-js/2944)
+* [[node.js]ディレクトリを再帰的にたどってファイル一覧をJSONとして出力する ｜ GUNMA GIS GEEK](http://shimz.me/blog/node-js/2944)
 
 の派生品です。ファイルパスを出力するだけにしました。
 

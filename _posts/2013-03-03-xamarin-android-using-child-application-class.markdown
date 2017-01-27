@@ -61,5 +61,5 @@ namespace HelloXamarinAndroiid
 
 ## 参考
 
-* [Working with AndroidManifest.xml | xamarin](http://docs.xamarin.com/guides/android/advanced_topics/working_with_androidmanifest.xml) 公式。ちょっとこれだけじゃ分かんなかったっす。
+* [Working with AndroidManifest.xml ｜ xamarin](http://docs.xamarin.com/guides/android/advanced_topics/working_with_androidmanifest.xml) 公式。ちょっとこれだけじゃ分かんなかったっす。
 * [c# - Custom Application child class in Mono for Android - Stack Overflow](http://stackoverflow.com/questions/9928386/custom-application-child-class-in-mono-for-android) Application そして StackOverflow のお世話に。

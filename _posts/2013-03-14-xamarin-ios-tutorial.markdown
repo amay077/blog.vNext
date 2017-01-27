@@ -12,7 +12,7 @@ Xamarin.Android ネタばかり書いてきましたが、そろそろクロス�
 
 Xamarin の公式チュートリアルがあるので、それを英語も読まずに雰囲気でトレースしてみたいと思います。
 
-* [Hello, iPhone | A First Xamarin.iOS Application Getting Started - Tutorial 3](http://docs.xamarin.com/guides/ios/getting_started/hello%2C_world)
+* [Hello, iPhone ｜ A First Xamarin.iOS Application Getting Started - Tutorial 3](http://docs.xamarin.com/guides/ios/getting_started/hello%2C_world)
 
 ## プロジェクトの作成(Creating a new Xamarin.iOS iPhone Project)
 とりあえず Xamarin Studio をたちあげて、新規 → ソリューション、C# → iOS → iPhone → Single View Application を選択、ソリューション名は「HelloWorld_iPhone」としました。

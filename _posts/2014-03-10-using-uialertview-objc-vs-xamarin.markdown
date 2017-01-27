@@ -90,5 +90,5 @@ async/await は一見、ただの同期処理に見えるので理解して使�
 ## 参考
 
 * [c# - Messagebox.Show and DialogResult equivalent in MonoTouch - Stack Overflow](http://stackoverflow.com/questions/4613071/messagebox-show-and-dialogresult-equivalent-in-monotouch)
-* [async/awaitと同時実行制御 | ++C++; // 未確認飛行 C ブログ](http://ufcpp.wordpress.com/2012/11/12/asyncawait%e3%81%a8%e5%90%8c%e6%99%82%e5%ae%9f%e8%a1%8c%e5%88%b6%e5%be%a1/)
+* [async/awaitと同時実行制御 ｜ ++C++; // 未確認飛行 C ブログ](http://ufcpp.wordpress.com/2012/11/12/asyncawait%e3%81%a8%e5%90%8c%e6%99%82%e5%ae%9f%e8%a1%8c%e5%88%b6%e5%be%a1/)
 * [async/await不要論](http://www.slideshare.net/bleistift/asyncawait2)

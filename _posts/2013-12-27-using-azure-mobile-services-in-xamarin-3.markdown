@@ -11,7 +11,7 @@ categories: [Xamarin, XAC13, iOS, Android, C#, Azure, BaaS]
 <!--more-->
 プッシュ通知を組み込むためのチュートリアルはこちら
 
-* [Get started with push notifications (Xamarin iOS) | Mobile Dev Center](http://www.windowsazure.com/en-us/develop/mobile/tutorials/get-started-with-push-xamarin-ios/?fb=ja-jp)
+* [Get started with push notifications (Xamarin iOS) ｜ Mobile Dev Center](http://www.windowsazure.com/en-us/develop/mobile/tutorials/get-started-with-push-xamarin-ios/?fb=ja-jp)
 
 では、早速いってみましょう。
 
@@ -28,7 +28,7 @@ iOS でプッシュ通知を行うには Apple Push Notification Service(APNS) �
 
 初めて行う人は、こちら↓の説明の方が日本語で分かりやすいかと思います。
 
-* [iPhoneのプッシュ通知(APNS)の証明書の作り方 | 三度の飯とエレクトロン](http://blog.katty.in/4040)
+* [iPhoneのプッシュ通知(APNS)の証明書の作り方 ｜ 三度の飯とエレクトロン](http://blog.katty.in/4040)
 
 この手順で最後に必要なのは「p12ファイル」です。パスワードはかかっていても問題ありません。
 

@@ -7,7 +7,7 @@ categories: [Android]
 ---
 サポートパッケージに``LocalBroadcastManager`` というクラスがあるのを今頃知りまして。
 <!--more-->
-* [LocalBroadcastManager | Android Developers](http://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)
+* [LocalBroadcastManager ｜ Android Developers](http://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)
 
 ブロードキャストは使い方を誤るとデータを(アプリの)外部に流出させる可能性があるわけですが([Android アプリのセキュア設計・セキュアコーディングガイド](http://www.jssec.org/report/securecoding.html) 参照)、このクラスを使うと「他のアプリにデータを漏らさない」「意図しないブロードキャストを受信しない」「効率がよい」だそうです。
 

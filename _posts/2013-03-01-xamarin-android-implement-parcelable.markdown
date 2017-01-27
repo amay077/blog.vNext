@@ -276,5 +276,5 @@ namespace HelloXamarinAndroid
 ## 参考
 * [Implementing IParcelable in Mono for Android » Dan Clarke](http://dan.clarke.name/2012/09/implementing-iparcelable-in-mono-for-android/)
 * [monodroid-samples/ExportAttribute at master · xamarin/monodroid-samples](https://github.com/xamarin/monodroid-samples/tree/master/ExportAttribute) なんだ、本家のサンプルあるじゃん
-* [Limitations | xamarin](http://docs.xamarin.com/guides/android/advanced_topics/limitations) 制限だったり、制限が解除された情報が載ってるので要チェック
+* [Limitations ｜ xamarin](http://docs.xamarin.com/guides/android/advanced_topics/limitations) 制限だったり、制限が解除された情報が載ってるので要チェック
 

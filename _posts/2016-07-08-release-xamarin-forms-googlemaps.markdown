@@ -47,7 +47,7 @@ iOS では MapKit に代わり [Google Maps SDK for iOS](https://developers.goog
 Google Maps の APIキーを Android / iOS それぞれで取得する必要があります。
 
 * Android -  [Xamarin.Androidで地図を表示するには？（Google Maps使用） - Build Insider](http://www.buildinsider.net/mobile/xamarintips/0020)
-* iOS - [Google Maps SDK for iOS  |  Google Developers](https://developers.google.com/maps/documentation/ios-sdk/?hl=ja) の「クイック スタート ステップ」
+* iOS - [Google Maps SDK for iOS  ｜  Google Developers](https://developers.google.com/maps/documentation/ios-sdk/?hl=ja) の「クイック スタート ステップ」
 をそれぞれ参照してください。
 
 ## オープンソース

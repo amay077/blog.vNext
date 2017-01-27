@@ -53,7 +53,7 @@ Observable.FromEventPattern(
 
 Xamarin.iOS の制限事項は以下に。
 
-* [Limitations | Xamarin](http://docs.xamarin.com/guides/ios/advanced_topics/limitations/)
+* [Limitations ｜ Xamarin](http://docs.xamarin.com/guides/ios/advanced_topics/limitations/)
 
 これまでこの制限に引っかかった事がなかったのですが、初めて引っかかりました。
 
