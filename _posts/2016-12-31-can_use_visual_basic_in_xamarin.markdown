@@ -161,8 +161,8 @@ Prism.Forms で、View とは別アセンブリにある ViewModel を ``AutoWir
 
 理由は、 「Xamarin.iOS/Android をサポートするクラスライブラリを VB.NET で作成できない事」です。Xamarin.iOS/Android はともに Monoランタイムを基盤としますが、これを基盤とする VB.NET のクラスライブラリを作成することができませんでした（少なくとも Visual Studio 2015 では）。
 
-* [Visual Basic support | Mono](http://www.mono-project.com/docs/about-mono/languages/visualbasic/)
-* [Mono DevelopでVBのソースをコンパイルする。 | かるあのメモ on WordPress](https://karuakun.wordpress.com/2011/12/19/mono-develop%E3%81%A7vb%E3%81%AE%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E3%81%99%E3%82%8B%E3%80%82/)
+* [Visual Basic support ｜ Mono](http://www.mono-project.com/docs/about-mono/languages/visualbasic/)
+* [Mono DevelopでVBのソースをコンパイルする。 ｜ かるあのメモ on WordPress](https://karuakun.wordpress.com/2011/12/19/mono-develop%E3%81%A7vb%E3%81%AE%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E3%81%99%E3%82%8B%E3%80%82/)
 
 この辺を見ると ``vbnc`` ってコンパイラでできそう？いや Xamarin.Android/iOS はそれに対応してないからダメ？とかよくわかりません。
 
