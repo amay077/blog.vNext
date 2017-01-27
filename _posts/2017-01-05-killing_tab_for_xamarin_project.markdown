@@ -52,7 +52,7 @@ Terminal で、
 を実行します。
 homebrew が入っていない場合は、
 
-* [Mac の開発を便利にするパッケージ管理ソフト Homebrew のインストール手順 | WEB ARCH LABO](http://weblabo.oscasierra.net/homebrew-1/)
+* [Mac の開発を便利にするパッケージ管理ソフト Homebrew のインストール手順 ｜ WEB ARCH LABO](http://weblabo.oscasierra.net/homebrew-1/)
 
 などを見て先にインストールしてください。
 
