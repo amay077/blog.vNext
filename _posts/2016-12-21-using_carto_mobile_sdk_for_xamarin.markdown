@@ -31,8 +31,6 @@ CARTO といえば、地図関連で今一番イケてるサービスの一つ�
 
 * [北海道内土砂災害危険箇所・土砂災害警戒区域・避難施設](https://mierune2016team.carto.com/viz/8a9450a2-6456-11e6-8a7a-0ee66e2c9693/public_map)
 
-<iframe width='100%' height='520' frameborder='0' src='https://mierune2016team.carto.com/viz/8a9450a2-6456-11e6-8a7a-0ee66e2c9693/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
 を使わせていただきます。
 これを iOS で表示してみます。
 
