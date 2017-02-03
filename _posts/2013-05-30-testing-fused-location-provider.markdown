@@ -26,14 +26,14 @@ Android に新しく搭載された Fused Location Provider、これは GPS/WiFi
 
 緑が実際の経路、青が Fused Provider の経路です。
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.jp/maps/ms?msa=0&amp;msid=206106708723125678709.0004ddec1d5240e6ba1d3&amp;brcurrent=3,0x6004d3ebe16cdde1:0xfb92e7477942b89b,0&amp;ie=UTF8&amp;t=h&amp;ll=34.709597,137.387786&amp;spn=0.001372,0.001735&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.jp/maps/ms?msa=0&amp;msid=206106708723125678709.0004ddec1d5240e6ba1d3&amp;brcurrent=3,0x6004d3ebe16cdde1:0xfb92e7477942b89b,0&amp;ie=UTF8&amp;t=h&amp;ll=34.709597,137.387786&amp;spn=0.001372,0.001735&amp;source=embed" style="color:#0000FF;text-align:left">FusedProviderの評価(イオン豊橋南店1F)</a> を表示</small>
+* [FusedProviderの評価(イオン豊橋南店1F) を表示](https://maps.google.co.jp/maps/ms?msa=0&msid=206106708723125678709.0004ddec1d5240e6ba1d3&brcurrent=3,0x6004d3ebe16cdde1:0xfb92e7477942b89b,0&ie=UTF8&t=h&ll=34.709597,137.387786&spn=0.001372,0.001735&source=embed)
 
 ## その2:駐車場〜1F〜2F〜ぐるっと〜1F〜駐車場
 
 もう一度。
 今度は入店してすぐエスカレータで2Fへ。2Fフロアをぐるっと回ってからエスカレータで1Fへ降りて駐車場へ戻って来ました。
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.jp/maps/ms?t=h&amp;brcurrent=3,0x6004d3ec8f3f5bf5:0x7b6f4e2f69453e37,1&amp;msa=0&amp;msid=206106708723125678709.0004ddec316197e38b987&amp;source=embed&amp;ie=UTF8&amp;ll=34.709546,137.388057&amp;spn=0.003479,0.004517&amp;output=embed"></iframe><br /><small>大きな地図で <a href="https://maps.google.co.jp/maps/ms?t=h&amp;brcurrent=3,0x6004d3ec8f3f5bf5:0x7b6f4e2f69453e37,1&amp;msa=0&amp;msid=206106708723125678709.0004ddec316197e38b987&amp;source=embed&amp;ie=UTF8&amp;ll=34.709546,137.388057&amp;spn=0.003479,0.004517" style="color:#0000FF;text-align:left">FusedProviderの評価(イオン豊橋南店2F)</a> を表示</small>
+* [FusedProviderの評価(イオン豊橋南店2F) を表示](https://maps.google.co.jp/maps/ms?t=h&brcurrent=3,0x6004d3ec8f3f5bf5:0x7b6f4e2f69453e37,1&msa=0&msid=206106708723125678709.0004ddec316197e38b987&source=embed&ie=UTF8&ll=34.709546,137.388057&spn=0.003479,0.004517)
 
 ## 結果をみて
 
