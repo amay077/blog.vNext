@@ -99,7 +99,7 @@ Xamarin はバージョンアップが激しいので、トラブルシューテ
 
 私は、 Xamarin Advent Calendar 2016 の募集をしました。
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/zeKeNVXqajnaaC" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/amay077/xamarin-advent-calendar-2016" title="Xamarin advent calendar 2016 参加者募集" target="_blank">Xamarin advent calendar 2016 参加者募集</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/amay077">amay 077</a></strong> </div>
+* [Xamarin advent calendar 2016 参加者募集](http://www.slideshare.net/amay077/xamarin-advent-calendar-2016)
 
 * [[初心者さん・学生さん大歓迎！] Xamarin その2 Advent Calendar 2016 - Qiita](http://qiita.com/advent-calendar/2016/xamarin-welcome)
 
