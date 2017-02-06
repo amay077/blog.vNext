@@ -103,12 +103,12 @@ Amazon の広告を各ページに配置している。もともとの広告タ�
 ```html
   <!--head.html-->
   <style amp-custom>
-  {% capture include_to_scssify %}
-    {% include styles.scss %}
-  {% endcapture %}
+  {％ capture include_to_scssify ％}
+    {％ include styles.scss ％}
+  {％ endcapture ％}
   {{ include_to_scssify | scssify }}
 
-  {% include syntax.css %}  
+  {％ include syntax.css ％}  
   </style>
 ```
 
