@@ -18,9 +18,3 @@ categories: [Surface]
 
 こうなってくると次は外出時のバッテリー問題を解決したい！
 MacBookAir には、[HyperJuice](http://www.amazon.co.jp/gp/product/B00456DWUA/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B00456DWUA&linkCode=as2&tag=oku2008-22) を使っていて、実質半日くらいは持つのですが、こいつで Surface にも給電できないかなーと思ってます。変換コネクタみたいなのでないかな？
-
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=oku2008-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B00KQ5CKCA" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=oku2008-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B00KQ5A9KA" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=oku2008-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B00456DWUA" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>

@@ -7,7 +7,7 @@ categories: [AR]
 ---
 <!--more-->
 
-<iframe src="http://player.vimeo.com/video/11870382" width="400" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+* [Wikitude Drive - Test Drivers Wanted from Wikitude on Vimeo](https://player.vimeo.com/video/11870382)
 
 カッコいいなあ。 やりたいなあ。たぶんできないけど。
 必要なものを推測してみる。

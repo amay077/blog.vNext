@@ -25,4 +25,4 @@ reveal.js はライブラリなのでコンテンツは自力で HTML or Markdow
 最後に、その時発表した Xamarin の LT 資料を貼って終わります。
 Xamarin もどうぞよろしくおねがいします。
 
-<iframe src="http://slid.es/amay/intro_of_xamarin/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+* [Introduction of Xamarin: Slides](http://slides.com/amay/intro_of_xamarin/embed)

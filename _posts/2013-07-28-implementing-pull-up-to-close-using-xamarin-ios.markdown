@@ -14,7 +14,7 @@ categories: [Xamarin, iOS, C#]
 こんな感じ。
 WebView なんですが、一番下までスクロールして、さらに上に引っ張ると "Pull up to Close" → "Release to Close" とラベルが変わり、そこで離すとコールバックします。
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/AP6xPqwwXMI?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+* [Pull up to close - YouTube](https://www.youtube.com/embed/AP6xPqwwXMI?feature=player_detailpage)
 
 ## 実装してみたコード
 

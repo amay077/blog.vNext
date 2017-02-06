@@ -14,7 +14,7 @@ categories: [Android, iOS, MA9]
 
 ### iPhone版はこちら
 
-<iframe src="http://spsns.net/tools/app.php?url=https://itunes.apple.com/jp/app/fu-shifoto/id806913229" frameborder="0" width="450" height="250"></iframe>
+* [富士フォトを App Store で](https://itunes.apple.com/jp/app/fu-shifoto/id806913229)
 
 ## 受賞しました！
 

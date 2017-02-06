@@ -145,5 +145,3 @@ docker@boot2docker:~$ docker run -i -t -p 9204:9200 -p 9304:9300 amay077/es_clus
 追加された「Isaiah Bradley」サーバには、データブロック１と３のスレーブの役割が与えられ、データが移動されたことが分かります。（移動中は色が変わったけどスクショ撮れなかった）
 
 このように Elasticsearch の Auto-Rebalancing を、Docker を使うことでお手軽に試すことができました。（実運用では Elasticsearch に Docker は、、、使わないですよねたぶん）
-
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=oku2008-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4048662023" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
