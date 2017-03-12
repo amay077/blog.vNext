@@ -11,9 +11,11 @@ categories: [Android, Xamarin, DroidKaigi, 登壇]
 
 ![](https://dl.dropboxusercontent.com/u/264530/qiita/had_a_session_about_xamain_android_in_droidkaigi_2017_01.jpg)
 
-資料です。
+## 資料
 
 <script async class="speakerdeck-embed" data-id="592959beb9de46fcb6d0e51652b20e23" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+## 感想とか
 
 DroidKaigi は3年連続の参加で、登壇は初めてです。
 
@@ -48,3 +50,15 @@ try!Swift には行けなかったので、 [iOSDC Japan 2017](https://iosdc.jp/
 将来のことを考えて生きてはいませんが、こうした経験が脳にインプットされて、なんとなく無意識の内に自分の行きたい方向に自分を導いてくれると思っています。
 
 運営スタッフの皆さま、参加された皆さま、ありがとうございました。
+
+## 技術書典２ ＆ 超技術書典
+
+あっ、次は 4/9(日)に、 [技術書典２](https://techbookfest.org/event/tbf02) がありますね。
+
+![](https://dl.dropboxusercontent.com/u/264530/qiita/had_a_session_about_xamain_android_in_droidkaigi_2017_03.png)
+
+Xamarin に関する技術書を配布します！
+代表の @atsushieno さん以下5名で絶賛執筆中です。
+今回話した Xamarin.Android ネタの完全版を掲載します。というか DroidKaigi のスライドの原稿と言うべきものです。
+
+技術書典２または [超技術書典](https://techbookfest.org/event/cho01) でお会いしましょう(^o^)／
