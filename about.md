@@ -20,6 +20,25 @@ Build Insider にて、 [Xamarin逆引きTips](http://www.buildinsider.net/mobil
 
 詳しいプロフィールは Wantedly のプロフィールに書いたので、見たい方は twitter などでご連絡ください。
 
+## 登壇
+
+### 2017年
+
+* 3/10 - [DroidKaigi2017で「Xamarin.Android で始めるクロスプラットモバイルアプリ開発」という話をしました](/blog/2017/03/10/had_a_session_about_xamarin_android_in_droidkaigi2017/)
+* 2/12 - [Xamarin.Forms.GoogleMaps にプルリクエストを送る会、を開催しました](/blog/2017/02/13/we_had_a_meetup_aboud_send_pull_request_to_Xamarin_forms_googlemaps/)
+
+### 2016年
+
+* 11/26 - [JXUGC #20 Xamarin ハンズオン大会 第二弾でサポートスタッフしてきました](/blog/2016/11/28/joined_xamarin_hands_on_at_nagoya_part2/)
+* 10/15 - [JXUGC #17 お前の Xamarin アプリを見せてみろ！ で発表してきました](/blog/2016/10/16/gave-presentation-in-xamarin-jxugc-17/)
+* 9/3 - [Xamarinハンズオン浜松(再び) で講師をしました](/blog/2016/09/10/joined-xamarin-hads-on-ad-hamamatsu-revenge/)
+* 7/9 - [Xamarin ハンズオン浜松でサポートスタッフしてきました](/blog/2016/07/10/joined_xamarin_hads_on_ad_hamamatsu/)
+* 5/7 - [Xamarin 勉強会 #JXUG 13 で「DroidKaigi2016 アプリを Xamarin に移植した話」という発表をしました](/blog/2016/05/08/presentation-in-xamarin-jxug-13/)
+
+### 2015年-
+
+* 思い出し中…
+
 ## Where are you?
 
 ### Twitter
