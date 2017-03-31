@@ -20,7 +20,7 @@ Build Insider にて、 [Xamarin逆引きTips](http://www.buildinsider.net/mobil
 
 詳しいプロフィールは Wantedly のプロフィールに書いたので、見たい方は twitter などでご連絡ください。
 
-## 登壇
+## 登壇、発表、出展など
 
 ### 2017年
 
