@@ -25,7 +25,7 @@ Build Insider にて、 [Xamarin逆引きTips](http://www.buildinsider.net/mobil
 ### 2017年
 
 * 4/15 - [日本Androidの会 浜松支部さんの勉強会で「Xamarin.Android で始めるクロスプラットモバイルアプリ開発」という話をしました](/blog/2017/04/15/had_a_session_about_xamarin_android_in_jaghama/)
-* 4/9 - 技術書典2 で Essential Xamarin Yin(陰)/Yang(陽) を領布しました
+* 4/9 - 技術書典2 で Essential Xamarin Yin(陰)/Yang(陽) を頒布しました
 * 4/8 - [Xamarin 勉強会 in 名古屋で「Xamarin.Android で始めるクロスプラットモバイルアプリ開発」という話をしました](/blog/2017/04/08/had_a_session_about_xamarin_android_in_jxug_nagoya/)
 * 3/10 - [DroidKaigi2017で「Xamarin.Android で始めるクロスプラットモバイルアプリ開発」という話をしました](/blog/2017/03/10/had_a_session_about_xamarin_android_in_droidkaigi2017/)
 * 2/12 - [Xamarin.Forms.GoogleMaps にプルリクエストを送る会、を開催しました](/blog/2017/02/13/we_had_a_meetup_aboud_send_pull_request_to_Xamarin_forms_googlemaps/)
