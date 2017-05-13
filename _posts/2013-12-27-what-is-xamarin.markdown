@@ -6,11 +6,10 @@ comments: true
 categories: [Xamarin, XAC13, iOS, Android, C#]
 ---
 
-【2017年3月時点の情報で更新しました。】
-元は、[Xamarin Advent Calendar 2013](http://qiita.com/advent-calendar/2013/xamarin) の記事でした。
-<!--more-->
+【2017年5月時点の情報で更新しました。】
 
 Xamarin(ザマリンと読みます) とはなんぞや、個人開発者として使う時にどうなるの、的な事をさらっと書いてみようと思います。
+<!--more-->
 
 Xamarin は 2016年2月、Microsoft に買収され、 Visual Studio に無償で同梱されることになりました。
 
@@ -71,9 +70,9 @@ GPS を使うのに、.Android なら ``LocationManager`` を使いますし、.
 
 ## 画面まで共通化できる [Xamarin.Forms](https://www.xamarin.com/forms) 
 
-これはいわゆる Titanium や Adobe Air, Delphi XE と同じアプローチで、共通の画面定義体から、各種プラットフォーム（Android, iOS, Windows Phone, UWP＜Universal Windows Platform＞）向けの画面を生成します。Adobe Air, Delphi XE と異なるのは、それぞれのプラットフォームが提供するUIパーツが使用されるという点です。
+これはいわゆる Titanium Mobile や Adobe Air, Delphi XE, 最近では React Native と同じアプローチで、共通の画面定義体から、各種プラットフォーム（Android, iOS, Windows Phone, UWP<Universal Windows Platform >）向けの画面を生成します。Adobe Air, Delphi XE と異なるのは、それぞれのプラットフォームが提供するUIパーツが使用されるという点です。
 画面定義体は XAML（ザムル, WPF のそれとは違います）か C＃ のコードで記述します。他にも ValueConverter, バインディング可能なプロパティなど .NET アプリ開発者に馴染みのある要素を使って開発できます。
-XAML のグラフィカルなエディタはないので手書きするしかありませんが、 [XAML Previewer for Xamarin.Forms](https://developer.xamarin.com/guides/xamarin-forms/xaml/xaml-previewer/) や、 [Gorilla Player](http://gorillaplayer.com/) を使って、リアルタイムにプレビューさせることができます。
+XAML のグラフィカルなエディタはないので手書きするしかありませんが、[XAML Previewer for Xamarin.Forms](https://developer.xamarin.com/guides/xamarin-forms/xaml/xaml-previewer/)や、[Gorilla Player](http://gorillaplayer.com/)を使って、リアルタイムにプレビューさせることができます。
 
 このXamarin.Formsフレームワークの活用は広がりを見せていて、以下のものに対応（または目下対応中）します。
 
@@ -88,24 +87,43 @@ XAML のグラフィカルなエディタはないので手書きするしかあ
 Xamarin.Formsは発展途上でも何でもありません。**実戦投入できるフレームワーク** です。
 複数プラットフォームで辻褄を合わせて共通なインターフェースとして公開しなければならないので、提供されるUIコントロールは少ないですが、Xamarin.Android, Xamarin.iOS の上に成り立っているので、 **ネイティブの部品をXamarin.Forms化することは容易** です。なぜならネイティブのAPIも同じ言語で同じIDEを使って開発・デバッグできるからです(例えば React Native では、AndroidネイティブのAPIをJavaScript側にブリッジする箇所は Java で**書か**なければなりません)。
 
-## Macの人は Xamarin Studio or Visual Studio for Mac、Win の人は Visual Studio で開発しますよ
+## Macの人は Visual Studio for Mac、Win の人は Visual Studio で開発しますよ
 
-Mac 向けの Visual Studio、[Visual Studio for Mac](https://www.visualstudio.com/ja/vs/visual-studio-mac/) がプレリリースされています。
-が、この中身は実質 Xamarin Studio です。
-Xamarin Studio もしばらくは Visual Studio for Mac と同じ機能を搭載していくようなので、どちらを使ってもよいです。ただ Visual Studio for Mac はプレビュー版なので、お仕事などでは Xamarin Studio の方が **まだ** いいでしょう。
+Mac 向けの Visual Studio、[Visual Studio for Mac](https://www.visualstudio.com/ja/vs/visual-studio-mac/) がされました。
+中身は実質 Xamarin Studio で、 Windows版の Visual Studio の機能がすべて搭載されているわけではありません。
+Xamarin Studio もしばらくは Visual Studio for Mac と同じ機能を搭載していくようなので、どちらを使ってもよいと思います。
 
-Windows の場合、Visual Studio 2015 に同梱されるようになり、また無料化されたため、 Visual Studio Community でも利用できるようになりました。
-(同時に、これまで提供されてきた Windows版の Xamarin Studio は、提供終了となりました。)
-環境構築でハマることが多い Visual Studio 2015 + Xamarin ですが、Visual Studio 2017 では、Xamarin のインストールが簡単になっているそうです。
-[Visual Studio 2017 のリリース日は 2017年3月７日](http://forest.watch.impress.co.jp/docs/news/1043543.html)とのことなので、期待して待ちましょう。（VS2017のプレビュー版はVS2015のXamarinと共存できません）
+Windows の場合、Visual Studio 2017 に同梱されるようになり、また無料化されたため、 Visual Studio Community でも利用できるようになりました。
+(これまで提供されてきた Windows版の Xamarin Studio は、提供終了となりました。)
+Visual Studio 2015 でも使用可能ですが、環境構築でハマることが多いので Visual Studio 2017 を推奨します。Visual Studio 2017 では、Xamarin のインストールが簡単になっています。それでも既定の選択だとかなりの容量が必要なので、次のリンクを参考に、定義オプションを外すとよいでしょう。
+
+* [Xamarin やりたい人向け Visual Studio 2017 インストール手引書 - Xamarin 日本語情報](http://ytabuchi.hatenablog.com/entry/visualstudio2017)
+* [Xamarin の為だけに Visual Studio 2017 をミニマムインストールする - Qiita](http://qiita.com/amay077/items/43cd700e4d125a6517b7)
+
+Visual Studio 2015 と Visual Studio 2017 は共存が可能です。
 
 また iOS アプリを開発する場合は、ビルドや実行・デバッグのために Mac が必要なので、現実的には Mac 必須です。これは買収された後も変わっていません。
 Remoted iOS Simulator (for Windows) が搭載され、Windows の画面でアプリを実行することができるようになりましたが、iOS アプリのビルドには Mac がどうしても必要になります。
 
+## だからiOSアプリを作るならMacは必要なんだってば！
+
+[Xamarin Live Player](https://www.xamarin.com/live) が発表されて、次のような日本語記事が公開されています。
+
+* [WindowsでiOSアプリを開発、テスト、公開できる――MicrosoftがXamarin Live Playerを発表｜TechCrunch Japan](http://jp.techcrunch.com/2017/05/12/20170511microsoft-now-lets-ios-developers-deploy-run-and-test-their-apps-directly-from-windows/)
+* [iOSアプリ開発でMac OSが不要に、Windowsで開発・テスト・公開可能な「Xamarin Live Player」 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1059302.html)
+
+が、 「macOS不要でiOSアプリが **公開** できる」というのは間違い（誤訳）です。
+Xamarin Live Player(XLP)の実行形式は、
+
+* [Xamarin Live Playerの仕組みを想像してた - ぴーさんログ](http://ticktack.hatenablog.jp/entry/2017/05/13/022611)
+
+で解説されているとおり、XLP用のiOSアプリがソースコードをインタープリタ形式で実行しているに過ぎません。つまり、実際のアプリが動作しているわけではなく、アプリを配布・公開するには、これまで通りmacOSでビルドする必要があります。あと [これ](https://twitter.com/amay077/status/862838700568334336)。
+
 ## Xamarin のコアライブラリはオープンソースになりました
 
+Xamarin の基盤となっている [Mono](http://www.mono-project.com/) は元々オープンソースです。
+
 Xamarin.Android, Xamarin.iOS, Xamarin.Mac, Xamarin.Forms のこれまでプロプライエタリだったライブラリ群は、いずれもMITライセンスによるオープンソースになりました → [Xamarin Open Source SDK](http://open.xamarin.com/)
-同じくランタイムである Mono も MITライセンス になりました。
 
 Xamarin Studio の IDE としての機能は元々オープンソースである MonoDevelop なので、純粋な Mono アプリケーションを作成するのにも使用されます。Xamarin Studio の Xamarin固有のプラグイン部は、オープンソース化されないとのことです。つまり、Microsoftとしては「開発ツールが収益源」ということになります。
 
@@ -116,12 +134,12 @@ Xamarin自体は無償になりましたが、企業利用の場合、大抵は 
 ### 個人の場合
 
 Windowsの人は、[Visual Studio Community](https://www.visualstudio.com/ja-jp/products/visual-studio-community-vs.aspx) で開発・配布ができるようになりました。
-Macの人は、[Xamarin Studio](https://www.xamarin.com/studio)で（もちろん Visual Studio for Mac でも） 開発・配布ができるようになりました。
+Macの人は、Visual Studio for Mac で（もちろん [Xamarin Studio](https://www.xamarin.com/studio) でも） 開発・配布ができるようになりました。
 
 ### 企業の場合
 
 Windowsの人は、Visual Studio のサブスクリプションの購入が必要です。
-Macの人は、Xamarin Studio で開発を行いますが、Windowsと同様、Visual Studio サブスクリプションの購入が必要です。
+Macの人は、Visual Studio for Mac で開発を行いますが、Windowsと同様、Visual Studio サブスクリプションの購入が必要です。
 
 詳しくは、 [Xamarin の開発環境を整理しよう - Xamarin 日本語情報](http://ytabuchi.hatenablog.com/entry/2016/04/02/163106) を参考に、あるいは Microsoft へ問い合わせてください。
 
@@ -131,15 +149,19 @@ Macの人は、Xamarin Studio で開発を行いますが、Windowsと同様、V
 
 ## 日本語情報について
 
-2016年現在、Xamarin の日本語情報もだいぶ増えてきました。
+2017年5月現在、Xamarin の日本語情報もだいぶ増えてきました。
 
 ### 書籍
 
-2017年3月、続けざまに2冊のXamarin本が発売されます。ちょっとずつ増えていく予感がしますね。
+2017年3月、続けざまに2冊のXamarin本が発売されました。ちょっとずつ増えていく予感がしますね。
 
 #### [Xamarinエキスパート養成読本 (Software Design plus)](http://amzn.to/2nExEQ0)
 
+「エキスパートになる」というよりは、「初心者の人がとりあえずXamarin.Formsでアプリを作れるようになる」ところまでが書かれています。
+
 #### [Xamarinではじめるスマホアプリ開発](http://amzn.to/2nEBKrD)
+
+こちらも初心者向け。Visual Studio for Mac が使われていてどちらかというとiOSアプリ寄りの解説がされています。
 
 #### [C#によるiOS、Android、Windowsアプリケーション開発入門](http://www.amazon.co.jp/dp/B00MN5P6PY/?tag=oku2008-22)
 
@@ -178,9 +200,19 @@ Visual Studio ＋ Xamarin はクロスプラットフォームアプリ開発が
 
 そのため、Android Studio や Xcode で Android、iOSアプリを開発できるようになった上で、Visual Studio+Xamarin でクロスプラットフォーム開発をするのが、最大の効果を得られる方法です。
 
-**Java も Swift も覚えて C# で D.R.Y(Don't Repeat Yourself) するのが Xamarin です**
+**Java も Swift も学んで C# で D.R.Y(Don't Repeat Yourself) するのが Xamarin です**
 
-### PR
+## 技術書典2/超技術書典に出展しました！
 
-* [DroidKaigi2017で「Xamarin.Android で始めるクロスプラットモバイルアプリ開発」という話をしました](http://blog.amay077.net/blog/2017/03/10/had_a_session_about_xamarin_android_in_droidkaigi2017/)
-* [技術書典2](https://techbookfest.org/event/tbf02/circle/5699714196439040) に、他数名の方と、Xamarinに関する技術本を出します。
+**Essential Xamarin Yin/Yang (陰/陽)** という Xamarin の技術同人誌を数名で書きました。
+2017年にXamarinアプリケーション開発技術の入り口から最先端の世界までを日本語で読める、希少な書籍です。是非ごらんください。
+
+[技術書典2](https://techbookfest.org/event/tbf02/circle/5699714196439040) に出展・販売しました。2時間ほどで完売となりありがとうございました。
+続いて[超技術書典](https://techbookfest.org/event/cho01)にも出展しました。たくさんのご来場ありがとうございました。
+
+* [技術書典2/超技術書典 出展情報 - Xamaritans](https://atsushieno.github.io/xamaritans/tbf2.html)
+
+また、通販や商業本化も進んでいきますので、ご期待下さい！
+
+<blockquote class="twitter-tweet" data-cards="hidden" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://t.co/kubQuMJvYM">https://t.co/kubQuMJvYM</a><br>というわけで Essential Xamarin は商業出版計画が進行中🎉ですのでお楽しみに！<br>通信販売も予定してます。直近は超技術書典よろしくです！ <a href="https://t.co/tT3ktAOJrs">pic.twitter.com/tT3ktAOJrs</a></p>&mdash; あめい@超技術書典4/30 あ-12 (@amay077) <a href="https://twitter.com/amay077/status/854348960864944128">2017年4月18日</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
