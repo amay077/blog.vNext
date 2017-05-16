@@ -102,6 +102,10 @@ Visual Studio 2015 でも使用可能ですが、環境構築でハマること�
 
 Visual Studio 2015 と Visual Studio 2017 は共存が可能です。
 
+その他の開発ツールには [JetBrains Rider](https://www.jetbrains.com/rider/) があります。また開発中の製品ですが、現時点でも開発に使用することができます。
+
+* [JetBrains Rider で Xamarin.Android プロジェクトのデバッグが行えるようになりました - Qiita](http://qiita.com/amay077/items/c22f608c5ec4c2e39d88)
+
 また iOS アプリを開発する場合は、ビルドや実行・デバッグのために Mac が必要なので、現実的には Mac 必須です。これは買収された後も変わっていません。
 Remoted iOS Simulator (for Windows) が搭載され、Windows の画面でアプリを実行することができるようになりましたが、iOS アプリのビルドには Mac がどうしても必要になります。
 
@@ -109,7 +113,7 @@ Remoted iOS Simulator (for Windows) が搭載され、Windows の画面でアプ
 
 [Xamarin Live Player](https://www.xamarin.com/live) が発表されて、次のような日本語記事が公開されています。
 
-* [WindowsでiOSアプリを開発、テスト、公開できる――MicrosoftがXamarin Live Playerを発表｜TechCrunch Japan](http://jp.techcrunch.com/2017/05/12/20170511microsoft-now-lets-ios-developers-deploy-run-and-test-their-apps-directly-from-windows/)
+* [WindowsでiOSアプリを開発、テスト、公開できる――MicrosoftがXamarin Live Playerを発表 | TechCrunch Japan](http://jp.techcrunch.com/2017/05/12/20170511microsoft-now-lets-ios-developers-deploy-run-and-test-their-apps-directly-from-windows/)
 * [iOSアプリ開発でMac OSが不要に、Windowsで開発・テスト・公開可能な「Xamarin Live Player」 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1059302.html)
 
 が、 「macOS不要でiOSアプリが **公開** できる」というのは間違い（誤訳）です。
@@ -153,7 +157,11 @@ Macの人は、Visual Studio for Mac で開発を行いますが、Windowsと同
 
 ### 書籍
 
-2017年3月、続けざまに2冊のXamarin本が発売されました。ちょっとずつ増えていく予感がしますね。
+2017年6月、ついに Xamarin.Formsバイブルの日本語書籍が発売されます。
+
+#### [プログラミングXamarin 上 Xamarin.FormsとC#によるクロスプラットフォームモバイルアプリ開発](http://amzn.to/2pEHd38)
+
+ついに登場、Xamarin.Formsのバイブル「[ペゾルド本](https://developer.xamarin.com/guides/xamarin-forms/creating-mobile-apps-xamarin-forms/)」の日本語訳書籍、@atsushieno さんが [XamarinFormsBookReading](https://xamarinformsbookreading.connpass.com/) で巡回されてるやつですね。
 
 #### [Xamarinエキスパート養成読本 (Software Design plus)](http://amzn.to/2nExEQ0)
 
