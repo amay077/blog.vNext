@@ -35,3 +35,5 @@ Mac をクリーンインストールするときに入れるアプリ一覧。
 * .NET Core
 * ESET Security
 * SourceTree
+* ImageOptim
+* Pngyu
