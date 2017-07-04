@@ -37,3 +37,13 @@ Mac をクリーンインストールするときに入れるアプリ一覧。
 * SourceTree
 * ImageOptim
 * Pngyu
+
+## 移行元があるときやること
+
+* .bash_profile の移行
+* DataGrip のDB接続設定の移行
+* VPN ルーティング設定の移行
+
+### 参考
+
+* [OS X での VPN 時に特定経路のみ、VPN にルーティングするには - らくがきちょう](http://sig9.hatenablog.com/entry/2015/03/05/115736)
