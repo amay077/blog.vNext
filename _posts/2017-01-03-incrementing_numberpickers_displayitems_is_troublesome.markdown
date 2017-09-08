@@ -82,6 +82,6 @@ buttonRemove.setOnClickListener(new View.OnClickListener() {
 });
 ```
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/android_numberpicker_01.gif)
+![](http://blog.amay077.net/assets/images/posts/android_numberpicker_01.gif)
 
 項目が増えたときと減ったときで、呼び出しの順番を変えないといけないのが面倒すぎる。

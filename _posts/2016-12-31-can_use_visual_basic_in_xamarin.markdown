@@ -36,21 +36,21 @@ Xamarin.Forms プロジェクトをテンプレートから作成すると、
 コアとなる MyApp プロジェクトは PCL なので、ここは Visual Basic が使えます。
 ちょっとやってみましょう。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarinforms_with_vb_01.png)
+![](http://blog.amay077.net/assets/images/posts/xamarinforms_with_vb_01.png)
 
 を
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarinforms_with_vb_02.png)
+![](http://blog.amay077.net/assets/images/posts/xamarinforms_with_vb_02.png)
 
 こうします。
 
 C# で適当な Xamarin.Forms プロジェクトを作成した後、追加 -> 新しいプロジェクト で、 **Visual Basic のポータブルクラスライブラリ** を作成します。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarinforms_with_vb_03.png)
+![](http://blog.amay077.net/assets/images/posts/xamarinforms_with_vb_03.png)
 
 なんかプロファイルを聞かれるので、 Xamarin.Android と Xamarin.iOS と UWP あたりを含ませます。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarinforms_with_vb_04.png)
+![](http://blog.amay077.net/assets/images/posts/xamarinforms_with_vb_04.png)
 
 VB.NET の PCL に、nuget パッケージマネージャから「Xamarin.Forms」を追加します。
 
@@ -99,7 +99,7 @@ End Class
 
 で、実行すると、こうなります（iOS の場合）。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarinforms_with_vb_05.png)
+![](http://blog.amay077.net/assets/images/posts/xamarinforms_with_vb_05.png)
 
 ほら VB.NET で Xamarin.Forms 、できました。C# 側の PCL プロジェクトは削除してしまって問題ないです。
 
@@ -110,7 +110,7 @@ End Class
 
 C# の Xamarin.Forms XAML や、VB.NET の WPF の XAML プロジェクトを見て、見よう見まねでプロジェクトファイル(``.vbproj``) を、書いてみましたが、「XAML とコードビハインド」として認識されず…。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarinforms_with_vb_06.png)
+![](http://blog.amay077.net/assets/images/posts/xamarinforms_with_vb_06.png)
 
 ## Prism.Forms プロジェクトを VB.NET 化してみる
 
@@ -129,11 +129,11 @@ C# の Xamarin.Forms XAML や、VB.NET の WPF の XAML プロジェクトを見
 
 このハンズオンのプロジェクトは、
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarinforms_with_vb_07.png)
+![](http://blog.amay077.net/assets/images/posts/xamarinforms_with_vb_07.png)
 
 のようになっているので、ViewModels と Models を VB.NET のプロジェクトに追い出してこう
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarinforms_with_vb_08.png)
+![](http://blog.amay077.net/assets/images/posts/xamarinforms_with_vb_08.png)
 
 します。
 
@@ -155,7 +155,7 @@ Prism.Forms で、View とは別アセンブリにある ViewModel を ``AutoWir
 
 どうせなら、TextSpeaker.Droid/iOS で C# で行っている「ITextSpeaker の実装」も、VB.NET プロジェクトに追い出して、こう
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarinforms_with_vb_09.png)
+![](http://blog.amay077.net/assets/images/posts/xamarinforms_with_vb_09.png)
 
 できないかなー、とトライしてみたのですが、できませんでした。
 

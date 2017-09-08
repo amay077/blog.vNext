@@ -7,7 +7,7 @@ categories: [Xamarin]
 ---
 正式名称が不明だったが、Evolve2013 の Video で紹介されてたのでそこだけキャプチャしてみた
 <!--more-->
-![image1](https://dl.dropboxusercontent.com/u/264530/qiita/getting_the_most_from_xamarin_studio.png)
+![image1](http://blog.amay077.net/assets/images/posts/getting_the_most_from_xamarin_studio.png)
 
 左サイドバー、**Solution Pad** って言うんだね。
 

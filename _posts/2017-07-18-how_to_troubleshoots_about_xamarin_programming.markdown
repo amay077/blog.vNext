@@ -9,7 +9,7 @@ Xamarin はクロスプラットフォームアプリ開発ツールで、しか
 
 <!--more-->
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/how_to_troubleshoots_about_xamarin_programming_01.png)
+![](http://blog.amay077.net/assets/images/posts/how_to_troubleshoots_about_xamarin_programming_01.png)
 
 私が Xamarin.Forms でアプリ開発をしていて、書いたコードが期待通り動作しない場合、以下のような手順で問題解決を試みていますよーというのを紹介します（環境面のトラブルではなく書いたコードの問題についてです）。
 

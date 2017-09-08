@@ -17,7 +17,7 @@ GPS と WiFi とセンサー(加速度など) を組み合わせて、その状�
 
 ## 1. SDK の Google Play Services を更新する
 
-![image1](https://dl.dropboxusercontent.com/u/264530/qiita/getting_started_activity_recognition1.png)
+![image1](http://blog.amay077.net/assets/images/posts/getting_started_activity_recognition1.png)
 
 Activity Recognition と同じく Google Play services として提供されているので、SDK Manager でライブラリを更新します。
 
@@ -36,7 +36,7 @@ Ecplise の Import で ``{your sdk location}/extras/google/google_play_services/
 
 コピーしたら、FusedLocationProviderSample で、 google-play-services_lib をライブラリ参照します。
 
-![image2](https://dl.dropboxusercontent.com/u/264530/qiita/getting_started_activity_recognition2.png)
+![image2](http://blog.amay077.net/assets/images/posts/getting_started_activity_recognition2.png)
 
 次から FusedLocationProviderSample の実装です。
 
@@ -215,7 +215,7 @@ public class MainActivity extends Activity {
 
 HTC J(not蝶) で動かしてみました。
 
-![image3](https://dl.dropboxusercontent.com/u/264530/qiita/getting_started_fused_location_provider1.png)
+![image3](http://blog.amay077.net/assets/images/posts/getting_started_fused_location_provider1.png)
 
 室内での結果ですが、最初 27m の精度だったのが、放っておくとどんどん精度が上がって行きました。が、地図に重ねてみないと実際合ってるのかよくわかりませんね。
 

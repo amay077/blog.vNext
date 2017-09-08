@@ -14,7 +14,7 @@ categories: [Xamarin, iOS, C#]
 <!--more-->
 Storyboard を Interface Builder で開いて、NavigationController のカスタムクラスを ``MyNavigationController`` とした。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/viewcontroller_orientaion_lock_in_xamarin_ios_01.png)
+![](http://blog.amay077.net/assets/images/posts/viewcontroller_orientaion_lock_in_xamarin_ios_01.png)
 
 すると、Xamarin Studio 側にも ``MyNavigationController.cs`` ができるので、Stackoverflow の通り、以下のように実装した。
 

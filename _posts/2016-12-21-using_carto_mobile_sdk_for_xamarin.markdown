@@ -49,13 +49,13 @@ CARTO といえば、地図関連で今一番イケてるサービスの一つ�
 
 Mac だとこんな↓感じで。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/running_carto_mobile_sample_01.png)
+![](http://blog.amay077.net/assets/images/posts/running_carto_mobile_sample_01.png)
 
 ### STEP4: CartoMap.iOS のプロジェクト設定でアーキテクチャを x86_64 に変更する
 
 iOS アプリはもはや 64bit に移行しているので、プロジェクト設定を変更します。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/running_carto_mobile_sample_02.png)
+![](http://blog.amay077.net/assets/images/posts/running_carto_mobile_sample_02.png)
 
 これをしないと、アプリを実行したときに「May slow down〜」などと言われます。
 
@@ -63,11 +63,11 @@ iOS アプリはもはや 64bit に移行しているので、プロジェクト
 
 適当な iOSシミュレータを選んで、実行します。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/running_carto_mobile_sample_03.png)
+![](http://blog.amay077.net/assets/images/posts/running_carto_mobile_sample_03.png)
 
 実行すると、下図のような感じに動くと思います。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/running_carto_mobile_sample_04.gif)
+![](http://blog.amay077.net/assets/images/posts/running_carto_mobile_sample_04.gif)
 
 ### STEP5: 表示する地図を変えてみる
 
@@ -108,7 +108,7 @@ https://mierune2016team.carto.com/api/v2/viz/8a9450a2-6456-11e6-8a7a-0ee66e2c969
 
 これを実行すると、↓のようになります。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/running_carto_mobile_sample_05.gif)
+![](http://blog.amay077.net/assets/images/posts/running_carto_mobile_sample_05.gif)
 
 レスポンスにやや問題がある、凡例がないので主題の意味がわからないなどの問題はありますが、Web で観られる地図と同じものが iOS 端末でも観られます。
 

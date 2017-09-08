@@ -26,15 +26,15 @@ categories: [Android, GoogleMapsAPI]
 
 タイトルは「Beyond the Blue Dot」、Blue Dot とは…デモを観たら分かります。
 
-!["1"](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_001.png)
+!["1"](http://blog.amay077.net/assets/images/posts/google_io_android_location_001.png)
 
 Intro&Closing 担当の Waleed さん(右)と、Deep Dive してくれる Jaikumar さん(左)
 
-![2](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_002.png)
+![2](http://blog.amay077.net/assets/images/posts/google_io_android_location_002.png)
 
 基本として、各種測位技術の比較表を。
 
-![8](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_008.png)
+![8](http://blog.amay077.net/assets/images/posts/google_io_android_location_008.png)
 
 
 ## Fused Location Provider
@@ -43,11 +43,11 @@ Intro を早々に飛ばして、ここから各機能の詳細説明。
 
 まず、現在の Location 周りの構成図。これが…
 
-![9](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_009.png)
+![9](http://blog.amay077.net/assets/images/posts/google_io_android_location_009.png)
 
 こうなる。今までのレイヤの上に Google Play-services として構成される。
 
-![17](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_017.png)
+![17](http://blog.amay077.net/assets/images/posts/google_io_android_location_017.png)
 
 さあてお待ちかねのデモ。
 
@@ -55,19 +55,19 @@ Intro を早々に飛ばして、ここから各機能の詳細説明。
 
 画像だけだと若干分かりづらいけど、屋内はすっ飛ばされてる。
 
-![18](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_018.png)
+![18](http://blog.amay077.net/assets/images/posts/google_io_android_location_018.png)
 
 次、緑 vs WiFi測位(赤)
 
 もう、カックカクなのであります。
 
-![19](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_019.png)
+![19](http://blog.amay077.net/assets/images/posts/google_io_android_location_019.png)
 
 そして、緑 vs Fused Location Provider(青 the Blue Dot)
 
 屋外は GPS によるスムースな軌跡、屋内は WiFi＋センサーによる自律測位で十分に滑らか。入出、退出時の切り替えも自動で行われる。(拍手！)
 
-![20](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_020.png)
+![20](http://blog.amay077.net/assets/images/posts/google_io_android_location_020.png)
 
 使い方。
 
@@ -75,13 +75,13 @@ Intro を早々に飛ばして、ここから各機能の詳細説明。
 
 ``connect`` した後は、``LocationListener`` が使えます。(注:``android.location.LocationListener`` ではなく新しい ``com.google.android.gms.location.LocationListener`` でした)
 
-![21](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_021.png)
+![21](http://blog.amay077.net/assets/images/posts/google_io_android_location_021.png)
 
-![22](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_022.png)
+![22](http://blog.amay077.net/assets/images/posts/google_io_android_location_022.png)
 
 [setPriority](http://developer.android.com/reference/com/google/android/gms/location/LocationRequest.html#setPriority(int) で電池消費と精度をコントロールできるとのこと。
 
-![24](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_024.png)
+![24](http://blog.amay077.net/assets/images/posts/google_io_android_location_024.png)
 
 ## Geofencing
 
@@ -91,14 +91,14 @@ Intro を早々に飛ばして、ここから各機能の詳細説明。
 
 ジオフェンスが２つ仕掛けてあって、自車がフェンス内に入ると色が変わるというもの。
 
-![26](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_026.png)
+![26](http://blog.amay077.net/assets/images/posts/google_io_android_location_026.png)
 
 使い方。
 
 同じく ``LocationClient`` から。
 結果は IntentService で受け取ります。
 
-![28](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_028.png)
+![28](http://blog.amay077.net/assets/images/posts/google_io_android_location_028.png)
 
 そして嬉しいのがコレ。
 
@@ -107,7 +107,7 @@ Intro を早々に飛ばして、ここから各機能の詳細説明。
 
 ユーザーの大雑把な場所や、現在の状態(歩いてるのか留まっているのか)やら、ハードウェアに直接処理させているので実現できた、とか言ってるみたいです。
 
-![30](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_030.png)
+![30](http://blog.amay077.net/assets/images/posts/google_io_android_location_030.png)
 
 ## Activity Recognition
 
@@ -115,16 +115,16 @@ Intro を早々に飛ばして、ここから各機能の詳細説明。
 
 乗り物、徒歩、留まってる、自転車 を判別できます。
 
-![32](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_032.png)
+![32](http://blog.amay077.net/assets/images/posts/google_io_android_location_032.png)
 
 これはライブデモ。
 自転車と認識されているのは…
 
-![40](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_040.png)
+![40](http://blog.amay077.net/assets/images/posts/google_io_android_location_040.png)
 
 …マークさんの実演でしたー。(会場ここが一番盛り上がってた)
 
-![41](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_041.png)
+![41](http://blog.amay077.net/assets/images/posts/google_io_android_location_041.png)
 
 そして使い方、
 [ActivityRecognitionClient](http://developer.android.com/reference/com/google/android/gms/location/ActivityRecognitionClient.html) というのを使います。
@@ -132,9 +132,9 @@ Intro を早々に飛ばして、ここから各機能の詳細説明。
 
 * [Google I/O 2013 で発表された行動認識(Activity Recognition)を使ってみる - Experiments Never Fail](http://amay077.github.io/blog/2013/05/18/getting-started-activity-recognition/)
 
-![43](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_043.png)
+![43](http://blog.amay077.net/assets/images/posts/google_io_android_location_043.png)
 
-![44](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_044.png)
+![44](http://blog.amay077.net/assets/images/posts/google_io_android_location_044.png)
 
 ## まとめ
 
@@ -143,11 +143,11 @@ Waleed さんに戻ってまとめなど。
 Google Play-services で提供してるから、使うなら？「今でしょ！」(言ってません)。
 これからも、消費電力・精度・使える場所(?) を改良していくぜい、とのこと。
 
-![49](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_049.png)
+![49](http://blog.amay077.net/assets/images/posts/google_io_android_location_049.png)
 
 どうもありがとうございました。
 
-![50](https://dl.dropboxusercontent.com/u/264530/qiita/google_io_android_location_050.png)
+![50](http://blog.amay077.net/assets/images/posts/google_io_android_location_050.png)
 
 
 ## 雑感

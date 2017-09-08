@@ -41,7 +41,7 @@ iOS でプッシュ通知を行うには Apple Push Notification Service(APNS) �
 まず、Azure マネージメントポータル (https://manage.windowsazure.com/) から、モバイルサービス → 項目 → を選んで、上部にある「プッシュ」を選択します。
 次に「apple プッシュ通知の設定」の証明書に、先に手順で入手した 「.p12ファイル」をアップロードします。パスワードはその時決めたものを入力します。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_azure_mobile_service_by_xamarin_3_02.png)
+![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_3_02.png)
 
 ## アプリケーションにプッシュ通知を実装する
 
@@ -133,7 +133,7 @@ var newItem = new ToDoItem()
 
 システムメニュー → Preferences、Environment → Developer Accounts から追加しておきます。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_azure_mobile_service_by_xamarin_3_03.png)
+![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_3_03.png)
 
 ## マネージメントポータルで、データの追加時のスクリプトを登録する
 
@@ -143,11 +143,11 @@ var newItem = new ToDoItem()
 
 まず、マネージメントポータル https://manage.windowsazure.com/ を開き、モバイルサービス → サービス名 → データ → テーブル名 と選択します。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_azure_mobile_service_by_xamarin_3_04.png)
+![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_3_04.png)
 
 次に、スクリプト を選択し、ドロップダウンから「挿入」を選択します。テーブルにデータが追加された時に実行するスクリプトが表示されます。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_azure_mobile_service_by_xamarin_3_05.png)
+![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_3_05.png)
 
 スクリプトを以下に置き換えます。
 
@@ -177,7 +177,7 @@ function insert(item, user, request) {
 
 Xamarin Studio から、実機で実行します。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_azure_mobile_service_by_xamarin_3_06.png)
+![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_3_06.png)
 
 アプリ起動直後、通知の受信を許可するかどうかを尋ねられますので「Yes」で。(一度答えると二度と出ないのでしょうか？なのでチュートリアルの画像で。)
 
@@ -185,11 +185,11 @@ Xamarin Studio から、実機で実行します。
 
 Twitter 認証後、適当に項目を追加します。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_azure_mobile_service_by_xamarin_3_07.png)
+![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_3_07.png)
 
 しばらく待っていると…
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_azure_mobile_service_by_xamarin_3_08.png)
+![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_3_08.png)
 
 無事、プッシュ通知を受信できましたー。
 (実はここに辿り着くまで数十回試しているので最初に通知を受け取った時の感激と言ったら…)
@@ -205,7 +205,7 @@ Twitter 認証後、適当に項目を追加します。
 プロジェクト名に アンダースコア が含まれてるとダメです。
 Xamarin Studio のプロジェクト プロパティ → iOS Application で直しましょう。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_azure_mobile_service_by_xamarin_3_09.png)
+![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_3_09.png)
 
 ### アプリが起動直後(認証を通過した後)に落ちるようになった
 
@@ -228,7 +228,7 @@ public string DeviceToken { get; set; }
 まずは、Azure マネージメントポータルで「ログ」を見てみましょう。
 下記からアクセスできます。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_azure_mobile_service_by_xamarin_3_01.png)
+![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_3_01.png)
 
 データ挿入時のスクリプトでエラーが出ていれば、ここに出力されるはずです。スクリプト内で ``console.log`` した内容もここに出力されます。
 

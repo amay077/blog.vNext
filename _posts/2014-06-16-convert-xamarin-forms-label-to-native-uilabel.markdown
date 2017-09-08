@@ -88,6 +88,6 @@ namespace Forms2Native
 
 こんな感じで、ちゃんと文字サイズが縮小されました。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/getting_uilabel_from_xamarin_forms.png)
+![](http://blog.amay077.net/assets/images/posts/getting_uilabel_from_xamarin_forms.png)
 
 Android の方も同じ要領でいけるは…ず。

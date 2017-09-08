@@ -12,11 +12,11 @@ categories: [Microsoft, MVP]
 
 ### 箱！
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/received_mvp_award_kit_01.jpg)
+![](http://blog.amay077.net/assets/images/posts/received_mvp_award_kit_01.jpg)
 
 ### 中身！！
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/received_mvp_award_kit_02.jpg)
+![](http://blog.amay077.net/assets/images/posts/received_mvp_award_kit_02.jpg)
 
 * 盾
 * 置物

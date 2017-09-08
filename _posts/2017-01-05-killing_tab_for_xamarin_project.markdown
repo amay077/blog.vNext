@@ -22,7 +22,7 @@ categories: [Xamarin, Git, VisualStudio]
 * タブ幅、インデント幅を 4 に
 * タブをスペースに変換 にチェックを入れる
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/definitely_kill_tab_for_Xamarin_studio_01.png)
+![](http://blog.amay077.net/assets/images/posts/definitely_kill_tab_for_Xamarin_studio_01.png)
 
 と設定します。（ポリシーで **Visual Sutdio** を選択すればいいんじゃん！）
 
@@ -32,7 +32,7 @@ categories: [Xamarin, Git, VisualStudio]
 
 ソリューションまたはプロジェクトを右クリックして、オプションを選択し、先ほどと同じように ソースコードの書式設定 を見直します。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/definitely_kill_tab_for_Xamarin_studio_02.png)
+![](http://blog.amay077.net/assets/images/posts/definitely_kill_tab_for_Xamarin_studio_02.png)
 
 Windows と Mac で共同作業する場合は、プロジェクト作成時に、この設定を明示的に行っておくのがよいと思います。
 

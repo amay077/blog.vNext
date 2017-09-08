@@ -31,7 +31,7 @@ Xamarin.Forms も大分安定し、機能も増え、ライブラリも充実し
 
 ## プロジェクト構成
 
-![プロジェクト構成図](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_forms_gachi_projects_2016_winter_01.png)
+![プロジェクト構成図](http://blog.amay077.net/assets/images/posts/xamarin_forms_gachi_projects_2016_winter_01.png)
 
 プロジェクトは以下の5つです。
 
@@ -165,7 +165,7 @@ Hoge.Core を Xamarin.Forms から切り離したとは言え Prism には依存
 
 という単純なものです。
 
-![サンプル](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_forms_gachi_projects_2016_winter_02.gif)
+![サンプル](http://blog.amay077.net/assets/images/posts/xamarin_forms_gachi_projects_2016_winter_02.gif)
 
 
 本ポストで提示したプロジェクト構成になっており、

@@ -17,7 +17,7 @@ categories: [Xamarin, Android, 勉強会]
 今回もウォーミングアップは さわやか です（前回とは違う店だよ）。
 前回は げんこつハンバーグ でしたが、今回は *普通の* ハンバーグ、こいつもウマイ！！
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/joined_xamarin_hands_on_ad_hamamatsu_2_01.JPG)
+![](http://blog.amay077.net/assets/images/posts/joined_xamarin_hands_on_ad_hamamatsu_2_01.JPG)
 
 ## ハンズオン振り返り
 
@@ -40,7 +40,7 @@ Windows + Visual Studio の方が多かったのに、私自身が普段 Mac + X
 
 駅前の浜松餃子屋さんで軽く打ち上げ。混んでたためか、餃子の追加注文お断りとのことで、余裕を持って頼んだ結果こうなりました。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/joined_xamarin_hands_on_ad_hamamatsu_2_02.JPG)
+![](http://blog.amay077.net/assets/images/posts/joined_xamarin_hands_on_ad_hamamatsu_2_02.JPG)
 
 大人５人だったからなんとか食べきれましたね、浜松餃子も旨かった！
 

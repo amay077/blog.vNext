@@ -13,7 +13,7 @@ MainViewController とか、StartupViewController にしたいですね。その
 
 ## 1. プロジェクトを作る
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_ios_rename_viewcontoller_01.png)
+![](http://blog.amay077.net/assets/images/posts/xamarin_ios_rename_viewcontoller_01.png)
 
 「RenameTest」という名称でプロジェクトを作ると、ViewController は ``RenameTestViewController.cs`` になります。
 
@@ -21,7 +21,7 @@ MainViewController とか、StartupViewController にしたいですね。その
 
 ``RenameTestViewController.cs`` を開いてクラス名のところで右クリック→リファクタ。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_ios_rename_viewcontoller_02.png)
+![](http://blog.amay077.net/assets/images/posts/xamarin_ios_rename_viewcontoller_02.png)
 
 ``MainViewController`` に変更します。
 
@@ -57,14 +57,14 @@ namespace RenameTest
 
 .xib ファイルをダブルクリックすると Xcode が起動します。これは OK。けどファイル一覧を見てみると…
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_ios_rename_viewcontoller_03.png)
+![](http://blog.amay077.net/assets/images/posts/xamarin_ios_rename_viewcontoller_03.png)
 
 ``RenameTestViewController.h`` ってファイルができてる！
 ``MainViewController.h`` になってほしいのですが。。。
 
 Xamarin Studio にもどって、「RenameTestViewController」 が残っているところを探します。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_ios_rename_viewcontoller_04.png)
+![](http://blog.amay077.net/assets/images/posts/xamarin_ios_rename_viewcontoller_04.png)
 
 お前らか！
 
@@ -73,11 +73,11 @@ Xamarin Studio にもどって、「RenameTestViewController」 が残ってい�
 ``MainViewController.xib`` 内の方も古い名前は抹殺しておきます。
 これは Xamarin Studio ではソースコードエディタで開くか、別なテキストエディタで編集します。(これも推奨されない)
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_ios_rename_viewcontoller_05.png)
+![](http://blog.amay077.net/assets/images/posts/xamarin_ios_rename_viewcontoller_05.png)
 
 どちらも直したら、再度 ``MainViewController.xib`` を実行して Xcode を起動。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_ios_rename_viewcontoller_06.png)
+![](http://blog.amay077.net/assets/images/posts/xamarin_ios_rename_viewcontoller_06.png)
 
 やったー、ようやく ``RenameTestViewController`` を抹殺できました。この状態で Xamarin 側との outlet の連携など、問題ないようです。
 

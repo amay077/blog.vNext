@@ -12,18 +12,18 @@ categories: [Android, Cardboard]
 <!--more-->
 段ボールやレンズ、磁石などの材料は主催の方が用意してくださった( [@macha1972](https://twitter.com/macha1972) さんありがとうございます )ので、カッターとガムテープと筆記具くらいを持参するだけですみました。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/make-google-cardboard-01.jpg)
+![](http://blog.amay077.net/assets/images/posts/make-google-cardboard-01.jpg)
 
 [公式サイト](https://developers.google.com/cardboard/) からダウンロードできる型紙を印刷して、段ボールに貼り付け、段ボールを切っていきます。
 
 段ボールが意外と厚くて切るのに苦労しました。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/make-google-cardboard-02.jpg)
+![](http://blog.amay077.net/assets/images/posts/make-google-cardboard-02.jpg)
 
 ここまでくるのに約3時間…（-_-;）
 早い人は2時間くらいで終わってたかな・・・。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/make-google-cardboard-03.jpg)
+![](http://blog.amay077.net/assets/images/posts/make-google-cardboard-03.jpg)
 
 切っちゃえば組み立ては簡単(先駆者さんに聞きながらできたからw)
 「バター風味」がいい感じに露出しているのは偶然だw
@@ -37,7 +37,7 @@ categories: [Android, Cardboard]
 
 帰宅後、さっそく子供らも体験、しばらくの間ハマってました。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/make-google-cardboard-04.jpg)
+![](http://blog.amay077.net/assets/images/posts/make-google-cardboard-04.jpg)
 
 子供の夏休みの自由工作にでもできるかなーと思いますが、大人で3時間かかるのは結構つらいかも。
 

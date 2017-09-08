@@ -72,17 +72,17 @@ Theme とかにまとめたいけど、今日は割愛。
 
 ### 通常
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/android_flat_button_sample_01.png)
+![img1](http://blog.amay077.net/assets/images/posts/android_flat_button_sample_01.png)
 
 ### 押した時
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/android_flat_button_sample_02.png)
+![img1](http://blog.amay077.net/assets/images/posts/android_flat_button_sample_02.png)
 
 ## 仕組み
 
 ``<layer-list>`` タグの中の要素は、上から順に描画される。また、下位(手前)の要素は、上位(奥)の要素の入れ子になるみたい。
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/android_flat_button_sample_03.png)
+![img1](http://blog.amay077.net/assets/images/posts/android_flat_button_sample_03.png)
 
 （図の id は flat_panel.xml と対応してます。）
 
@@ -92,7 +92,7 @@ Theme とかにまとめたいけど、今日は割愛。
 4. state - ボタンの状態によって色などを変える役割。ここでは state_pressed=true（押された状態）と、state_focused=true（フォーカスを持ってる状態）だけ対応してる。face を描画した「後」で評価されるので、face の色を置き換えるものではない事に注意（透過時）。あと、状態は上から評価される。
 5. child - LinearLayout など Group な View にこのスタイルを適用した時、子View への余白となる。
 
-みんなの大好きな方眼紙EXCEL とオートシェイプで再現してみた → [DL](https://dl.dropboxusercontent.com/u/264530/qiita/flat_panel.xlsx)
+みんなの大好きな方眼紙EXCEL とオートシェイプで再現してみた → [DL](http://blog.amay077.net/assets/images/posts/flat_panel.xlsx)
 
 Activity の背景が白だと、あんまり映えない。。。
 

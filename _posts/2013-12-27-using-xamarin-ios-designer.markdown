@@ -41,20 +41,20 @@ Mac で動かす Xamarin Studio では、
 
 Xamarin Studio を起動したら、システムメニューの 「Check for Updates...」で channel を 「Alpha」 に switch 、インストール後 Restart します。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_xamarin_ios_builtin_designer_01.png)
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_xamarin_ios_builtin_designer_02.png)
+![img](http://blog.amay077.net/assets/images/posts/using_xamarin_ios_builtin_designer_01.png)
+![img](http://blog.amay077.net/assets/images/posts/using_xamarin_ios_builtin_designer_02.png)
 
 ## 2. プロジェクトを作成する
 
 新しいプロジェクト → iOS → iPhone Storyboard → Single View Application で名前は「UIDesignerTest」として OK します。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_xamarin_ios_builtin_designer_04.png)
+![img](http://blog.amay077.net/assets/images/posts/using_xamarin_ios_builtin_designer_04.png)
 
 ## 3. UIデザイナを開く
 
 左側のビューにある ``MainStoryboard.storyboard`` をダブルクリックすると、中央にUIデザイナが開かれます。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_xamarin_ios_builtin_designer_05.png)
+![img](http://blog.amay077.net/assets/images/posts/using_xamarin_ios_builtin_designer_05.png)
 
 Interface Builder とそっくりでしょう？
 
@@ -64,32 +64,32 @@ Interface Builder とそっくりでしょう？
 
 右側ビューにある 「Toolbox」から「Navigation Controller」をデザイナにドラッグ＆ドロップします。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_xamarin_ios_builtin_designer_06.png)
+![img](http://blog.amay077.net/assets/images/posts/using_xamarin_ios_builtin_designer_06.png)
 
 ちょっと見やすいようにレイアウトを整えてみます。(中央右上の +/- ボタンで拡大/縮小ができます)
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_xamarin_ios_builtin_designer_07.png)
+![img](http://blog.amay077.net/assets/images/posts/using_xamarin_ios_builtin_designer_07.png)
 
 画面遷移の線を Navigation Controller → ViewController(元々あったやつ)  につなぎ直します。Action を尋ねられるたら「Push」を選択します。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_xamarin_ios_builtin_designer_08.png)
+![img](http://blog.amay077.net/assets/images/posts/using_xamarin_ios_builtin_designer_08.png)
 
 Toolbox から Button をドラッグ＆ドロップで配置します。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_xamarin_ios_builtin_designer_09.png)
+![img](http://blog.amay077.net/assets/images/posts/using_xamarin_ios_builtin_designer_09.png)
 
 Button を Ctrl キーを押しながらドラッグして、もう一つの ViewController でドロップします。Action を尋ねられるので「Push」を選択します。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_xamarin_ios_builtin_designer_10.png)
+![img](http://blog.amay077.net/assets/images/posts/using_xamarin_ios_builtin_designer_10.png)
 
 はい、できあがりです。実行してみます。
 iOS Simulator から任意のデバイスを選んで「実行」します。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_xamarin_ios_builtin_designer_12.png)
+![img](http://blog.amay077.net/assets/images/posts/using_xamarin_ios_builtin_designer_12.png)
 
 こんな感じです。Storyboard ライクに画面遷移が実装できました。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_xamarin_ios_builtin_designer_13.gif)
+![img](http://blog.amay077.net/assets/images/posts/using_xamarin_ios_builtin_designer_13.gif)
 
 ## 5. ボタンの処理などを実装してみる
 
@@ -97,17 +97,17 @@ iOS Simulator から任意のデバイスを選んで「実行」します。
 
 右端の ViewController に、TextField, Button, Label をそれぞれドラッグ＆ドロップして配置します。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_xamarin_ios_builtin_designer_14.png)
+![img](http://blog.amay077.net/assets/images/posts/using_xamarin_ios_builtin_designer_14.png)
 
 ViewContorller のコードビハインド(っていうのか？)を作成します。
 ViewController の下の黒いところを選択して、プロパティビュー(表示されてない場合は、メニュー→ビュー→パッド→プロパティ)の Class に ``DetailViewController`` と入力して Enter します。すると DetailViewController.cs などが作成されます。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_xamarin_ios_builtin_designer_15.png)
+![img](http://blog.amay077.net/assets/images/posts/using_xamarin_ios_builtin_designer_15.png)
 
 次に、Label や Button などをコード上の変数にします。(iOS の世界では Outlet って言います)
 TextField を選択して、プロパティビューの Name に ``text1 `` と入力して Enter します。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_xamarin_ios_builtin_designer_16.png)
+![img](http://blog.amay077.net/assets/images/posts/using_xamarin_ios_builtin_designer_16.png)
 
 すると、``DetailViewController.designer.cs`` にプロパティ ``text1`` が作成されています。
 
@@ -143,7 +143,7 @@ Button の TouchUpInside イベントにハンドラを作ります。(iOS的に
 
 Button を選択して、プロパティビューを表示し、上部にある「Event」を選択します。しばらく待つと Control Events が表示されるので、Touch → Up Inside の項目に ``button1_TouchUpInside`` と入力して Enter します。(メソッド名は Visual Studio の慣例？に従ってますが、任意の名称で OK です。)
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_xamarin_ios_builtin_designer_17.png)
+![img](http://blog.amay077.net/assets/images/posts/using_xamarin_ios_builtin_designer_17.png)
 
 すると、コードエディタが開かれてどこに Add Event Handler するか聞かれるので、適当な位置で Enter すると、 ``button1_TouchUpInside`` のコードが生成されます。
 
@@ -168,7 +168,7 @@ namespace UIDesignerTest
 
 これで完成。動かしてみます。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_xamarin_ios_builtin_designer_18.gif)
+![img](http://blog.amay077.net/assets/images/posts/using_xamarin_ios_builtin_designer_18.gif)
 
 
 ## まとめ

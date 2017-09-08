@@ -48,7 +48,7 @@ v2 の使い方を説明するブログやサイトで、これが含まれて�
 
 あとは、実機と変わりません。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_gmapv2_on_intel_emulator_01.png)
+![img](http://blog.amay077.net/assets/images/posts/using_gmapv2_on_intel_emulator_01.png)
 
 やばい、PC性能とネットワーク環境のおかげで実機より快適になったｗ
 

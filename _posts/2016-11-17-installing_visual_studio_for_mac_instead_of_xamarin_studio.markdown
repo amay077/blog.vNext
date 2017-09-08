@@ -9,7 +9,7 @@ Visual Studio for Mac(Preview) のインストール、失敗にもいろいろ�
 
 <!--more-->
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/install_failed_vs_for_mac_01.png)
+![](http://blog.amay077.net/assets/images/posts/install_failed_vs_for_mac_01.png)
 
 これの原因が本当によくわからなくて、
 
@@ -31,7 +31,7 @@ Visual Studio for Mac(Preview) のインストール、失敗にもいろいろ�
 そして何度目かのインストーラ実行…ついに…
 
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/install_failed_vs_for_mac_02.png)
+![](http://blog.amay077.net/assets/images/posts/install_failed_vs_for_mac_02.png)
 
 インストールできたぁ！
 

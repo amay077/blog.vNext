@@ -10,7 +10,7 @@ categories: [Android, iOS, MA9]
 
 ### Android 版はこちら
 
-[![img1](https://dl.dropboxusercontent.com/u/264530/qiita/fujiphoto_00.png)](https://play.google.com/store/apps/details?id=com.amay077.android.fujiphoto)
+[![img1](http://blog.amay077.net/assets/images/posts/fujiphoto_00.png)](https://play.google.com/store/apps/details?id=com.amay077.android.fujiphoto)
 
 ### iPhone版はこちら
 
@@ -48,17 +48,17 @@ categories: [Android, iOS, MA9]
 
 ### 近くの撮影スポット
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/fujiphoto_01.png)
+![img1](http://blog.amay077.net/assets/images/posts/fujiphoto_01.png)
 
 ### 撮影スポットの詳細
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/fujiphoto_02.png)
+![img1](http://blog.amay077.net/assets/images/posts/fujiphoto_02.png)
 
 ### ARナビ
 
 田舎すぎるだろ…
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/fujiphoto_03.png)
+![img1](http://blog.amay077.net/assets/images/posts/fujiphoto_03.png)
 
 ## 技術的なアレ
 

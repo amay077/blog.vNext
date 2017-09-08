@@ -12,7 +12,7 @@ RxJava と Android の DataBinding と MVVM についての話をします。
 
 ## Everything is a stream
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/everythis_is_a_stream_what_is_viewmodel_01.jpg)
+![](http://blog.amay077.net/assets/images/posts/everythis_is_a_stream_what_is_viewmodel_01.jpg)
 
 via [Rob Wormald](http://slides.com/robwormald/everything-is-a-stream#/)
 
@@ -62,7 +62,7 @@ RxJava の ``Observable<T>`` をそのまま View にバインドできたらど
 
 こんなのです。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/everythis_is_a_stream_what_is_viewmodel_02.gif)
+![](http://blog.amay077.net/assets/images/posts/everythis_is_a_stream_what_is_viewmodel_02.gif)
 
 実装の説明の前に、MVVM に関するこのスライドを見てください。
 

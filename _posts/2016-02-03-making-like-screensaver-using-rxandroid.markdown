@@ -81,7 +81,7 @@ public class MyActivity extends Activity {
 
 これを動かすとこんな感じになります
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/make_screensaver_using_rxjava_01.gif)
+![](http://blog.amay077.net/assets/images/posts/make_screensaver_using_rxjava_01.gif)
 ## Xamarin.Android + Rx本家の場合
 
 　さて Xamarin です。Xamarin では本家の [Reactive Extensions](https://rx.codeplex.com/) が使用できます。RxAndroid と同じことをやると下のように書けます、スマート。

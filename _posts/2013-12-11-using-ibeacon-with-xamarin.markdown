@@ -31,7 +31,7 @@ Xamarin で iBeacons を使うサンプルは、Xamarin 自体が既に公開し
 
 などで勉強したところ、受信の流れは下図のようになるかと思います。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/using_ibeacon_with_xamarin_01.png)
+![img](http://blog.amay077.net/assets/images/posts/using_ibeacon_with_xamarin_01.png)
 
 全てのメソッドが非同期でコールバックを受け取るタイプ、また並行処理＆同期とか、なんだか見やすいコードになる気がしません。
 

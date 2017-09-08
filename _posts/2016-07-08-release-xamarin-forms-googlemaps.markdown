@@ -22,7 +22,7 @@ Xamarin.Forms で使える地図ライブラリは、公式が出している
 
 iOS では MapKit に代わり [Google Maps SDK for iOS](https://developers.google.com/maps/documentation/ios-sdk/?hl=ja) を使用し、 Android/iOS 共に Google Maps に特化することで、API の共通化を容易にし、恐らくAPI共通化の足枷になっているであろう UWP(Bing maps) のサポートは最小限に留めています。
 
-![screenshot1](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_forms_googlemaps_intro_01.png)
+![screenshot1](http://blog.amay077.net/assets/images/posts/xamarin_forms_googlemaps_intro_01.png)
 
 
 ## 現在の機能
@@ -30,7 +30,7 @@ iOS では MapKit に代わり [Google Maps SDK for iOS](https://developers.goog
 現在のバージョンは 1.1.0 。
 公式の Xamarin.Forms.Maps に比べて、ライン・ポリゴン・円を追加できるようになりました。
 
-![screenshot2](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_forms_googlemaps_intro_02.png)
+![screenshot2](http://blog.amay077.net/assets/images/posts/xamarin_forms_googlemaps_intro_02.png)
 
 詳しい比較は
 

@@ -19,7 +19,7 @@ Visual Studio + WPF 等なら、nuget から取得できて楽なんでしょう
 
 Github が公開した [GitHub's Xamarin starter apps](http://log.paulbetts.org/open-source-githubs-xamarin-starter-apps/), これに ReactiveUI も含まれているので、こちらを Clone して Xamarin Studio で開いてビルド、すぐ動きます。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_reactiveui_01.png)
+![](http://blog.amay077.net/assets/images/posts/using_reactiveui_01.png)
 
 これ、ViewModel側で UUID を生成して、View側の Label にバインドしているのですが、何ともシンプル過ぎて…。
 
@@ -183,7 +183,7 @@ namespace Starter.Views
 
 これで動かしてみます。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_reactiveui_02.gif)
+![](http://blog.amay077.net/assets/images/posts/using_reactiveui_02.gif)
 
 UITextField への入力が、vm.MyName へ適用され、その変更を MyLabel に表示させる、という流れです。
 

@@ -70,7 +70,7 @@ public class App
 
 　これを iOS/Android 双方で実行すると、こうなりました。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_forms_view_equal_width_and_fill_layouting_01.png)
+![](http://blog.amay077.net/assets/images/posts/xamarin_forms_view_equal_width_and_fill_layouting_01.png)
 
 うーん、そうじゃない（汗
 どうやらボタンのテキストが全て表示されるように頑張ってくれちゃうようです。
@@ -143,13 +143,13 @@ public class App
 
 　これを iOS/Android 双方で実行すると、こうなりました。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_forms_view_equal_width_and_fill_layouting_02.png)
+![](http://blog.amay077.net/assets/images/posts/xamarin_forms_view_equal_width_and_fill_layouting_02.png)
 
 　おーけー、意図したレイアウトになりました。ボタンに入りきらないテキストはiOSだと省略され、Androidだと折り返されるという違いはありますが、レイアウトの一貫性は保つことができました。
 
 　ちなみに横向きにしても大丈夫です。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_forms_view_equal_width_and_fill_layouting_03.png)
+![](http://blog.amay077.net/assets/images/posts/xamarin_forms_view_equal_width_and_fill_layouting_03.png)
 
 ## まとめ
 

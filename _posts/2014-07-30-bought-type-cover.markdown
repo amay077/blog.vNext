@@ -8,7 +8,7 @@ categories: [Surface]
 
 [先日買った Surface Pro 3](http://blog.amay077.net/blog/2014/07/18/welcome-surface-pro-3/) 用のタイプカバーを買いました。
 <!--more-->
-![](https://dl.dropboxusercontent.com/u/264530/qiita/bought_type_cover_01.jpg)
+![](http://blog.amay077.net/assets/images/posts/bought_type_cover_01.jpg)
 
 [Xamarin](http://xamarin.com) カラーの **シアン！**
 

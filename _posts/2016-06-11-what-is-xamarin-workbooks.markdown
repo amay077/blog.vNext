@@ -24,8 +24,8 @@ build での予告どおり、Xamarin.Android/iOS などがついにオープン
 
 こういうことです。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_workbooks_01.png)
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_workbooks_02.gif)
+![](http://blog.amay077.net/assets/images/posts/xamarin_workbooks_01.png)
+![](http://blog.amay077.net/assets/images/posts/xamarin_workbooks_02.gif)
 
 * Markdown でドキュメントが書ける(このツール自体はリッチなエディタである)
 * \`\`\`csharp〜\`\`\` で囲まれたコードブロックは、そのまま iOSシミュレータなどでインタラクティブに、Instant に実行できる。

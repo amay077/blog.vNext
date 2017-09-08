@@ -11,7 +11,7 @@ categories: [Xamarin, XAC13, iOS, Android, C#, ReactiveExtensions]
 
 Components で右クリック → Get more components → Reactive とかで検索 → 見つけたら Add to App で OK です。あ、この手順は .iOS でも .Android でも同じです。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/install_rx_to_xamarin_ios_01.gif)
+![](http://blog.amay077.net/assets/images/posts/install_rx_to_xamarin_ios_01.gif)
 
 ## 使ってみましょうか
 
@@ -19,7 +19,7 @@ Components で右クリック → Get more components → Reactive とかで検�
 
 まずこんな感じのどうでもいい画面を用意しまして、
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/install_rx_to_xamarin_ios_02.png)
+![](http://blog.amay077.net/assets/images/posts/install_rx_to_xamarin_ios_02.png)
 
 ``UIButton.TouchUpInside`` を ``IObservable`` に変換する拡張メソッドを用意します。
 

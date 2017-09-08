@@ -125,7 +125,7 @@ button1.TouchUpInside += async (sender, e) =>
 
 動かすとこんな感じです。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/uialertcontroller_with_async_await_01.gif)
+![](http://blog.amay077.net/assets/images/posts/uialertcontroller_with_async_await_01.gif)
 
 ``ShowDialog`` は拡張メソッドとして作成しておくと、呼び出しに便利かもしれません。
 コールバックスタイルの機能を、Task化するパターンはよく使いそうな気がします。``TaskCompletionSource``、覚えておきましょう。

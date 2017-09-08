@@ -18,7 +18,7 @@ Github社は、自前の MVVM フレームワーク「ReactiveUI」、非同期K
 
 Starter Apps を Xamarin Studio で開くとこんな感じです。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_startup_apps_by_github_01.png)
+![](http://blog.amay077.net/assets/images/posts/xamarin_startup_apps_by_github_01.png)
 
 アプリケーション自体は MVVM で作られていて、前述の RectiveUI によって、View 以外は極力プラットフォームに依存しないように作ることができます。
 

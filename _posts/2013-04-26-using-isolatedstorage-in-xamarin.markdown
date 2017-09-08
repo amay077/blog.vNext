@@ -83,7 +83,7 @@ namespace IsolatedStorageTest
 ブレークしたら、変数 ``file`` をウォッチなどを覗いてみると、Non-public なフィールド ``directory`` が「/data/data/<アプリ名>/files/.config/.isolated-storage」
 を示していることが分かります。
 
-![image1](https://dl.dropboxusercontent.com/u/264530/qiita/location_of_isolatedstorage_in_xamarin1.png)
+![image1](http://blog.amay077.net/assets/images/posts/location_of_isolatedstorage_in_xamarin1.png)
 
 ## Xamarin.iOS の場合
 
@@ -142,7 +142,7 @@ namespace IsolatedStorageiOSTest
 デバッグして、``file`` 変数を覗いてみると、``directory`` が「<省略>/iPhone Simulator/6.1/Applications/<アプリのUUID>/Documents/.config/.isolated-storage」
 を示していることが分かります。
 
-![image2](https://dl.dropboxusercontent.com/u/264530/qiita/location_of_isolatedstorage_in_xamarin2.png)
+![image2](http://blog.amay077.net/assets/images/posts/location_of_isolatedstorage_in_xamarin2.png)
 
 ということで、IsolatedStorage の保存先は、Android では ``/data/data/<アプリ名>/``、iOS の場合は ``/<アプリのUUID>/Documents/`` と、アプリごとの固有の場所になっている事が分かりました。
 

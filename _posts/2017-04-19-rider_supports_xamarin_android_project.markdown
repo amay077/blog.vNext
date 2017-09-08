@@ -18,7 +18,7 @@ categories: [Android, Xamarin, JetBrains, Rider]
 を Rider で開いてビルド、デバッグ実行してみます。
 これは Xamarin.Forms のソリューションですが、その中の Android プロジェクトは実行できます。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/rider_supports_xamarin_android_project_01.png)
+![](http://blog.amay077.net/assets/images/posts/rider_supports_xamarin_android_project_01.png)
 
 上図のように、エミュレータも起動でき、ブレークポイントを置いてのステップイン・ステップオーバーなども実行できます。
 デバッグ画面のルック＆フィールは JetBrains 製品らしくなっており、Android Studio を使っている人にとっても馴染みがあります。

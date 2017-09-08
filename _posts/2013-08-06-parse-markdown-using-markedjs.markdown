@@ -70,7 +70,7 @@ Typescript クイックガイドでは、HTML 内に Markdown テキストがベ
 
 bootstrap で見栄えを良くしているが、必須ではない。
 
-こちらが [デモ](https://dl.dropboxusercontent.com/u/264530/qiita/md_renderer/md_renderer.html) 。
+こちらが [デモ](http://blog.amay077.net/assets/images/posts/md_renderer/md_renderer.html) 。
 
 さすがに描画に少し時間がかかるみたいです。
 ``marked()`` は非同期版もあるようなので、そちらを使うべきだったかな。

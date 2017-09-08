@@ -8,7 +8,7 @@ categories: [Kotlin, Android, Java, Xamarin, C#]
 Android で「浮いてるように見える」アニメーションを実装する機会がありまして。次の画像のようなものなんですが。
 <!--more-->
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/concat_animations_with_kotlin_01.gif)
+![](http://blog.amay077.net/assets/images/posts/concat_animations_with_kotlin_01.gif)
 
 このアニメーションは、
 

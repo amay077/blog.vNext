@@ -59,8 +59,8 @@ cp bin/Debug/NuGet.Core.dll  ~/Library/Application\ Support/XamarinStudio-4.0/Lo
 ## 試す
 
 1. Xamarin Studio で Portable Class Library を作成する
-2. プロジェクト設定を見ると Xamarin.Android、Xamarin.iOS などがあるが、これらを**チェックしてOKしても適用されてない** ![img1](https://dl.dropboxusercontent.com/u/264530/qiita/using_pcl_on_xamarin_studio01.png)
-3. Nuget Manager から mvvmcorss で検索して "MvvmCross - Hot Tuna  Starter Pack" を Add してもエラーになる。![img1](https://dl.dropboxusercontent.com/u/264530/qiita/using_pcl_on_xamarin_studio02.png)
+2. プロジェクト設定を見ると Xamarin.Android、Xamarin.iOS などがあるが、これらを**チェックしてOKしても適用されてない** ![img1](http://blog.amay077.net/assets/images/posts/using_pcl_on_xamarin_studio01.png)
+3. Nuget Manager から mvvmcorss で検索して "MvvmCross - Hot Tuna  Starter Pack" を Add してもエラーになる。![img1](http://blog.amay077.net/assets/images/posts/using_pcl_on_xamarin_studio02.png)
 
 うーん、ダメか？
 

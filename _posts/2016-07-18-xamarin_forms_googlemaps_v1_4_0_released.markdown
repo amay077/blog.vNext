@@ -13,7 +13,7 @@ Xamarin.Forms.GoogleMaps v1.4.0 をリリースしました。
 
 待望？のカスタムマーカーに対応しました。
 
-![image001](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_forms_googlemaps_v1_4_0_released_001.png)
+![image001](http://blog.amay077.net/assets/images/posts/xamarin_forms_googlemaps_v1_4_0_released_001.png)
 
 ## カスタムマーカーの使い方
 
@@ -49,13 +49,13 @@ pin.Icon = BitmapDescriptorFactory.FromBundle("image01.png");
 
 Android側のプロジェクトの ``Assets`` ディレクトリ内に ``image01.png`` を追加し、 Build Action を ”Android Asset” に設定します。
 
-![image001](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_forms_googlemaps_v1_4_0_released_002.png)
+![image001](http://blog.amay077.net/assets/images/posts/xamarin_forms_googlemaps_v1_4_0_released_002.png)
 
 #### iOS の場合
 
 iOS側のプロジェクト ``image01.png`` を追加し、 Build Action を ”BundleResource” に設定します。
 
-![image001](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_forms_googlemaps_v1_4_0_released_003.png)
+![image001](http://blog.amay077.net/assets/images/posts/xamarin_forms_googlemaps_v1_4_0_released_003.png)
 
 ### 共通の画像リソースを使用する
 
@@ -77,7 +77,7 @@ pin.Icon = BitmapDescriptorFactory.FromStream(stream);
 
 「プラットフォーム毎の画像リソースを使用する」「共通の画像リソースを使用する」で見られる現象なのですが、iOS と Android では **同じサイズの画像を指定しているのに iOS の方が大きく描画されます**
 
-![image001](https://dl.dropboxusercontent.com/u/264530/qiita/xamarin_forms_googlemaps_v1_4_0_released_004.png)
+![image001](http://blog.amay077.net/assets/images/posts/xamarin_forms_googlemaps_v1_4_0_released_004.png)
 
 なぜこうなるのか分かりませんが、 [Google Maps SDK for iOS](https://developers.google.com/maps/documentation/ios-sdk/intro?hl=ja) と [Google Maps Android API](https://developers.google.com/maps/documentation/android-api/intro?hl=ja) を直接使用した時もこうなるので、両者の仕様というかプラットフォーム自体の仕様なのかも知れません。
 

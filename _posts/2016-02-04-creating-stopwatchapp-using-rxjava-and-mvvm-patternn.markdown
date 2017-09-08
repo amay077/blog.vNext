@@ -45,7 +45,7 @@ categories: [RxJava, Android, ReactiveX, MVVM, Xamarin]
 
 # とりあえず、作ったもの
 
-![つくったもの](https://dl.dropboxusercontent.com/u/264530/qiita/rxjava_mvvm_stopwatch_00.gif)
+![つくったもの](http://blog.amay077.net/assets/images/posts/rxjava_mvvm_stopwatch_00.gif)
 
 左は Android-Java製、右は Xamarin.iOS製です。(Xamarin.Android製は省略)
 
@@ -55,7 +55,7 @@ categories: [RxJava, Android, ReactiveX, MVVM, Xamarin]
 
 構成図っぽいものを描くとこんな感じになります。
 
-![クラス図的なの](https://dl.dropboxusercontent.com/u/264530/qiita/rxjava_mvvm_stopwatch_01.png)
+![クラス図的なの](http://blog.amay077.net/assets/images/posts/rxjava_mvvm_stopwatch_01.png)
 
 ### Model
 
@@ -220,7 +220,7 @@ Xamarin(というか .NET) ではプラットフォーム非依存の処理を�
 
 Android と iOS でそれぞれに実装が必要なのは、View と、そのバインディングのみです。
 
-![クラス図的なの](https://dl.dropboxusercontent.com/u/264530/qiita/rxjava_mvvm_stopwatch_02.png)
+![クラス図的なの](http://blog.amay077.net/assets/images/posts/rxjava_mvvm_stopwatch_02.png)
 
 ## Reactive Extensions について
 

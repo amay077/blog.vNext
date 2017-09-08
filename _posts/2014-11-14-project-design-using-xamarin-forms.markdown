@@ -18,7 +18,7 @@ categories: [Xamarin, Android, iOS]
 
 　角丸四角形がプロジェクトを、矢印は依存を示す。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/project_design_using_xamarin_forms_01.png)
+![](http://blog.amay077.net/assets/images/posts/project_design_using_xamarin_forms_01.png)
 
 左から説明。
 

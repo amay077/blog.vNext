@@ -28,7 +28,7 @@ Xamarin.Forms で ``NavigationPage`` を使うと、 iOS では [ナビゲーシ
 
 これを実行すると、下のようになります。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/customize_back_button_in_Xamarin_forms_01.gif)
+![](http://blog.amay077.net/assets/images/posts/customize_back_button_in_Xamarin_forms_01.gif)
 
 Page2 に仕掛けているので、iOS では Page2 だけ、戻るボタンが表示されないのが確認できます。
 Android はちょっとわかりにくいですが、ActionBar のアイコンの横に着いている ＜ のアイコンが、 Page2 だけ表示されないのが確認できます。
@@ -55,7 +55,7 @@ Xamarin.Forms の NavigationPage も同じくです。
 
 これを実行すると、下のようになります。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/customize_back_button_in_Xamarin_forms_02.gif)
+![](http://blog.amay077.net/assets/images/posts/customize_back_button_in_Xamarin_forms_02.gif)
 
 Page2 に ``BackButtonTitle="BACK"`` を仕掛けているので、Page2 ではなく、それが戻り先となる Page3 の戻るボタンが「BACK」になっています。
 

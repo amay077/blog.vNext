@@ -32,21 +32,21 @@ package名が必要になるので、先に決めておきましょう。
 Xamarin Studio を起動します。
 ここでは Ice Cream Sandwich 用に作ります。(Android Application の方だと Support Library が要るので少し手順が増えるはず)
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/gmapv2_from_xamarin_component_01.png)
+![img](http://blog.amay077.net/assets/images/posts/gmapv2_from_xamarin_component_01.png)
 
 ### 3. プロジェクトに「Google Play Service」コンポーネントを追加する
 
 メニュー → プロジェクト → Get More Components から、、、
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/gmapv2_from_xamarin_component_03.png)
+![img](http://blog.amay077.net/assets/images/posts/gmapv2_from_xamarin_component_03.png)
 
 Google Play Services を検索して Add to App します。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/gmapv2_from_xamarin_component_04.png)
+![img](http://blog.amay077.net/assets/images/posts/gmapv2_from_xamarin_component_04.png)
 
 すると、プロジェクトに Google Play Services が追加されます。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/gmapv2_from_xamarin_component_05.png)
+![img](http://blog.amay077.net/assets/images/posts/gmapv2_from_xamarin_component_05.png)
 
 ここで一度、Xamarin Studio を再起動しておいた方が無難です。
 このまま継続したら、追加されたアセンブリがうまく読み込まれてない場合がありました。
@@ -92,7 +92,7 @@ namespace GoogleMapV2Sample
 
 まず Xamarin.Android では、最初は AndroidManifest.xml が生成されていないので、メニュー → プロジェクト → xxx のオプション から、下図のように [Add Android manifest] します。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/gmapv2_from_xamarin_component_06.png)
+![img](http://blog.amay077.net/assets/images/posts/gmapv2_from_xamarin_component_06.png)
 
 次に作成された AndroidManifest.xml を開いて、以下のようにします。
 
@@ -134,7 +134,7 @@ namespace GoogleMapV2Sample
 設定が正しくできていれば、地図が表示されるはずです。
 アプリが落ちるなら Main.cs や Main.axml が、地図が表示されないなら AndroidManifest.xml や Google API Console での設定が間違っていると思います。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/gmapv2_from_xamarin_component_07.png)
+![img](http://blog.amay077.net/assets/images/posts/gmapv2_from_xamarin_component_07.png)
 
 
 ## まとめなど

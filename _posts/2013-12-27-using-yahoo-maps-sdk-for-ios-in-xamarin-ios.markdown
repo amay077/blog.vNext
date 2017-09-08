@@ -45,17 +45,17 @@ SDK のダウンロードは、
 Xamarin Studio で新しいソリューションを作ります。
 iOS → iOS Binding Project で、名前は 「YMapBinding」、ソリューション名は「YMapSample」とします。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_ymapsdk_on_xamarin_ios_01.png)
+![](http://blog.amay077.net/assets/images/posts/using_ymapsdk_on_xamarin_ios_01.png)
 
 ### 3. Yahoo! iOSマップSDK のライブラリファイルを Binding プロジェクトに入れる
 
 ダウンロードした Yahoo! iOSマップSDK を解凍して、中に含まれる ``YMapKit`` ファイルを ``libYMapKit.a`` にリネームします。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_ymapsdk_on_xamarin_ios_02.png)
+![](http://blog.amay077.net/assets/images/posts/using_ymapsdk_on_xamarin_ios_02.png)
 
 Xamarin Studio で、YMapBinding プロジェクトに ``libYMapKit.a`` を追加します。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_ymapsdk_on_xamarin_ios_03.png)
+![](http://blog.amay077.net/assets/images/posts/using_ymapsdk_on_xamarin_ios_03.png)
 
 ### 4. Yahoo! iOSマップSDK の API定義を C# で書く
 
@@ -99,13 +99,13 @@ Yahoo! iOSマップSDK が依存するライブラリを Frameworks に列挙し
 
 YMapSample ソリューションに 新しいプロジェクト を追加、iPhone の Single view Application 、名称は「YMapApp」とします。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_ymapsdk_on_xamarin_ios_04.png)
+![](http://blog.amay077.net/assets/images/posts/using_ymapsdk_on_xamarin_ios_04.png)
 
 YMapApp プロジェクトを右クリックして、スタートアッププロジェクトをこちらに変更しておきます。
 
 次に、参照設定で YMapBinding を追加します。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_ymapsdk_on_xamarin_ios_05.png)
+![](http://blog.amay077.net/assets/images/posts/using_ymapsdk_on_xamarin_ios_05.png)
 
 #### 6. Yahoo! iOSマップSDK を表示するコードを書く
 
@@ -130,7 +130,7 @@ public override void ViewDidLoad()
 
 YMapApp を iOSシミュレータで実行してみます。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_ymapsdk_on_xamarin_ios_06.gif)
+![](http://blog.amay077.net/assets/images/posts/using_ymapsdk_on_xamarin_ios_06.gif)
 
 はい、このように「とりあえず」Yahoo! iOSマップSDK を Xamarin.iOS で動かすことができました。
 

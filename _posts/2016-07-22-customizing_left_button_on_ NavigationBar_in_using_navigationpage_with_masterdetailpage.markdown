@@ -20,7 +20,7 @@ Xamarin.Forms では、左からスライドして出てくるメニューを持
 
 何がしたいかというと、両者を組み合わせたいんです。こういうことってよくありませんかね？
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/customizing_left_navvigationbar_button_in_masterdetail_with_navigation_pages_01.png)
+![](http://blog.amay077.net/assets/images/posts/customizing_left_navvigationbar_button_in_masterdetail_with_navigation_pages_01.png)
 
 起動画面で「新規ユーザー登録」があって、「ユーザー登録画面」を経て、メインの画面に遷移する、メイン画面にはスライドメニューがある、というパターン。これを Xamarin.Forms でやりたいのです。
 
@@ -28,13 +28,13 @@ Xamarin.Forms では、左からスライドして出てくるメニューを持
 
 ところが、 ``NavigationPage`` で遷移していく画面の中に ``MasterDetailPage`` があると、 ``NavigationPage`` の方が勝ってしまい、ナビゲーションバーには「BACK」ボタンが表示されてしまいます。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/customizing_left_navvigationbar_button_in_masterdetail_with_navigation_pages_02.png)
+![](http://blog.amay077.net/assets/images/posts/customizing_left_navvigationbar_button_in_masterdetail_with_navigation_pages_02.png)
 
 これを消そうと、``MasterDetailPage`` のコンストラクタで ``NavigationPage.SetHasBackButton(this, false)`` してみます。
 
 その結果がこれ。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/customizing_left_navvigationbar_button_in_masterdetail_with_navigation_pages_03.png)
+![](http://blog.amay077.net/assets/images/posts/customizing_left_navvigationbar_button_in_masterdetail_with_navigation_pages_03.png)
 
 Android の方は望む結果になったけど、iOSの方はうーん…、BACKボタンは消えたけど、メニューを表示させるボタンが出ません。
 
@@ -84,7 +84,7 @@ namespace MasterDetail.iOS
 「MENU」ってボタンを、ナビゲーションバーの左側に追加しています。
 こんな CustomRenderer を iOS 側のプロジェクトに追加して実行してみます。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/customizing_left_navvigationbar_button_in_masterdetail_with_navigation_pages_04.png)
+![](http://blog.amay077.net/assets/images/posts/customizing_left_navvigationbar_button_in_masterdetail_with_navigation_pages_04.png)
 
 オーケーオーケー、これが私が求めていたソリューションです。
 
@@ -175,7 +175,7 @@ public class RootPage : MasterDetailPage
 
 ```
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/customizing_left_navvigationbar_button_in_masterdetail_with_navigation_pages_05.png)
+![](http://blog.amay077.net/assets/images/posts/customizing_left_navvigationbar_button_in_masterdetail_with_navigation_pages_05.png)
 
 こちらも、CustomRenderer と同じことができました。
 

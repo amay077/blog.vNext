@@ -24,13 +24,13 @@ MvvmCross っていうフレームワークの Tutorial 動画で Visual Studio 
 
 システムメニュー → Preference → テキストエディタ → コード テンプレート です。
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/using_code_template_in_xamarin_studio_01.png)
+![img1](http://blog.amay077.net/assets/images/posts/using_code_template_in_xamarin_studio_01.png)
 
 ###  2. コードテンプレートを作成する
 
 追加 で "新しいテンプレート" の画面を開き、
 
-![img2](https://dl.dropboxusercontent.com/u/264530/qiita/using_code_template_in_xamarin_studio_02.png)
+![img2](http://blog.amay077.net/assets/images/posts/using_code_template_in_xamarin_studio_02.png)
 
 のように設定します。
 
@@ -65,11 +65,11 @@ OK を押して保存します。
 
 コードエディタで ``pmvx`` とタイプすると、
 
-![img2](https://dl.dropboxusercontent.com/u/264530/qiita/using_code_template_in_xamarin_studio_03.png)
+![img2](http://blog.amay077.net/assets/images/posts/using_code_template_in_xamarin_studio_03.png)
 
 となり、タブを2回ほど押すと、
 
-![img2](https://dl.dropboxusercontent.com/u/264530/qiita/using_code_template_in_xamarin_studio_04.png)
+![img2](http://blog.amay077.net/assets/images/posts/using_code_template_in_xamarin_studio_04.png)
 
 と、テンプレートコードが挿入されます。
 あとは、ハイライトされている部分を変更すると、テンプレート内も連動して変更されます。

@@ -19,7 +19,7 @@ http://www.modern.ie/ja/virtualization-tools#downloads
 
 から、ホストPC の OS と仮想マシンの形式を選択します。
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/how_to_use_ie_testdrive01.png)
+![img1](http://blog.amay077.net/assets/images/posts/how_to_use_ie_testdrive01.png)
 
 次に、テストしたい IE と OS のバージョンの組み合わせから、目的の仮想マシンをダウンロードします。Mac の場合は "Grab them all with cURL" の内容を Terminal にコピペして、一括ダウンロードができます。
 
@@ -44,7 +44,7 @@ chmod +x IE10.Win7.For.MacVMware.part01.sfx
 起動するとこんな画面になります。
 ネットワークドライバなどがインストールされて、ホストPC とブリッジ接続でインターネットにもつながります。
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/how_to_use_ie_testdrive02.png)
+![img1](http://blog.amay077.net/assets/images/posts/how_to_use_ie_testdrive02.png)
 
 ## 日本語キーボードを設定する
 
@@ -52,24 +52,24 @@ chmod +x IE10.Win7.For.MacVMware.part01.sfx
 デバイスマネージャを開きます。
 スタートメニュー → 検索ボックスに ``devmgmt.msc`` を打ち込むのが（説明上）手っ取り早いです。
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/how_to_use_ie_testdrive03.png)
+![img1](http://blog.amay077.net/assets/images/posts/how_to_use_ie_testdrive03.png)
 
 Keyboards - Standard PS/2 Keyboard を右クリックして Properties を表示し、Driver タブから [Update Driver] ボタンを押します。
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/how_to_use_ie_testdrive04.png)
+![img1](http://blog.amay077.net/assets/images/posts/how_to_use_ie_testdrive04.png)
 
 "Browse my computer …" を押します。
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/how_to_use_ie_testdrive05.png)
+![img1](http://blog.amay077.net/assets/images/posts/how_to_use_ie_testdrive05.png)
 
 "Let me pick from…" を押します。
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/how_to_use_ie_testdrive06.png)
+![img1](http://blog.amay077.net/assets/images/posts/how_to_use_ie_testdrive06.png)
 
 Show compatible hardware のチェックを **外し** ます。
 次に (Standard keyborads) から "Japanese PS/2 Keyboard (106/109 Key Ctrl + Eisuu)" を選択して Next を押します。
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/how_to_use_ie_testdrive07.png)
+![img1](http://blog.amay077.net/assets/images/posts/how_to_use_ie_testdrive07.png)
 
 ウィザードの手順に従ってインストール完了後、仮想マシンを一旦再起動します。
 
@@ -79,30 +79,30 @@ Show compatible hardware のチェックを **外し** ます。
 
 コントロールパネル から "Change display language" を押します。
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/how_to_use_ie_testdrive08.png)
+![img1](http://blog.amay077.net/assets/images/posts/how_to_use_ie_testdrive08.png)
 
 "Administrative" タブから "Change system locale" を押し、"Japanese" を選択します。
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/how_to_use_ie_testdrive09.png)
+![img1](http://blog.amay077.net/assets/images/posts/how_to_use_ie_testdrive09.png)
 
 その後、また再起動します。
 
 再起動後、タスクトレイに [EN] という言語選択のアイコンが表れるので、[JP] にすると日本語キーボードになります。
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/how_to_use_ie_testdrive11.png)
+![img1](http://blog.amay077.net/assets/images/posts/how_to_use_ie_testdrive11.png)
 
 いちいち切り替えるのは面倒なので、デフォルトを Japanese にしておきます。
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/how_to_use_ie_testdrive12.png)
+![img1](http://blog.amay077.net/assets/images/posts/how_to_use_ie_testdrive12.png)
 
 ついでに、時刻や通過表示も Japanese にします。
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/how_to_use_ie_testdrive13.png)
+![img1](http://blog.amay077.net/assets/images/posts/how_to_use_ie_testdrive13.png)
 
 忘れていました。タイムゾーンの変更もしておきます。
 コントロールパネル の "Change the time zone" から、[Osaka, Sapporo, Kyoto] を選択します。
 
-![img1](https://dl.dropboxusercontent.com/u/264530/qiita/how_to_use_ie_testdrive14.png)
+![img1](http://blog.amay077.net/assets/images/posts/how_to_use_ie_testdrive14.png)
 
 ## 表示を日本語にする
 

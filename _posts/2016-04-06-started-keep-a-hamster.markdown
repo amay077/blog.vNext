@@ -11,7 +11,7 @@ categories: [YouTube, Live配信]
 
 <!--more-->
 
-![image02](https://dl.dropboxusercontent.com/u/264530/qiita/started_keep_a_hamster_02.jpg)
+![image02](http://blog.amay077.net/assets/images/posts/started_keep_a_hamster_02.jpg)
 
 ジャンガリアンです。
 
@@ -63,7 +63,7 @@ YouTube Live では、 [Open Broadcast Software](https://obsproject.com/) （通
 
 今のところこんな感じで配信しています。
 
-![image02](https://dl.dropboxusercontent.com/u/264530/qiita/started_keep_a_hamster_01.png)
+![image02](http://blog.amay077.net/assets/images/posts/started_keep_a_hamster_01.png)
 
 アドレスはここでは公開しませんが、適当なキーワードで検索すれば見つかるのでしょう。
 

@@ -25,11 +25,11 @@ categories: [Xamarin, XAC13, iOS, Android, C#, Azure, BaaS]
 
 まずは https://manage.windowsazure.com にアクセスし、モバイル サービス から、前回作った名前をクリックします。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_azure_mobile_service_by_xamarin_2_01.png)
+![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_2_01.png)
 
 次に上部メニューからダッシュボードを選択します。表示されるページの左下の方にある「モバイルサービスURL」の値をコピーしておきます。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_azure_mobile_service_by_xamarin_2_02.png)
+![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_2_02.png)
 
 次に、どのサービスの認証を利用するかを決めます（Microsoft, Facebook, Twitter, Google）。この説明では Twitter を使うことにします。
 
@@ -47,7 +47,7 @@ Twitter での操作方法は下を開きます。
 
 上部メニューの ID をクリック、その後、「twitter 設定」に先ほど取得した コンシューマ キー とコンシューマ シークレット を貼り付けて、一番下にある「保存」をクリックします。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_azure_mobile_service_by_xamarin_2_03.png)
+![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_2_03.png)
 
 続いて、テーブルに権限を与えます
 
@@ -57,11 +57,11 @@ Twitter での操作方法は下を開きます。
 
 まず上部メニューの データ → TodoItem をクリックします。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_azure_mobile_service_by_xamarin_2_04.png)
+![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_2_04.png)
 
 次に、アクセス許可 をクリックし、全ての項目で「認証されたユーザーのみ」を選択します。その後「保存」します。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_azure_mobile_service_by_xamarin_2_05.png)
+![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_2_05.png)
 
 マネージメントポータル側の設定は以上です。
 Twitter での認証設定を追加し、またテーブルには、認証されたユーザーでしかアクセスできない権限を設定しました。
@@ -94,7 +94,7 @@ Twitter での認証設定を追加し、またテーブルには、認証され
 
 さて、iOS シミュレータ で動かしてみましょう。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_azure_mobile_service_by_xamarin_2_06.gif)
+![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_2_06.gif)
 
 こんな感じで、Twitter による認証機能をアプリに組み込むことができました。
 

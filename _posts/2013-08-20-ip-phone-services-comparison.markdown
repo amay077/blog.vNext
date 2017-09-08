@@ -57,7 +57,7 @@ iPhone 版は先行してたようですが、Android 版がリリースされ�
 
 専ら待ち受けでしょうから、こんなもんでいいでしょう。
 
-![img](https://dl.dropboxusercontent.com/u/264530/qiita/comparision_ip_phone_services_01.png)
+![img](http://blog.amay077.net/assets/images/posts/comparision_ip_phone_services_01.png)
 
 通話時間が少ないと Fusion が有利です。050plus は、固定電話への通話が安いので、たくさんかける人には有利です。
 Skype も意外と安いようですが、電話をかける度に「接続料」なる費用がかかるので、やはりたくさん使う人には不利です。

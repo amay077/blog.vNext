@@ -7,7 +7,7 @@ categories: [skitch]
 ---
 画像に文字や図形を描くとき多用している Skitch ですが、ファイルのエクスポートに「Skitch PNG」という謎のファイル形式があるのを発見。
 <!--more-->
-![](https://dl.dropboxusercontent.com/u/264530/qiita/skitch_png_01.png)
+![](http://blog.amay077.net/assets/images/posts/skitch_png_01.png)
 
 調べてみると、
 
@@ -19,13 +19,13 @@ categories: [skitch]
 
 ## 試しに
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/skitch_png_02.png)
+![](http://blog.amay077.net/assets/images/posts/skitch_png_02.png)
 
 [photo by Nesster, CC-BY](http://www.gatag.net/10/16/2009/110000.html)
 
 上の画像、「Skitch PNG」で保存したものですが、Skitch で開き直すと、下図のように文字や矢印が再編集できます。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/skitch_png_03.png)
+![](http://blog.amay077.net/assets/images/posts/skitch_png_03.png)
 
 これからはこれをデフォで使っていこうと思います。
 ちなみに「モザイク」は復元できないみたいです。うむ安全設計。

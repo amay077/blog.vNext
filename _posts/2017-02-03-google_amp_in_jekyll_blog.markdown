@@ -139,7 +139,7 @@ cd ..
 ここまで対応して、ほとんどのページを AMP 対応にする事ができた。
 2017/2/3現在では、まだ AMP として認識されているページは少ないけど、放っておけば更新されてくのかな？
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/google_amp_in_jekyll_blog_01.png)
+![](http://blog.amay077.net/assets/images/posts/google_amp_in_jekyll_blog_01.png)
 
 AMP 対応した方が SEO 的にも効く、との情報もあるけど、まあそのへんは期待してないです。
 

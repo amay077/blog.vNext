@@ -47,7 +47,7 @@ Getting Started は試せませんでしたが、github に含まれるサンプ
 
 [QuickCross.ios.sln](https://github.com/MacawNL/QuickCross/blob/master/QuickCross.ios.sln) を Xamarin Studio で開いて実行したところ↓
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/introduce_quickcross_01.png)
+![](http://blog.amay077.net/assets/images/posts/introduce_quickcross_01.png)
 
 MvvmCross と同じく、ViewModel などは Shared プロジェクトの方にあります。
 Shared プロジェクトは PCL にできるんじゃないかなーと思いやってみましたが、

@@ -94,7 +94,7 @@ docker@boot2docker:~$ docker run -i -t -p 9200:9200 -p 9300:9300 amay077/es_clus
 1つ起動した時点で、ホストPC（Mac）のブラウザから http://localhost:9200/_plugin/head/ にアクセスします。
 あ、その前に VirtualBox の設定で、9200と9300のポートフォワーディングを行う必要があります。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/trying-auto-rebalancing-by-elasticsearch-on-docker_04.png)
+![](http://blog.amay077.net/assets/images/posts/trying-auto-rebalancing-by-elasticsearch-on-docker_04.png)
 
 設定できたら先のアドレスにアクセスすると elasticsearch-head の管理画面が表示されるはずです。
 
@@ -116,7 +116,7 @@ curl -XPOST 'http://localhost:9200/mytest/memo/' -d '{ "name" : "kappa", "date" 
 
 投入後、 http://localhost:9200/_plugin/head/ を見ると、
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/trying-auto-rebalancing-by-elasticsearch-on-docker_01.png)
+![](http://blog.amay077.net/assets/images/posts/trying-auto-rebalancing-by-elasticsearch-on-docker_01.png)
 
 となっています。４台のサーバにデータが分散して登録されたことが分かります。四角内の数字（0〜4）は、「データが5つに分割され」て、その「ブロックがどのサーバに配置されているか」を示していて、太枠がプライマリ、細枠がスレーブであることを示しています。
 いずれのサーバが死んでも、データの欠損なくサービス継続できることを示しています。
@@ -134,11 +134,11 @@ docker@boot2docker:~$ docker run -i -t -p 9204:9200 -p 9304:9300 amay077/es_clus
 
 その後 elasticsearch-head を見ると、
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/trying-auto-rebalancing-by-elasticsearch-on-docker_01.png)
+![](http://blog.amay077.net/assets/images/posts/trying-auto-rebalancing-by-elasticsearch-on-docker_01.png)
 
 となり、しばらくしてから Refresh すると、
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/trying-auto-rebalancing-by-elasticsearch-on-docker_03.png)
+![](http://blog.amay077.net/assets/images/posts/trying-auto-rebalancing-by-elasticsearch-on-docker_03.png)
 
 となります。
 

@@ -26,7 +26,7 @@ categories: [.NET, BotFramework, C#, skype, VisualStudio]
 
 まで行うことができました。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/my_first_bot_app_01.jpg)
+![](http://blog.amay077.net/assets/images/posts/my_first_bot_app_01.jpg)
 
 ## コンソールアプリから Skype のユーザー（クライアント）へメッセージを送信する
 
@@ -78,7 +78,7 @@ static void Main(string[] args)
 
 このプログラムを実行すると、 ``userAccount`` が示すSkypeユーザー(ここでは私)に「こんにちわ」のメッセージが送信されます、やった！
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/my_first_bot_app_02.png)
+![](http://blog.amay077.net/assets/images/posts/my_first_bot_app_02.png)
 
 今作りたいと思っているのは「タイムカード打刻BOT」で、月末に EXCEL に退勤時間を書くのが面倒なので、毎日、18:00 になったら、Botに「仕事おわった？」と聞いて欲しいのです。「はい」と回答すればその時刻を打刻、「いいえ」と答えたら１時間後にまた聞いてくる・・・、という感じで（弊社は Skype 常時起動させてるから Skype で試してるけど Bot Connector により Slack などの別ツールにも対応できるはず）。
 

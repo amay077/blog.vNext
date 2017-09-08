@@ -68,6 +68,6 @@ Xamarin.iOS の APIデザインについては、公式サイトに説明があ�
 
 最後に、作ったサンプルを動かしてみます。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/calling_csharp_from_webview_01.gif)
+![](http://blog.amay077.net/assets/images/posts/calling_csharp_from_webview_01.gif)
 
 なんか ``LoadFinished`` が２回呼ばれてる。重複チェックしなきゃダメですね

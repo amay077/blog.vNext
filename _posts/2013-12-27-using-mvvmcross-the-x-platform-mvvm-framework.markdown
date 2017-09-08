@@ -58,7 +58,7 @@ MvvmCross を使うと、MVVM パターンでいうところの Model, ViewModel
 
 図にすると下のような感じです。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_mvvmcross_2_01.png)
+![](http://blog.amay077.net/assets/images/posts/using_mvvmcross_2_01.png)
 
 「Model でプラットフォーム固有の機能使いたい場合もあるじゃん？」とかにも対応しているので、これが全てでは無いですが、最初の説明としてはこんなもんです。
 
@@ -92,7 +92,7 @@ MvvmCross の現在 Stable なのは「v3」で、その Tutorials が
 
 Xamarin Studio にて、新しいソリューションと「Portable Library」プロジェクトを作ります。プロジェクト名は “FirstDemo.Core”、ソリューション名は “FirstDemo” とします。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_mvvmcross_2_02.png)
+![](http://blog.amay077.net/assets/images/posts/using_mvvmcross_2_02.png)
 
 ### 2. MvvmCross のバイナリをダウンロードする
 
@@ -106,7 +106,7 @@ FirstDemo.Core プロジェクトに、先ほどダウンロードした ``MvvmC
 * Cirrious.MvvmCross.dll
 * Cirrious.MvvmCross.Localization.dll
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_mvvmcross_2_03.png)
+![](http://blog.amay077.net/assets/images/posts/using_mvvmcross_2_03.png)
 
 ### 4. FirstViewModel クラス、App クラスの実装
 
@@ -178,7 +178,7 @@ namespace FirstDemo.Core
 
 ソリューションに Android Application プロジェクトを追加します。名前は “FirstDemo.Droid” とします。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_mvvmcross_2_04.png) 
+![](http://blog.amay077.net/assets/images/posts/using_mvvmcross_2_04.png) 
 
 ### 6. FirstDemo.Droid にアセンブリ参照を追加する
 
@@ -195,7 +195,7 @@ namespace FirstDemo.Core
 
 「*」付きのアセンブリは ``MvvmCross-Binaries-3.1/VS2012/bin/Release/Mvx/Droid/`` から、付いてないアセンブリは Core と同じく ``MvvmCross-Binaries-3.1/VS2012/bin/Release/Mvx/Portable/`` から追加します。後ろに “Droid” と付いているものは、プラットフォーム用のフォルダから持ってきましょうという事ですね。 
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_mvvmcross_2_05.png)
+![](http://blog.amay077.net/assets/images/posts/using_mvvmcross_2_05.png)
 
 ### 7. FirstView クラス、Setup クラスの実装
 
@@ -286,7 +286,7 @@ Xamarin Studio の Android用 UI デザイナは強力なので、ここだけ�
 
 ``Main.axml`` を開いて、レイアウトされているボタンを削除し、「Plain Text」を2つと、Text(Mid) を1つ、縦に並べて配置します。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_mvvmcross_2_06.png)
+![](http://blog.amay077.net/assets/images/posts/using_mvvmcross_2_06.png)
 
 ### 10. データバインディングを記述する
 
@@ -323,7 +323,7 @@ Android 側では、初期化を除けば **何も実装してない** のがミ
 
 エミュレータで実行してみると、こんな感じです。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_mvvmcross_2_07.gif)
+![](http://blog.amay077.net/assets/images/posts/using_mvvmcross_2_07.gif)
 
 Steve を痛恨のスペルミスしたけど、まあいいや。
 
@@ -335,7 +335,7 @@ Steve を痛恨のスペルミスしたけど、まあいいや。
 
 ソリューションに iPhone Application プロジェクトを追加します。Storyboard を使ってみましょう。名前は “FirstDemo.Touch” とします。(iOS 版の接尾辞に ”Touch” を使うのは、Xamarin.iOS の以前の名称である ”MonoTouch” からだと思いますが、大文字で始まる .NET 文化の中では “iOS” はとかく都合が悪いので、Touch という接尾辞は私も気に入っています。)
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_mvvmcross_2_08.png)
+![](http://blog.amay077.net/assets/images/posts/using_mvvmcross_2_08.png)
 
 ### 13. FirstDemo.Touch にアセンブリ参照を追加する
 
@@ -352,7 +352,7 @@ Android の場合と同様、FirstDemo.Core をプロジェクト参照で追加
 
 「*」付きのアセンブリは MvvmCross-Binaries-3.1/VS2012/bin/Release/Mvx/Touch/ から、付いてないアセンブリは Core と同じく MvvmCross-Binaries-3.1/VS2012/bin/Release/Mvx/Portable/ から追加します。後ろに “Touch” と付いているものは、プラットフォーム用のフォルダから持ってきましょうという事ですね。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_mvvmcross_2_09.png)
+![](http://blog.amay077.net/assets/images/posts/using_mvvmcross_2_09.png)
 
 ### 14. Setup クラス, AppDelegate クラス、FirstView クラスの実装
 
@@ -414,7 +414,7 @@ namespace FirstDemo.Touch
 FirstView.cs は、FirstDemo.FirstDemoViewController.cs をリネームして作成します。Views フォルダを作って移動もしましょう。
 また、``MvxViewConroller`` から派生させるように変更します。
 
- ![](https://dl.dropboxusercontent.com/u/264530/qiita/using_mvvmcross_2_10.png)
+ ![](http://blog.amay077.net/assets/images/posts/using_mvvmcross_2_10.png)
 
 ### 15. iOS の UI を作る
 
@@ -423,7 +423,7 @@ iOS 版の画面をレイアウトします。
 
 下の図は、Xamarin Studio α版の iOS デザイナ を使った例です。[以前に紹介した](http://qiita.com/amay077/items/716742474bce343c5729)ものです。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_mvvmcross_2_11.png)
+![](http://blog.amay077.net/assets/images/posts/using_mvvmcross_2_11.png)
 
 TextField 2つと、Label を、``textEditFirst``, ``textEditLast``, ``labelFull`` という変数にしておきます。
 
@@ -470,7 +470,7 @@ namespace FirstDemo.Touch
 
 動画では、Windows であるため Mac にリモート接続して実行していますが、Mac+Xamarin Studio なら即実行できます。
 
-![](https://dl.dropboxusercontent.com/u/264530/qiita/using_mvvmcross_2_12.gif)
+![](http://blog.amay077.net/assets/images/posts/using_mvvmcross_2_12.gif)
 
 ## MvvmCross についてのまとめ
 
