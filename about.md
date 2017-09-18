@@ -18,7 +18,13 @@ Build Insider にて、 [Xamarin逆引きTips](http://www.buildinsider.net/mobil
 
 よゐこ濱口に似てるらしいです。
 
-詳しいプロフィールは Wantedly のプロフィールに書いたので、見たい方は twitter などでご連絡ください。
+## BOOKS(共著)
+
+技術書典2で頒布した Essential Xamarin Yin陰/Yang が、商業本としてインプレスR&Dより発売中です！
+
+[Essential Xamarin ネイティブからクロスプラットフォームまで モバイル.NETの世界 (技術書典シリーズ(NextPublishing))](http://amazon.jp/dp/4844397915/?tag=oku2008-22)
+
+まさか Amazon に [自分の著者ページ](https://www.amazon.co.jp/%E5%A5%A5%E5%B1%B1-%E8%A3%95%E7%B4%B3/e/B07592PGK2/ref=dp_byline_cont_book_4) ができるとは…
 
 ## 登壇、発表、出展など
 
