@@ -11,7 +11,7 @@ categories: [RxJava, RxAndroid, Android]
 
 　まずいきなり動作結果から。
 
-![](http://blog.amay077.net/assets/images/posts/complex_validation_with_rxjava_and_rxandroid.gif)
+![](/assets/images/posts/complex_validation_with_rxjava_and_rxandroid.gif)
 
 * 住所1は入力必須。
 * 住所2は「住所2へ配送する」がチェックされている場合のみ、入力必須。

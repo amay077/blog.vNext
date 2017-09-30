@@ -24,7 +24,7 @@ categories: [Xamarin, AdventCalendar]
 
 仕事中ずっと監視してました(ぉぃ)が、 Qiita 内では最速ｗｗｗ （下は記念スクショ）
 
-![](http://blog.amay077.net/assets/images/posts/join_xamarin_advent_calendar_2016_01.png)
+![](/assets/images/posts/join_xamarin_advent_calendar_2016_01.png)
 
 [@Fumiya_Kume](https://twitter.com/Fumiya_Kume) 君が作ってくれた 学生さん、初心者さん向け、
 
@@ -42,6 +42,6 @@ categories: [Xamarin, AdventCalendar]
 
 あ、Xamarin Advent Calendar 4つ、購読もよろしくおねがいします。
 
-[![](http://blog.amay077.net/assets/images/posts/join_xamarin_advent_calendar_2016_02.png)](http://qiita.com/advent-calendar/2016/xamarin)
+[![](/assets/images/posts/join_xamarin_advent_calendar_2016_02.png)](http://qiita.com/advent-calendar/2016/xamarin)
 
 参加登録していただいた皆さんは、担当日忘れないでくださいね(ﾆｯｺﾘ)

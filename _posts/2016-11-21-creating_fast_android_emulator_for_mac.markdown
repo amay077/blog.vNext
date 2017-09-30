@@ -32,7 +32,7 @@ Android Studio を起動して、適当な Android Project を作って下さい
 
 メニューの Android Studio -> Preference で設定画面を起動します。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_01.png)
+![](/assets/images/posts/making_android_haxm_emulator_01.png)
 
 Appearance & Behavior -> System Settings -> Android SDK を選択し、Android SDK Location の右横の「Edit」を押して、Xamarin や Visual Studio for Mac がインストールした Android SDK のパスを指定します。
 
@@ -40,7 +40,7 @@ Xamarin がインストールした Android SDK は通常 ``~/Library/Developer/
 
 逆に、 Xamarin Studio や、 Visual Studio for Mac 側の設定を、 Android Studio に合わせてもOKです。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_02.png)
+![](/assets/images/posts/making_android_haxm_emulator_02.png)
 
 Android SDK をどちらかに統一できたら、不要な方はディレクトリ毎削除して OK です。あ、 ``.bashrc`` などでパスを通してる場合はそちらの変更も忘れずに。
 
@@ -48,28 +48,28 @@ Android SDK をどちらかに統一できたら、不要な方はディレク�
 
 さて、 Android Studio の画面にもどって、ツールバーにある「AVD Manager」のアイコンをクリックします。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_a.png)
+![](/assets/images/posts/making_android_haxm_emulator_a.png)
 
 Android Vistual Device Manager の画面が表示されます。
 ここで「Create Virtual Device」をクリックします。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_b.png)
+![](/assets/images/posts/making_android_haxm_emulator_b.png)
 
 System Image の画面が表示されます。
 重要なのは右下、 **「Install Intel HAXM for better emulation performance」** の表示です。
 これが表示されているということは、PC に HAXM がインストールされていないので、その下にある **「Download and Install HAXM」** をクリックします。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_c.png)
+![](/assets/images/posts/making_android_haxm_emulator_c.png)
 
 「Download and Install HAXM」をクリックすると、Emulator Settings の画面になります。
 特に設定は変えずに「Next」を押します。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_d.png)
+![](/assets/images/posts/making_android_haxm_emulator_d.png)
 
 HAXM のインストールが完了しました。
 Finish で一旦画面を閉じて、再び「Create Virtual Device」をクリックします。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_e.png)
+![](/assets/images/posts/making_android_haxm_emulator_e.png)
 
 再び System Image の画面です。
 右下の、 「Install Intel HAXM for better emulation performance」 が消えているのがわかります。
@@ -78,21 +78,21 @@ Finish で一旦画面を閉じて、再び「Create Virtual Device」をクリ�
 試しに「Marshmallow」の「x86_64」を選択して「Next」をクリックします。
 （上の方の Release Name が ``null`` になってるの、なんででしょう？）
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_f.png)
+![](/assets/images/posts/making_android_haxm_emulator_f.png)
 
 Android Virtual Device の画面です。
 特に設定を変更せず、「Next」をクリックします。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_g.png)
+![](/assets/images/posts/making_android_haxm_emulator_g.png)
 
 はい、HAXM のインストールと、それを使用したエミュレータが作成されました。
 「実行」ボタンをクリックして、起動してみましょう。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_h.png)
+![](/assets/images/posts/making_android_haxm_emulator_h.png)
 
 起動して動かしてみた画面です。アニGIFなのでうまく伝えられてないかもですが、普通の Android エミュレータよりは全然速いです。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_03.gif)
+![](/assets/images/posts/making_android_haxm_emulator_03.gif)
 
 ということで、 Android Studio を使うと、もはや「普通の手順で」作られるエミュレータが、高速な HAXM エミュレータになっています。
 
@@ -102,7 +102,7 @@ Android Virtual Device の画面です。
 
 下図は Visual Studio for Mac で、 Xamarin.Android のプロジェクトを実行するところですが、Android Studio で先ほど作成したエミュレータが選択肢に出てきます。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_i.png)
+![](/assets/images/posts/making_android_haxm_emulator_i.png)
 
 ## まとめ
 

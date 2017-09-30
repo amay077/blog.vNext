@@ -12,7 +12,7 @@ description: >
   Try and try again
 logo: "/assets/images/logo.svg"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.amay077.net" # the base hostname & protocol for your site
+url: "https://blog.amay077.net" # the base hostname & protocol for your site
 
 permalink: /blog/:year/:month/:day/:title/
 

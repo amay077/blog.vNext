@@ -19,15 +19,15 @@ categories: [Xamarin, Android, 勉強会]
 
 久しぶりのさわやかだったので、定番のげんこつを外せず今回は断念した さわやかバーガー のメニュー
 
-![](http://blog.amay077.net/assets/images/posts/joined_xamarin_hands_on_ad_hamamatsu_01.jpg)
+![](/assets/images/posts/joined_xamarin_hands_on_ad_hamamatsu_01.jpg)
 
 げんこつハンバーグ第一形態
 
-![](http://blog.amay077.net/assets/images/posts/joined_xamarin_hands_on_ad_hamamatsu_02.jpg)
+![](/assets/images/posts/joined_xamarin_hands_on_ad_hamamatsu_02.jpg)
 
 げんこつハンバーグ第二形態
 
-![](http://blog.amay077.net/assets/images/posts/joined_xamarin_hands_on_ad_hamamatsu_03.jpg)
+![](/assets/images/posts/joined_xamarin_hands_on_ad_hamamatsu_03.jpg)
 
 久しぶりだった、やっぱり旨かった、肉を喰ってるッ！って感じがした。
 

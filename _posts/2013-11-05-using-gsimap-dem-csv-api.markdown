@@ -20,11 +20,11 @@ categories: [Geo, GoogleMapsAPI, HTML5, JavaScript]
 
 ### Google Map 
 
-![img1](http://blog.amay077.net/assets/images/posts/using_gsimap_dem_csv_api_01.png)
+![img1](/assets/images/posts/using_gsimap_dem_csv_api_01.png)
 
 ### 標高タイルAPI で取得した標高値を描画
 
-![img1](http://blog.amay077.net/assets/images/posts/using_gsimap_dem_csv_api_02.png)
+![img1](/assets/images/posts/using_gsimap_dem_csv_api_02.png)
 
 ## 何をしているか？
 

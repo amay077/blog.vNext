@@ -23,7 +23,7 @@ Docker なら、サーバーの起動が容易なので、Auto-Rebalancing を�
 
 ## ubuntu の Docker コンテナに Elasticsearch をインストール
 
-[昨日](http://blog.amay077.net/blog/2014/08/05/docker-try-first/)使った ubuntu のコンテナに Elasticsearch をインストールします。
+[昨日](/blog/2014/08/05/docker-try-first/)使った ubuntu のコンテナに Elasticsearch をインストールします。
 
 Elasticsearch のインストールは、
 
@@ -94,7 +94,7 @@ docker@boot2docker:~$ docker run -i -t -p 9200:9200 -p 9300:9300 amay077/es_clus
 1つ起動した時点で、ホストPC（Mac）のブラウザから http://localhost:9200/_plugin/head/ にアクセスします。
 あ、その前に VirtualBox の設定で、9200と9300のポートフォワーディングを行う必要があります。
 
-![](http://blog.amay077.net/assets/images/posts/trying-auto-rebalancing-by-elasticsearch-on-docker_04.png)
+![](/assets/images/posts/trying-auto-rebalancing-by-elasticsearch-on-docker_04.png)
 
 設定できたら先のアドレスにアクセスすると elasticsearch-head の管理画面が表示されるはずです。
 
@@ -116,7 +116,7 @@ curl -XPOST 'http://localhost:9200/mytest/memo/' -d '{ "name" : "kappa", "date" 
 
 投入後、 http://localhost:9200/_plugin/head/ を見ると、
 
-![](http://blog.amay077.net/assets/images/posts/trying-auto-rebalancing-by-elasticsearch-on-docker_01.png)
+![](/assets/images/posts/trying-auto-rebalancing-by-elasticsearch-on-docker_01.png)
 
 となっています。４台のサーバにデータが分散して登録されたことが分かります。四角内の数字（0〜4）は、「データが5つに分割され」て、その「ブロックがどのサーバに配置されているか」を示していて、太枠がプライマリ、細枠がスレーブであることを示しています。
 いずれのサーバが死んでも、データの欠損なくサービス継続できることを示しています。
@@ -134,11 +134,11 @@ docker@boot2docker:~$ docker run -i -t -p 9204:9200 -p 9304:9300 amay077/es_clus
 
 その後 elasticsearch-head を見ると、
 
-![](http://blog.amay077.net/assets/images/posts/trying-auto-rebalancing-by-elasticsearch-on-docker_01.png)
+![](/assets/images/posts/trying-auto-rebalancing-by-elasticsearch-on-docker_01.png)
 
 となり、しばらくしてから Refresh すると、
 
-![](http://blog.amay077.net/assets/images/posts/trying-auto-rebalancing-by-elasticsearch-on-docker_03.png)
+![](/assets/images/posts/trying-auto-rebalancing-by-elasticsearch-on-docker_03.png)
 
 となります。
 

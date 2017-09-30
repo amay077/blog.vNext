@@ -17,7 +17,7 @@ Mac mini を購入したのが4年前くらいになるので、そろそろ買�
 
 かなりがんばった！
 
-![](http://blog.amay077.net/assets/images/posts/bought_macbookpro_2016_with_touchbar_03.png)
+![](/assets/images/posts/bought_macbookpro_2016_with_touchbar_03.png)
 
 ## TouchBar
 
@@ -32,11 +32,11 @@ WiFi、Xamarin Studio や VMWare Fusion などをガンガン使ってたので�
 
 これ、12/11 時点のバッテリーの減り方、尋常じゃない角度です。
 
-![](http://blog.amay077.net/assets/images/posts/bought_macbookpro_2016_with_touchbar_01.png)
+![](/assets/images/posts/bought_macbookpro_2016_with_touchbar_01.png)
 
 その後の 12/21 のバッテリーの減り方、きもーち角度が緩くなってます。
 
-![](http://blog.amay077.net/assets/images/posts/bought_macbookpro_2016_with_touchbar_02.png)
+![](/assets/images/posts/bought_macbookpro_2016_with_touchbar_02.png)
 
 今は、さらに角度が緩くなってる印象ですね。
 
@@ -88,7 +88,7 @@ USB Type-A ポートも付いているので、上記のアダプタを使わな
 フェルト製のケースで、事務用品っぽくはないです。
 13.3インチと少し大きめなのに加えて、新MBP が薄くなったので、収納にはかなり余裕があります。
 
-![](http://blog.amay077.net/assets/images/posts/bought_macbookpro_2016_with_touchbar_04.png)
+![](/assets/images/posts/bought_macbookpro_2016_with_touchbar_04.png)
 
 収納するとこんな感じです。
 

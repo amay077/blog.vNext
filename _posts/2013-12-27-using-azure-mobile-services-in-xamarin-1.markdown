@@ -48,15 +48,15 @@ Microsoft と Xamarin との提携により、Xamarin から Azure モバイル�
 
 下のような画面になるので、左メニューから モバイルサービス → 新しいモバイル サービスを作成する と進みます。
 
-![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_1_01.png)
+![](/assets/images/posts/using_azure_mobile_service_by_xamarin_1_01.png)
 
 URL に任意のIDを入力します(世界で一意になる必要があります)。また、地域を「東アジア」にします。
 
-![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_1_02.png)
+![](/assets/images/posts/using_azure_mobile_service_by_xamarin_1_02.png)
 
 続いて SQL Server の設定をします。ログイン名に任意のユーザー名、パスワードに任意のパスワードを設定します。
 
-![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_1_03.png)
+![](/assets/images/posts/using_azure_mobile_service_by_xamarin_1_03.png)
 
 ウィザードを終わると、マネージメントポータルに戻ります。しばらくの「作製中…」の後、状態が「準備完了」となり、これでモバイルサービスは作成完了です。
 
@@ -64,7 +64,7 @@ URL に任意のIDを入力します(世界で一意になる必要がありま�
 
 作成したモバイルサービスをクリックします。
 
-![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_1_04.png)
+![](/assets/images/posts/using_azure_mobile_service_by_xamarin_1_04.png)
 
 ここから、一気です。
 
@@ -73,22 +73,22 @@ URL に任意のIDを入力します(世界で一意になる必要がありま�
 3. 「TodoItem テーブルを作成する」をクリックして「作成されました」となるまで待ち、
 4. Xamarin.iOS 用のサンプルアプリケーションをダウンロードします。
 
-![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_1_05.png)
+![](/assets/images/posts/using_azure_mobile_service_by_xamarin_1_05.png)
 
 ダウンロードした zip ファイルを解答し、Xamarin Studio で開きます。
 参照 や Components を見ると、Azure Mobile Service 用のライブラリが組み込まれている事が分かります。
 
-![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_1_06.png)
+![](/assets/images/posts/using_azure_mobile_service_by_xamarin_1_06.png)
 
 Debug で iPhone シミュレータで動かしてみます。
 
-![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_1_07.gif)
+![](/assets/images/posts/using_azure_mobile_service_by_xamarin_1_07.gif)
 
 上の動画のように適当なアイテムを追加した後、ブラウザのマネージメントポータルで追加したデータを確認してみます。
 
 上部のメニュー から データ → TodoItem と進むと、追加されたデータが確認できます。
 
-![](http://blog.amay077.net/assets/images/posts/using_azure_mobile_service_by_xamarin_1_08.gif)
+![](/assets/images/posts/using_azure_mobile_service_by_xamarin_1_08.gif)
 
 以上です。Xamarin.iOS で Azure モバイルサービスにデータを登録するサンプルが手に入りました。
 

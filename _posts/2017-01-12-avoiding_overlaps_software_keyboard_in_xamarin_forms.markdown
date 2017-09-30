@@ -12,7 +12,7 @@ Xamarin.Forms で、ソフトウェアキーボードを表示した時の動き
 
 これ↓
 
-![](http://blog.amay077.net/assets/images/posts/keyboard_ovelapping_in_Xamarin_forms_04.gif)
+![](/assets/images/posts/keyboard_ovelapping_in_Xamarin_forms_04.gif)
 
 いわゆる LINE のような画面、リストビューと文字列入力があって、文字列入力にフォーカスが当たるとソフトウェアキーボードが表示され、その分リストビューの高さが縮む、という動きです。
 これを Xamarin.Forms(Android と iOS)で実現したいです。
@@ -21,7 +21,7 @@ Xamarin.Forms で、ソフトウェアキーボードを表示した時の動き
 
 Xamarin.Forms アプリの Android 側で、特になにもせずに LINE 風の画面を作って動かすと、下図のようになります。
 
-![](http://blog.amay077.net/assets/images/posts/keyboard_ovelapping_in_Xamarin_forms_01.png)
+![](/assets/images/posts/keyboard_ovelapping_in_Xamarin_forms_01.png)
 
 ソフトウェアキーボードによって、画面が隠れることはありませんが、ListView の高さが縮んでいるのではなく、 **画面全体が上へスライド** しています。そのため、キーボードを表示したまま、ListView の先頭の項目を見ることができません。
 
@@ -75,7 +75,7 @@ protected override void OnCreate(Bundle bundle)
 
 これを実行すると、
 
-![](http://blog.amay077.net/assets/images/posts/keyboard_ovelapping_in_Xamarin_forms_02.png)
+![](/assets/images/posts/keyboard_ovelapping_in_Xamarin_forms_02.png)
 
 ListView は適切に縮んでいますが、 **なんだあのステータスバー付近の空白は！！！**
 
@@ -113,14 +113,14 @@ protected override void OnCreate(Bundle bundle)
 
 リフレクションを使っていたり、 ``SetStatusBarColor`` が色固定になっていたりと激しく不安ですが、これでようやく、期待どおりの動きになりました。
 
-![](http://blog.amay077.net/assets/images/posts/keyboard_ovelapping_in_Xamarin_forms_03.png)
+![](/assets/images/posts/keyboard_ovelapping_in_Xamarin_forms_03.png)
 
 
 ## iOS の場合
 
 Xamarin.Forms の iOS 側で、特になにもせずに、ソフトウェアキーボードを表示させると、ListView と文字列入力項目の手前に被さってしまいます。
 
-![](http://blog.amay077.net/assets/images/posts/keyboard_ovelapping_in_Xamarin_forms_06.png)
+![](/assets/images/posts/keyboard_ovelapping_in_Xamarin_forms_06.png)
 
 通常の画面なら、 ScrollView で囲ってあげることで、適切に ScollView の高さが縮んで、その中がスクロール可能になります。
 が、ScrollView と ListView のようにスクローラブルなコントロールを入れ子で使うとトラブルの素なので、ScrollView は選択できません。
@@ -136,7 +136,7 @@ Xamarin.Forms の iOS 側での対策をググって探します。
 
 これを適用してみると、以下のような動きになります。
 
-![](http://blog.amay077.net/assets/images/posts/keyboard_ovelapping_in_Xamarin_forms_07.png)
+![](/assets/images/posts/keyboard_ovelapping_in_Xamarin_forms_07.png)
 
 んー、 Android 側の初期状態とおなじく、 **画面全体が上へスライド** しています。
 
@@ -181,7 +181,7 @@ private void ShiftPageDown(nfloat keyboardHeight, double activeViewBottom)
 
 これを動かすと、下図のようになります。
 
-![](http://blog.amay077.net/assets/images/posts/keyboard_ovelapping_in_Xamarin_forms_08.png)
+![](/assets/images/posts/keyboard_ovelapping_in_Xamarin_forms_08.png)
 
 iOS 側も、求めていた動きになりました。
 
@@ -189,7 +189,7 @@ iOS 側も、求めていた動きになりました。
 
 改めて、期待通りの動きになった Xamarin.Forms での画面(Android と iOS)です。
 
-![](http://blog.amay077.net/assets/images/posts/keyboard_ovelapping_in_Xamarin_forms_09.gif)
+![](/assets/images/posts/keyboard_ovelapping_in_Xamarin_forms_09.gif)
 
 Android 側は、 ``MainActivity.cs`` に ``UseWindowSoftInputModeAdjust(WindowSoftInputModeAdjust.Resize)`` と、WORKAROUND のコードを書きます。
 

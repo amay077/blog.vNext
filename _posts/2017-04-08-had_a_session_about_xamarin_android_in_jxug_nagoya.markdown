@@ -21,7 +21,7 @@ JXUG学生支部さん主催の名古屋での勉強会で、Xamarin につい�
 
 サブウェイおいしかったです。
 
-![](http://blog.amay077.net/assets/images/posts/had_a_session_about_xamarin_android_in_jxug_nagoya_01.png)
+![](/assets/images/posts/had_a_session_about_xamarin_android_in_jxug_nagoya_01.png)
 
 DroidKaigi はバリバリの Androidネイティブ開発者揃いの場で、それ用の資料だったので、MS系の多い？今回の勉強会では少し分かりづらいところがあったかも知れません。
 

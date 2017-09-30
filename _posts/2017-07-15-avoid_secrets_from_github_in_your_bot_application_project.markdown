@@ -54,7 +54,7 @@ Microsoft の Bot Framework を使った Bot Application の作成方法は、�
 
 ``Web.local.config`` は、 ``Web.config`` などと同じディレクトリに追加し、ビルドアクションを「コンテンツ」とします。
 
-![](http://blog.amay077.net/assets/images/posts/avoid_secrets_from_github_in_your_bot_application_project_01.png)
+![](/assets/images/posts/avoid_secrets_from_github_in_your_bot_application_project_01.png)
 
 ``Web.local.config`` の内容は以下です。
 
@@ -91,7 +91,7 @@ Microsoft の Bot Framework を使った Bot Application の作成方法は、�
 Azureに配置した本番環境では、別のID、パスワードを使用したいケースは普通にあります。
 本番環境の設定はAzureポータルから行えます。
 
-![](http://blog.amay077.net/assets/images/posts/avoid_secrets_from_github_in_your_bot_application_project_02.png)
+![](/assets/images/posts/avoid_secrets_from_github_in_your_bot_application_project_02.png)
 
 この図のように、
 
@@ -105,7 +105,7 @@ Azureに配置した本番環境では、別のID、パスワードを使用し�
 
 Visual Studio 2017 は、IDE から Azure への発行ができてとても便利なのですが、発行のための情報も保持してしまうので、その際の情報もソースコード管理に含めるべきではありません。
 
-![](http://blog.amay077.net/assets/images/posts/avoid_secrets_from_github_in_your_bot_application_project_03.png)
+![](/assets/images/posts/avoid_secrets_from_github_in_your_bot_application_project_03.png)
 
 これらの情報はプロジェクトのディレクトリの ``Properties\PublishProfiles`` というサブディレクトリに、 ``*.pubxml``, ``*.pubxml.user`` というファイル名で保存されるようなので、このディレクトリ毎、あるいは個別のファイルを ``.gitignore`` に追加すればよいです。
 

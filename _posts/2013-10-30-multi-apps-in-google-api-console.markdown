@@ -7,7 +7,7 @@ categories: [Android, GoogleMapsAPI]
 ---
 [Google API Console](https://code.google.com/apis/console/) の API Access って、複数のアプリを登録できたんですね。気づかなかった。。。
 <!--more-->
-![img1](http://blog.amay077.net/assets/images/posts/multi_apps_in_google_api_console_01.png)
+![img1](/assets/images/posts/multi_apps_in_google_api_console_01.png)
 
 >\<SHA1フィンガープリント>;<アプリのパッケージ名><改行><br/>
 >\<SHA1フィンガープリント>;<アプリのパッケージ名>
@@ -16,5 +16,5 @@ categories: [Android, GoogleMapsAPI]
 
 新しくなった [Cloud Console](https://cloud.google.com/console) では、 +/- ボタンが付いて分かりやすい。
 
-![img1](http://blog.amay077.net/assets/images/posts/multi_apps_in_google_api_console_02.png)
+![img1](/assets/images/posts/multi_apps_in_google_api_console_02.png)
 

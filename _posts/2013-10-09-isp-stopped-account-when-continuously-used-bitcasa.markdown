@@ -8,7 +8,7 @@ categories: [Bitcasa, Internet]
 ある日の深夜０時過ぎ、突然自宅の PC からインターネットに接続できなくなりました。
 調べてみるとフレッツ光への接続が「PPP認証エラー」になっていました。
 <!--more-->
-![img](http://blog.amay077.net/assets/images/posts/isp_stopped_account_when_continuously_used_bitcasa_01.png)
+![img](/assets/images/posts/isp_stopped_account_when_continuously_used_bitcasa_01.png)
 
 ルータの再起動などしても改善せず。
 これは故障かな？と思いましたが、「フレッツスクウェア」には接続できてる(もうサービス終了してるけど)し、ルータの設定ページにはつながるのでその可能性は低いだろう、「フレッツか、プロバイダの障害かな？」と予想してその日は寝ました。

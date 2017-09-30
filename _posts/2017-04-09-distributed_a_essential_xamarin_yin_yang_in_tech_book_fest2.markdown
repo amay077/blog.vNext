@@ -23,11 +23,11 @@ categories: [Xamarin, 技術書典]
 
 ブースの前には、たまに人だかりもできて売れ行きも好調だったようです。
 
-![](http://blog.amay077.net/assets/images/posts/distributed_a_essential_xamarin_yin_yang_in_tech_book_fest2_02.jpg)
+![](/assets/images/posts/distributed_a_essential_xamarin_yin_yang_in_tech_book_fest2_02.jpg)
 
 結果的に開始から2時間ほどで用意しておいた部数は完売してしまって、後はPDFダウンロードカードのみの販売に切り替えたとのこと。
 
-![](http://blog.amay077.net/assets/images/posts/distributed_a_essential_xamarin_yin_yang_in_tech_book_fest2_03.jpg)
+![](/assets/images/posts/distributed_a_essential_xamarin_yin_yang_in_tech_book_fest2_03.jpg)
 
 著者の一人として初めてのイベントだったので期待も不安もありましたが、うまくいってとても良かったです。ブースが角で目立つ位置だったのも良かったですね。
 
@@ -39,7 +39,7 @@ categories: [Xamarin, 技術書典]
 
 買った本はこんな感じです。
 
-![](http://blog.amay077.net/assets/images/posts/distributed_a_essential_xamarin_yin_yang_in_tech_book_fest2_01.jpg)
+![](/assets/images/posts/distributed_a_essential_xamarin_yin_yang_in_tech_book_fest2_01.jpg)
 
 全て楽しく読ませていただいております。
 

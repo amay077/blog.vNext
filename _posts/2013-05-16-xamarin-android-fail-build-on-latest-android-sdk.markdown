@@ -11,7 +11,7 @@ categories: [Xamarin, Android]
 ## 2013.5.19 追記
 Xamarin.Android の 4.6.6 で Android SDK r22 に対応したので、この記事は無意味になりました。
 
-![image5](http://blog.amay077.net/assets/images/posts/xamarin_android_fail_build_on_latest_android_sdk5.png)
+![image5](/assets/images/posts/xamarin_android_fail_build_on_latest_android_sdk5.png)
 
 アップデート後、r22 でも無事ビルドできるようになりました。
 
@@ -38,7 +38,7 @@ Keynote から一夜明け、Android SDK を r22 に更新しました。
 
 マジで？と思って、試してみると確かにビルド時にエラーががが。
 
-![image1](http://blog.amay077.net/assets/images/posts/xamarin_android_fail_build_on_latest_android_sdk1.png)
+![image1](/assets/images/posts/xamarin_android_fail_build_on_latest_android_sdk1.png)
 
 > Error: Error executing tool '/…/android-sdk-macosx/platform-tools/aapt': 
 
@@ -48,16 +48,16 @@ Keynote から一夜明け、Android SDK を r22 に更新しました。
 
 というわけで、 aapt はどこへ行ったのか、Android SDK のフォルダを Finder(エクスプローラ)で覗いてみます。
 
-![image2](http://blog.amay077.net/assets/images/posts/xamarin_android_fail_build_on_latest_android_sdk2.png)
+![image2](/assets/images/posts/xamarin_android_fail_build_on_latest_android_sdk2.png)
 
 むう、確かに ``/platform-tools`` の中には ``aapt`` は存在せず、代わりに ``/build-tools/17.0.0`` の中にあります。
 
 Xamarin Studio の設定で、aapt の場所を /build-tools に変更できれば良かったのですが、残念ながら見つけられず、仕方ないので ``/build-tools/17.0.0`` 配下のファイルとフォルダを、 ``/platform-tools`` にコピーしました。
 
-![image3](http://blog.amay077.net/assets/images/posts/xamarin_android_fail_build_on_latest_android_sdk3.png)
+![image3](/assets/images/posts/xamarin_android_fail_build_on_latest_android_sdk3.png)
 
 そして Xamarin Studio に戻り、もう一度ビルドを実行、無事ビルドできました。
 
-![image4](http://blog.amay077.net/assets/images/posts/xamarin_android_fail_build_on_latest_android_sdk4.png)
+![image4](/assets/images/posts/xamarin_android_fail_build_on_latest_android_sdk4.png)
 
 近いうちに Xamarin さん側で対応してくれると思いますが、それまでのつなぎとして。

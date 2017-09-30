@@ -12,7 +12,7 @@ categories: [Xamarin, Android, 技術書典]
 
 * [技術書典2/超技術書典 出展情報 - Xamaritans](https://atsushieno.github.io/xamaritans/tbf2.html)
 
-![](http://blog.amay077.net/assets/images/posts/wrote_for_techbookfes2_01.png)
+![](/assets/images/posts/wrote_for_techbookfes2_01.png)
 
 2冊の本はそれぞれ「Essential Xamarin - Yin/陰」、「Essential Xamarin - Yang/陽」というタイトルで、それぞれ 1000円 となっています。2冊揃わないと完全体じゃないのでもちろん両方買ってください。
 
@@ -20,7 +20,7 @@ categories: [Xamarin, Android, 技術書典]
 
 目次はこんな感じです。
 
-![](http://blog.amay077.net/assets/images/posts/wrote_for_techbookfes2_02.png)
+![](/assets/images/posts/wrote_for_techbookfes2_02.png)
 
 タイトルが [DroidKaigi2017 でのセッション](/blog/2017/03/10/had_a_session_about_xamarin_android_in_droidkaigi2017/) と一緒！
 そうです、DroidKaigi の完全版がこの本、いや原稿の方が先に出来上がっていたのであちらがダイジェストだったのです。

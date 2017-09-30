@@ -95,7 +95,7 @@ Xamarin.Forms.GoogleMaps では、以下のような感じで処理をスキッ�
 
 これらを対応した結果、Xamarin.Forms.GoogleMaps は、Visual Studio for Mac の XAML Preview では下図のような背景色付きのラベルで表示されるようになりました。
 
-![](http://blog.amay077.net/assets/images/posts/determine_if_in_Xamarin_xaml_previewer_01.png)
+![](/assets/images/posts/determine_if_in_Xamarin_xaml_previewer_01.png)
 
 プロジェクトが使用している Xamarin.Forms の nuget パッケージが古いとプレビューが表示されないようです（この記事投稿時、2.3.0 では「古い」と言われ、最新の 2.3.3 に上げたら表示されるようになりました）。
 

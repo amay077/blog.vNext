@@ -23,7 +23,7 @@ categories: [foss4g, ReactiveX, Xamarin]
 　と言ってた時代は終わりました。
 　例えば、下の画面。
 
-![](http://blog.amay077.net/assets/images/posts/simply_shape_dragging_using_rx_01.gif)
+![](/assets/images/posts/simply_shape_dragging_using_rx_01.gif)
 
 
 　これは、白い四角形をドラッグで移動できるというスマホアプリの例ですが、これの実装の主要部分はたったの **６行** です。

@@ -70,7 +70,7 @@ Shared Code: は、'Use Portable Class Library' を選択します。
 
 検索ボックスに 「sqlite akavache」と入力すると全部表示されると思います(↓こんな感じに)。
 
-![](http://blog.amay077.net/assets/images/posts/using_akavache_01.png)
+![](/assets/images/posts/using_akavache_01.png)
 
 追加に失敗する場合は、上のリストの順番で一つずつ追加するとうまくいくと思います。
 
@@ -193,7 +193,7 @@ public class App : Application
 
 Android Player と iOS Simulater で動かしてみた、の図です。(途中、iPhone でキーボード出すのに苦労してるところは無視してください、Take2 の時間が無かったのですｗ)
 
-![](http://blog.amay077.net/assets/images/posts/using_akavache_02.gif)
+![](/assets/images/posts/using_akavache_02.gif)
 
 さすが Xamarin.Forms だ、(Android でも iPhone で動かしても)何とも無いぜ！
 

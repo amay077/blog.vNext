@@ -80,8 +80,8 @@ public class MainActivity extends Activity {
 3. DDMS から GC を走らせる
 4. LogCat を収集
 
-![](http://blog.amay077.net/assets/images/posts/improve_activity_leaks_02.png)
-![](http://blog.amay077.net/assets/images/posts/improve_activity_leaks_03.png)
+![](/assets/images/posts/improve_activity_leaks_02.png)
+![](/assets/images/posts/improve_activity_leaks_03.png)
 
 Logcat の出力結果はこう。
 

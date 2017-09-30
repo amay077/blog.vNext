@@ -33,7 +33,7 @@ Solr や Elasticsearch でも同じことができるのでは、という事で
 3. 「男女別人口総数及び世帯総数」（←なんでもいい）を選択して、「統計表各種データダウンロードへ」を押す。
 4. 「世界測地系緯度経度・Shape形式」のデータ（下図参照）をダウンロードする。ダウンロードしたら zip ファイルのまま置いといて。
 
-![img](http://blog.amay077.net/assets/images/posts/implementing_reverse_geocoding_using_elasticsearch_01.png)
+![img](/assets/images/posts/implementing_reverse_geocoding_using_elasticsearch_01.png)
 
 ## 2. Shapefile を GeoJSON 形式に変換する
 
@@ -156,7 +156,7 @@ curl -XPUT 'http://localhost:9200/towns/town/1' -d '{
 
 全件を PUT すつスクリプトファイルは、下の画像のような感じになると思います。(データのライセンスがどうか分からないのでスクリプトファイル自体を公開するのはやめておきます)
 
-![img](http://blog.amay077.net/assets/images/posts/implementing_reverse_geocoding_using_elasticsearch_02.png)
+![img](/assets/images/posts/implementing_reverse_geocoding_using_elasticsearch_02.png)
 
 これをTerminal で実行すると、数分かからずに Elasticsearch にデータが投入完了します。
 

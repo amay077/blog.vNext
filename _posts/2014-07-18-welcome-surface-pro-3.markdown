@@ -8,13 +8,13 @@ categories: [Surface]
 [Surface Pro 3](http://www.amazon.co.jp/gp/product/B00KQ5AAUY?ie=UTF8&camp=1207&creative=8411&creativeASIN=B00KQ5AAUY&linkCode=shr&tag=oku2008-22) を買いました。
 <!--more-->
 
-![](http://blog.amay077.net/assets/images/posts/welcome-surface-pro-3_01.png)
+![](/assets/images/posts/welcome-surface-pro-3_01.png)
 
 このところ Mac ばかり使ってたので、Windows 機は久しく買ってませんでした。自作でないものはホントに久しぶり。
 
 Macbook Air と並べてみました。
 
-![](http://blog.amay077.net/assets/images/posts/welcome-surface-pro-3_02.png)
+![](/assets/images/posts/welcome-surface-pro-3_02.png)
 
 重さはそんなに変わらないですね。
 

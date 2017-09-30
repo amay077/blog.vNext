@@ -16,7 +16,7 @@ categories: [Android]
 
 こんな感じ↓です。
 
-![](http://blog.amay077.net/assets/images/posts/drag_and_drop_listview_01.gif) capture by [LICEcap](http://www.cockos.com/licecap/)
+![](/assets/images/posts/drag_and_drop_listview_01.gif) capture by [LICEcap](http://www.cockos.com/licecap/)
 
 
 

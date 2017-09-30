@@ -13,7 +13,7 @@ categories: [mvvm, reactiveextensions, rxjava, reactivecocoa, xamarin, android, 
 
 などなどをいろいろ眺めておりまして（東京うらやましい）、Reactive Extensions とか MVVM とかいろいろ熱い！楽しい！と思っているわけですが、いろいろなライブラリがあって、それらのカバーする範囲がいまいち明確になってない気がしたので、自分なりに整理してみました。
 
-![](http://blog.amay077.net/assets/images/posts/reactive_mvvm_databindings_relations_01.png)
+![](/assets/images/posts/reactive_mvvm_databindings_relations_01.png)
 
 MVVM っていうと、Messenger とか DIコンテナ的なものとかもあるわけですが、主に DataBinding と Rx の違いにフィーチャーしたかったので除外しました。
 

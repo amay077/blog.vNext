@@ -17,7 +17,7 @@ NAVER でやれ！とか言われそうですが、サービス自体のトッ�
 
 [http://www.squarespace.com/](http://www.squarespace.com/)
 
-![img](http://blog.amay077.net/assets/images/posts/online_site_builder_reviews_01.png)
+![img](/assets/images/posts/online_site_builder_reviews_01.png)
 
 * トップページがカッコいいです
 * $8 / month〜
@@ -26,7 +26,7 @@ NAVER でやれ！とか言われそうですが、サービス自体のトッ�
 
 (http://www.weebly.com/)[http://www.weebly.com/]
 
-![img](http://blog.amay077.net/assets/images/posts/online_site_builder_reviews_02.png)
+![img](/assets/images/posts/online_site_builder_reviews_02.png)
 
 * ドラッグ＆ドロップでデザインできちゃうみたいです
 * FREE〜
@@ -35,7 +35,7 @@ NAVER でやれ！とか言われそうですが、サービス自体のトッ�
 
 [http://www.webs.com/](http://www.webs.com/)
 
-![img](http://blog.amay077.net/assets/images/posts/online_site_builder_reviews_03.png)
+![img](/assets/images/posts/online_site_builder_reviews_03.png)
 
 * トップページが某ざまりんにそっくりなのですが…
 * まあスタンダードなWebサイトですね
@@ -45,7 +45,7 @@ NAVER でやれ！とか言われそうですが、サービス自体のトッ�
 
 [http://virb.com/](http://virb.com/) 
 
-![img](http://blog.amay077.net/assets/images/posts/online_site_builder_reviews_04.png)
+![img](/assets/images/posts/online_site_builder_reviews_04.png)
 
 * トップページは適度に Flat なデザインで、このテンプレート欲しいです
 * $10 / month
@@ -57,7 +57,7 @@ NAVER でやれ！とか言われそうですが、サービス自体のトッ�
 * ちょっとオーソドックスすぎる感じがします
 * $4.95 / month〜
 
-![img](http://blog.amay077.net/assets/images/posts/online_site_builder_reviews_05.png)
+![img](/assets/images/posts/online_site_builder_reviews_05.png)
 
 ## Edicy
 
@@ -66,7 +66,7 @@ NAVER でやれ！とか言われそうですが、サービス自体のトッ�
 * 地味かなー
 * €6 / month〜
 
-![img](http://blog.amay077.net/assets/images/posts/online_site_builder_reviews_06.png)
+![img](/assets/images/posts/online_site_builder_reviews_06.png)
 
 ## Wix
 
@@ -76,13 +76,13 @@ NAVER でやれ！とか言われそうですが、サービス自体のトッ�
 * HTML5 の他に、Flash のテンプレート？もあるみたいです
 * $4 / month〜
 
-![img](http://blog.amay077.net/assets/images/posts/online_site_builder_reviews_07.png)
+![img](/assets/images/posts/online_site_builder_reviews_07.png)
 
 ## OnePager
 
 [http://onepagerapp.com/](http://onepagerapp.com/)
 
-![img](http://blog.amay077.net/assets/images/posts/online_site_builder_reviews_08.png)
+![img](/assets/images/posts/online_site_builder_reviews_08.png)
 
 * カッコ良さげです
 * $8 / month〜
@@ -91,7 +91,7 @@ NAVER でやれ！とか言われそうですが、サービス自体のトッ�
 
 [http://www.jimdo.com/](http://www.jimdo.com/)
 
-![img](http://blog.amay077.net/assets/images/posts/online_site_builder_reviews_09.png)
+![img](/assets/images/posts/online_site_builder_reviews_09.png)
 
 * トップページはよくある感じです
 * FREE〜
@@ -100,7 +100,7 @@ NAVER でやれ！とか言われそうですが、サービス自体のトッ�
 
 [http://www.jimdo.com/](http://www.homestead.com/)
 
-![img](http://blog.amay077.net/assets/images/posts/online_site_builder_reviews_10.png)
+![img](/assets/images/posts/online_site_builder_reviews_10.png)
 
 * 唯一、電話番号が載っています（どうでもいい）
 * $4.99 / month
@@ -109,7 +109,7 @@ NAVER でやれ！とか言われそうですが、サービス自体のトッ�
 
 [http://www.jimdo.com/](http://breezi.com/)
 
-![img](http://blog.amay077.net/assets/images/posts/online_site_builder_reviews_11.png)
+![img](/assets/images/posts/online_site_builder_reviews_11.png)
 
 * [PlaceIt](http://placeit.breezi.com/) 経由で発見したサービス
 * 色や配置からテンプレートを検索できます

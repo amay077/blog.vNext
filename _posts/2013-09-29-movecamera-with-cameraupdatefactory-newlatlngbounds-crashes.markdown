@@ -90,7 +90,7 @@ protected void onCreate(Bundle savedInstanceState) {
 
 としたところ、正常に地図がズームされました。
 
-![img](http://blog.amay077.net/assets/images/posts/movecamera_with_cameraupdatefactory_newlatlngbounds_crashes_01.png)
+![img](/assets/images/posts/movecamera_with_cameraupdatefactory_newlatlngbounds_crashes_01.png)
 
 ちなみに、処理をメインスレッド上で行う ``Activity.runOnUiThread`` や ``Handler.post`` では NG、冒頭と同じエラーでした。処理は UIスレッド上で行われるけど、Map はまだレイアウト未完了、という事だと思います。
 

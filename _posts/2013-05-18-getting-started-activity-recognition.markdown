@@ -11,7 +11,7 @@ categories: [Android]
 <!--more-->
 ## 1. SDK の Google Play Services を更新する
 
-![image1](http://blog.amay077.net/assets/images/posts/getting_started_activity_recognition1.png)
+![image1](/assets/images/posts/getting_started_activity_recognition1.png)
 
 SDK Manager で、Google Play service を最新に更新します。
 私は勢いで Android SDK Tools なども最新にしてしまいましたが、これが必要だったかは定かでないです。また SDK Tools を更新したら Eclipse のプラグインも更新する必要がありました。
@@ -31,7 +31,7 @@ Ecplise の Import で ``{your sdk location}/extras/google/google_play_services/
 
 コピーしたら、ActivityRecognizingSample で、 google-play-services_lib をライブラリ参照します。
 
-![image2](http://blog.amay077.net/assets/images/posts/getting_started_activity_recognition2.png)
+![image2](/assets/images/posts/getting_started_activity_recognition2.png)
 
 次から ActivityRecognizingSample の実装です。
 
@@ -351,7 +351,7 @@ public class ReceiveRecognitionIntentService extends IntentService {
 
 HTC J(not蝶) で動かしてみました。
 
-![image3](http://blog.amay077.net/assets/images/posts/getting_started_activity_recognition3.jpg)
+![image3](/assets/images/posts/getting_started_activity_recognition3.jpg)
 
 on_foot ってのが「歩いてる」ってやつですね。
 感覚としてはズボンの尻ポケに入れて、5mくらいは歩かないと認識されない感じ。結構 unknown が多いですね。
@@ -366,7 +366,7 @@ on_foot ってのが「歩いてる」ってやつですね。
 
 東京に出張する機会があったので、新幹線と在来線でも試してみました。
 
-![image4](http://blog.amay077.net/assets/images/posts/getting_started_activity_recognition4.png)
+![image4](/assets/images/posts/getting_started_activity_recognition4.png)
 
 新幹線は窓側の席だったので、窓の机に端末を放置していました。
 在来線は座ることができなかったので、立った状態で端末は尻ポケ、カベに持たれてなるべく動かないようにしていました。

@@ -50,7 +50,7 @@ public class ClikcableSpanTestActivity extends Activity {
 リンクをクリックすると Toast を表示します。（下図のように）
 また ``URLSpan`` というクラスもあり、クリックすると指定したURLに移動（ブラウザアプリが起動）します。
 
-![](http://blog.amay077.net/assets/images/posts/using_clickablespan_01.png)
+![](/assets/images/posts/using_clickablespan_01.png)
 
 ## 参考
 

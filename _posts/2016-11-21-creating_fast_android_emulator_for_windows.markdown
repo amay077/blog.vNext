@@ -35,7 +35,7 @@ Android Studio を起動して、適当な Android Project を作って下さい
 
 メニューの File -> Settings で設定画面を起動します。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_win_01.png)
+![](/assets/images/posts/making_android_haxm_emulator_win_01.png)
 
 Appearance & Behavior -> System Settings -> Android SDK を選択し、Android SDK Location の右横の「Edit」を押して、Xamarin や Visual Studio for Mac がインストールした Android SDK のパスを指定します。
 
@@ -43,7 +43,7 @@ Xamarin がインストールした Android SDK は通常 ``C:¥Program Files (x
 
 ところが、このパスを Android Studio に指定すると、「Android SDK location should not contain whitespace」（空白付きのディレクトリを使うな！）と怒られます。まあ気持ち悪いので、この際、``c:¥dev¥android-sdk`` などに移動してしまいましょう。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_win_02.png)
+![](/assets/images/posts/making_android_haxm_emulator_win_02.png)
 
 
 Android SDK をどちらかに統一できたら、不要な方はディレクトリ毎削除して OK です。あ、Android SDK にパスを通してる場合はそちらの変更も忘れずに。
@@ -52,32 +52,32 @@ Android SDK をどちらかに統一できたら、不要な方はディレク�
 
 さて、 Android Studio の画面にもどって、ツールバーにある「AVD Manager」のアイコンをクリックします。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_win_03.png)
+![](/assets/images/posts/making_android_haxm_emulator_win_03.png)
 
 Android Virtual Device Manager の画面が表示されます。
 
 ここで Hyper-V が ON になっていると「Android Emulator is incompatible with Hyper-V」というメッセージが表示されます。Hyper-V を OFF にしないとエミュレータは使えないので「Turn off Hyper-V」をクリックして Hyper-V を切り、OS を再起動します。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_win_04.png)
+![](/assets/images/posts/making_android_haxm_emulator_win_04.png)
 
 再度 Android Studio を起動してこの画面に戻ってくると、先程のエラーは消え、今度は「HAXE is not installed」というメッセージが表示されます。こちらも、その右のリンク「Install Haxm」をクリックします。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_win_05.png)
+![](/assets/images/posts/making_android_haxm_emulator_win_05.png)
 
 
 Emulator Settings の画面になります。
 特に設定は変えずに「Next」を押します。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_win_06.png)
+![](/assets/images/posts/making_android_haxm_emulator_win_06.png)
 
 HAXM のインストールが完了しました。
 Finish で一旦画面を閉じます。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_win_07.png)
+![](/assets/images/posts/making_android_haxm_emulator_win_07.png)
 
 再び Android Virtual Device Manager の画面を開き、「Create Virtual Device」をクリックします。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_win_08.png)
+![](/assets/images/posts/making_android_haxm_emulator_win_08.png)
 
 System Image の画面が表示されます。
 下ごしらえができた所で、実際にエミュレータを作っていきましょう。
@@ -91,25 +91,25 @@ System Image の画面が表示されます。
 
 のエミュレータを作ってみましょう。(with Google APIs) を選択しているのは Google Maps などの Google Play services も使えるようにするためです。この時点では未だ必要な SDK や System Image が入ってないので「Download」をクリックします。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_win_09.png)
+![](/assets/images/posts/making_android_haxm_emulator_win_09.png)
 
 足りないコンポーネントのインストールが終わると、行がアクティブになり「Next」ボタンが使用可能になるので、クリックします。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_win_10.png)
+![](/assets/images/posts/making_android_haxm_emulator_win_10.png)
 
 Android Virtual Device の画面です。
 特に設定を変更せず、「Next」をクリックします。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_win_11.png)
+![](/assets/images/posts/making_android_haxm_emulator_win_11.png)
 
 はい、HAXM のインストールと、それを使用したエミュレータが作成されました。
 「実行」ボタンをクリックして、起動してみましょう。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_win_12.png)
+![](/assets/images/posts/making_android_haxm_emulator_win_12.png)
 
 起動してプリインストールされている Google マップアプリを表示させた画面です。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_win_13.png)
+![](/assets/images/posts/making_android_haxm_emulator_win_13.png)
 
 
 ## Visual Studio からも使えます
@@ -118,7 +118,7 @@ Android Virtual Device の画面です。
 
 下図は Visual Studio 2015 Community で、 Xamarin.Android のプロジェクトを実行するところですが、Android Studio で先ほど作成したエミュレータが選択肢に出てきます。
 
-![](http://blog.amay077.net/assets/images/posts/making_android_haxm_emulator_win_14.png)
+![](/assets/images/posts/making_android_haxm_emulator_win_14.png)
 
 ## まとめ
 

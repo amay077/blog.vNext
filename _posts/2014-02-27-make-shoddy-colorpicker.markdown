@@ -72,7 +72,7 @@ public class MainActivity extends Activity {
 
 こんな感じです。だいぶ味気ないけど、要件は満たします。
 
-![](http://blog.amay077.net/assets/images/posts/making_shoddy_color_picking_dialog_01.png)
+![](/assets/images/posts/making_shoddy_color_picking_dialog_01.png)
 
 
 ## Xamarin でも作ってみる

@@ -17,7 +17,7 @@ categories: [Android, MVVM, DataBinding, RxJava]
 
 [前回](http://qiita.com/amay077/items/8464a22e3063642112ed#model-viewmodel-viewmvvm-%E3%81%A7%E8%80%83%E3%81%88%E3%82%8B) との違いを図に示します。
 
-![](http://blog.amay077.net/assets/images/posts/rxjava_mvvm_stopwatch_03.png)
+![](/assets/images/posts/rxjava_mvvm_stopwatch_03.png)
 
 * View-ViewModel で全面的に使用していた ``rx.Observable<T>`` の代わりに、``ObservableField<T>`` を使用。
 * View側で「オレオレDataBinding」を実装していた箇所を、Android の Data Binding に置き換え。つまりバインディングの定義はレイアウトxmlへ記述。

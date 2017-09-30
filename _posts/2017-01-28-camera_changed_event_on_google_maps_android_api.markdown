@@ -58,7 +58,7 @@ public final void animateCamera (
 
 サンプルアプリを作って、実際の操作でどのようなイベントが発生するのか、調べてみました。
 
-![](http://blog.amay077.net/assets/images/posts/deep_dive_in_camera_events_of_google_maps_android_api_01.gif)
+![](/assets/images/posts/deep_dive_in_camera_events_of_google_maps_android_api_01.gif)
 
 ### updateCamera メソッドの実行
 

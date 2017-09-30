@@ -14,13 +14,13 @@ Xamarin でのモバイルアプリ開発では、 Mac の方が（主に iOS �
 
 こんなこと初めてだなー、と思っていろいろみていたら、ふとソリューションの構成マネージャーに、「配置」をいう項目が増えているのに気づきました。
 
-![](http://blog.amay077.net/assets/images/posts/solution_created_vs4mac_does_not_running_on_vs2017_01.png)
+![](/assets/images/posts/solution_created_vs4mac_does_not_running_on_vs2017_01.png)
 
 「キミ、いつからそこに居たの・・・」、完全にこれが犯人じゃん。
 ということで、この「配置」にチェックを入れて、再度 F5 で実行すると、無事、エミュレータが起動してアプリが実行できました。
 
 ちなみに下は Visual Studio for Mac の構成マネージャー的な画面ですが、「配置」なんてないんですよね。。。
 
-![](http://blog.amay077.net/assets/images/posts/solution_created_vs4mac_does_not_running_on_vs2017_02.png)
+![](/assets/images/posts/solution_created_vs4mac_does_not_running_on_vs2017_02.png)
 
 Win と Mac で同じ機能はまったく期待してない Visual Studio ですが、細かいところ（可能なところ）は統一してほしいなあと思います。

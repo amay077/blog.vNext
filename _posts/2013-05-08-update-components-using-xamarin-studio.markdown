@@ -15,13 +15,13 @@ categories: [Xamarin, GoogleMapsAPI, iOS]
 じゃあ更新するか、と思って Xamarin Studio で入り口を探すものの見つからない。
 結局、メニュー -> Get More Components から、Google Maps を検索しなおしたら、ボタンが「Update」になってたので、押したら更新された。
 
-![image1](http://blog.amay077.net/assets/images/posts/update_components_using_xamarin_studio1.png)
+![image1](/assets/images/posts/update_components_using_xamarin_studio1.png)
 
 ## Component に付属のサンプルが増えてた
 
 更新後、Samples を見てみたら、、、お、 **iOS Advanced Sample** というのが増えてる！きっとアドバンスドなサンプルなのでしょうな（試せよ
 
-![image1](http://blog.amay077.net/assets/images/posts/update_components_using_xamarin_studio2.png)
+![image1](/assets/images/posts/update_components_using_xamarin_studio2.png)
 
 ## Component を更新したら API の互換性が無くなってた
 

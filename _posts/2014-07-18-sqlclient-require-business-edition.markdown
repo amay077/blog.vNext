@@ -10,9 +10,9 @@ categories: [Xamarin]
 
 Xamarin で ``System.Data.SqlClient.SqlCommand`` などを使ったプロジェクトをビルドしたら、ビルド時にこんなダイアログボックスが。
 
-![](http://blog.amay077.net/assets/images/posts/xamarin_requires_business_edition_when_using_sqlclient_01.png)
+![](/assets/images/posts/xamarin_requires_business_edition_when_using_sqlclient_01.png)
 
-![](http://blog.amay077.net/assets/images/posts/xamarin_requires_business_edition_when_using_sqlclient_02.png)
+![](/assets/images/posts/xamarin_requires_business_edition_when_using_sqlclient_02.png)
 
 どうやら、特定のクラスを使用するには BUSINESS 版以上が必要なようです。
 

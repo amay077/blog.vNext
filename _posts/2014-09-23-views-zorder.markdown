@@ -49,7 +49,7 @@ LinearLayout で横並びにする場合。
 
 ### 結果
 
-![](http://blog.amay077.net/assets/images/posts/zorder_test_01.png)
+![](/assets/images/posts/zorder_test_01.png)
 
 
 だめだー。
@@ -59,7 +59,7 @@ LinearLayout の Zorder は、並び順と連動してしまうので、右（�
 
 じゃん↓
 
-![](http://blog.amay077.net/assets/images/posts/zorder_test_02.png)
+![](/assets/images/posts/zorder_test_02.png)
 
 見事に AAA が右端にいったｗ
 
@@ -99,7 +99,7 @@ LinearLayout の Zorder は、並び順と連動してしまうので、右（�
 
 ### 結果
 
-![](http://blog.amay077.net/assets/images/posts/zorder_test_03.png)
+![](/assets/images/posts/zorder_test_03.png)
 
 んんー、まだダメかー。
 
@@ -139,7 +139,7 @@ LinearLayout の Zorder は、並び順と連動してしまうので、右（�
 
 ### 結果
 
-![](http://blog.amay077.net/assets/images/posts/zorder_test_04.png)
+![](/assets/images/posts/zorder_test_04.png)
 
 よしっ！期待した表示になりました。
 

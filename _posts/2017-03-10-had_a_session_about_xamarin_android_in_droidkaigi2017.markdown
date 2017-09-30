@@ -9,7 +9,7 @@ categories: [Android, Xamarin, DroidKaigi, 登壇]
 
 <!--more-->
 
-![](http://blog.amay077.net/assets/images/posts/had_a_session_about_xamain_android_in_droidkaigi_2017_01.jpg)
+![](/assets/images/posts/had_a_session_about_xamain_android_in_droidkaigi_2017_01.jpg)
 
 ## 資料
 
@@ -36,7 +36,7 @@ Xamarin とはなんぞや、から始めて Rx まで説明するのも難し�
 
 オフィスアワーやアフターパーティで、Twitter でしか知らない人とお話しできたり、同郷のすごい人たちと会えたり、とても楽しかったです。
 
-![](http://blog.amay077.net/assets/images/posts/had_a_session_about_xamain_android_in_droidkaigi_2017_02.jpg)
+![](/assets/images/posts/had_a_session_about_xamain_android_in_droidkaigi_2017_02.jpg)
 
 Xamarin 然り、RxJava 然り、 Qiita などでチマチマと情報発信してきた些細なネタが誰かの役に立っていたと知れてとても嬉しかった。
 
@@ -55,7 +55,7 @@ try!Swift には行けなかったので、 [iOSDC Japan 2017](https://iosdc.jp/
 
 あっ、次は 4/9(日)に、 [技術書典２](https://techbookfest.org/event/tbf02) がありますね。
 
-![](http://blog.amay077.net/assets/images/posts/had_a_session_about_xamain_android_in_droidkaigi_2017_03.png)
+![](/assets/images/posts/had_a_session_about_xamain_android_in_droidkaigi_2017_03.png)
 
 Xamarin に関する技術書を配布します！
 代表の @atsushieno さん以下5名で絶賛執筆中です。

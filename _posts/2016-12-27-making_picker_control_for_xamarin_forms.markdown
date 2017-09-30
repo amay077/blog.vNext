@@ -15,7 +15,7 @@ iOS の [UIPickerView](http://swift-salaryman.com/uipickerview.php)、 Android �
 
 こんな感じで使えます。
 
-![](http://blog.amay077.net/assets/images/posts/pickerview_for_Xamarin_forms_screenshot01.gif)
+![](/assets/images/posts/pickerview_for_Xamarin_forms_screenshot01.gif)
 
 ``ItemsSource`` と ``SelectedIndex`` の２つのバインダブルなプロパティしかなくて、``SelectedIndex`` の方は TwoWay です。
 
@@ -77,6 +77,6 @@ Custom Renderer のサンプルにもなると思います。
 
 ## 追記: PickerView を並べて数値を選択する UI も作った
 
-![](http://blog.amay077.net/assets/images/posts/pickerview_for_Xamarin_forms_screenshot02.gif)
+![](/assets/images/posts/pickerview_for_Xamarin_forms_screenshot02.gif)
 
 ソースコードは上と同じギッハブにあります。

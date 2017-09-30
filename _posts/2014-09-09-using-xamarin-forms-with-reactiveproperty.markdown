@@ -25,13 +25,13 @@ Mac + Xamarin Studio を使いますが、Windows + Visual Studio + Xamarin-Addi
 
 　作成されたソリューションの一番上にあるプロジェクト(.Android とか .iOS が付いていないやつ)のプロジェクト設定を開いて Profile を **PCL 4.5 - Profile49** に変更します。元々の Profile78 では ReactiveProperty が Nuget からインストールできないためです。最近のプラットフォームを対象にするなら、あまり影響はなさそうです。
 
-![](http://blog.amay077.net/assets/images/posts/using_xamarin_forms_with_reactiveproperty_01.png)
+![](/assets/images/posts/using_xamarin_forms_with_reactiveproperty_01.png)
 
 ### Nuget で Reactive Extensions と ReactiveProperty を追加
 
 　メニューの［プロジェクト］ー［Add Packages］で Nuget のダイアログを開き、図のように 「Reactive Extensions - Main Library」と「ReactiveProperty Portable」を追加します。
 
-![](http://blog.amay077.net/assets/images/posts/using_xamarin_forms_with_reactiveproperty_02.png)
+![](/assets/images/posts/using_xamarin_forms_with_reactiveproperty_02.png)
 
 （Reactive Extensions の追加の際、なにやらWarningが出るようですが、とりあえず進めます。）
 
@@ -185,7 +185,7 @@ namespace FormsWithRxProperty
 
  .Android か .iOS の付いたプロジェクトをスタートアップにして、実行します。
 
-![](http://blog.amay077.net/assets/images/posts/using_xamarin_forms_with_reactiveproperty_03.gif)
+![](/assets/images/posts/using_xamarin_forms_with_reactiveproperty_03.gif)
 
 ### 追記 2014.9.10
 
@@ -236,7 +236,7 @@ public class SecondViewModel : INotifyPropertyChanged
 }
 ```
 
-![](http://blog.amay077.net/assets/images/posts/using_xamarin_forms_with_reactiveproperty_04.png)
+![](/assets/images/posts/using_xamarin_forms_with_reactiveproperty_04.png)
 
 ## まとめ
 

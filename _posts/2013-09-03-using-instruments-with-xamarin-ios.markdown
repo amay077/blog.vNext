@@ -19,7 +19,7 @@ Xamarin.iOS(旧MonoTouch)では、Xcode のプロファイラである Instrumen
 
 Xamarin Studio で ``before/MemoryDemo.sln`` を開いて、とりあえずビルド、Simulator で実行します。
 
-![img](http://blog.amay077.net/assets/images/posts/using_instruments_with_xamarin_ios_01.png)
+![img](/assets/images/posts/using_instruments_with_xamarin_ios_01.png)
 
 上下にスクロールすると、次々と画像を読み込むので Allocate がハンパないよ、ってデモのようです。
 
@@ -27,7 +27,7 @@ Xamarin Studio で ``before/MemoryDemo.sln`` を開いて、とりあえずビ�
 
 メニュー - ツール - Launch Instruments で起動します。
 
-![img](http://blog.amay077.net/assets/images/posts/using_instruments_with_xamarin_ios_02.png)
+![img](/assets/images/posts/using_instruments_with_xamarin_ios_02.png)
 
 起動はしましたが、勝手にアプリが実行されるわけではありません。ここから少しだけ面倒な手続きが必要です。
 
@@ -35,37 +35,37 @@ Xamarin Studio で ``before/MemoryDemo.sln`` を開いて、とりあえずビ�
 
 Instruments を起動すると、下のような画面になっています。
 
-![img](http://blog.amay077.net/assets/images/posts/using_instruments_with_xamarin_ios_03.png)
+![img](/assets/images/posts/using_instruments_with_xamarin_ios_03.png)
 
 左メニューから [iOS Simulator] - [Memory]、右から [Allocations] を選び [Choose] ボタンを押します。
 
 次に、[Target] をクリックして、[Choose Target] - [Choose Target…] と進みます。
 
-![img](http://blog.amay077.net/assets/images/posts/using_instruments_with_xamarin_ios_04.png)
+![img](/assets/images/posts/using_instruments_with_xamarin_ios_04.png)
 
 下のような画面になります。
 
-![img](http://blog.amay077.net/assets/images/posts/using_instruments_with_xamarin_ios_05.png)
+![img](/assets/images/posts/using_instruments_with_xamarin_ios_05.png)
 
 次に Finder を起動して、iOS Simulator のディレクトリへ移動します。
 
 iOS Simulator のディレクトリは通常、``~/Library/Application Support/iPhone Simulator/`` です。さらにアプリ毎に GUID で分けられているので目的のアプリを探してください。
 
-![img](http://blog.amay077.net/assets/images/posts/using_instruments_with_xamarin_ios_06.png)
+![img](/assets/images/posts/using_instruments_with_xamarin_ios_06.png)
 
 アプリのディレクトリを開いたら、その中のアプリケーションファイル(ここでは ``MemoryDemo``) を、先ほど開いておいた Instruments の中へドラッグ＆ドロップします。
 
-![img](http://blog.amay077.net/assets/images/posts/using_instruments_with_xamarin_ios_07.png)
+![img](/assets/images/posts/using_instruments_with_xamarin_ios_07.png)
 
 そして [Choose] を押すと、Target が MemoryTest になっているのが分かります。
 
 これでようやく実行できます。赤い●を押します。
 
-![img](http://blog.amay077.net/assets/images/posts/using_instruments_with_xamarin_ios_08.png)
+![img](/assets/images/posts/using_instruments_with_xamarin_ios_08.png)
 
 と、iOS Simulator で MemoryTest が実行され、Instruments でプロファイルしている事が確認できます。Simulator でグリグリスクロールすると、Allocations がガンガン増えてく様子が分かります。
 
-![img](http://blog.amay077.net/assets/images/posts/using_instruments_with_xamarin_ios_09.png)
+![img](/assets/images/posts/using_instruments_with_xamarin_ios_09.png)
 
 ### 3. 2度目以降は？
 

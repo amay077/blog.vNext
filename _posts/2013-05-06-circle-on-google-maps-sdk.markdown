@@ -41,7 +41,7 @@ Java では ``new CircleOptions().center(…).storokeColor(…).`` と書いて�
 
 動かすとこんな感じになります。
 
-![image1](http://blog.amay077.net/assets/images/posts/circle_on_google_maps_sdk.png)
+![image1](/assets/images/posts/circle_on_google_maps_sdk.png)
 
 北緯65度付近のアイスランドと、赤道付近のリーブルヴィルという所に、どちらも半径500kmの円を追加していますが、Googleマップはメルカトル表示なので、見ての通り北へ行くほど円が大きくなります。
 
@@ -53,4 +53,4 @@ Java では ``new CircleOptions().center(…).storokeColor(…).`` と書いて�
 
 大きな円を描いてみたら、ちゃんと geodesic な(北へいけばいくほど距離が長くなる)形状になりました。
 
-![image2](http://blog.amay077.net/assets/images/posts/circle-on-google-maps-sdk2.png)
+![image2](/assets/images/posts/circle-on-google-maps-sdk2.png)

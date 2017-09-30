@@ -190,7 +190,7 @@ Macの人は、Visual Studio for Mac で開発を行いますが、Windowsと同
 * [Xamarin 日本語情報](http://ytabuchi.hatenablog.com/) - Xamarinコミュニティ(JXUG)主宰の @ytabuchi さんのブログです。
 * [Xamarin逆引きTips - Build Insider](http://www.buildinsider.net/mobile/xamarintips) - Xamarinに関するTipsが集まっています
 * [Qiita の "Xamarin" タグ](http://qiita.com/tags/xamarin/items)
-* [Experiments Never Fail](http://blog.amay077.net/) - ワタシのブログです😅
+* [Experiments Never Fail](/) - ワタシのブログです😅
 * [teratail の "Xamarin" タグ](https://teratail.com/questions/search?q=Xamarin) - 分からない事はここで聞いてみると大抵回答があります
 
 ### コミュニティ

@@ -21,18 +21,18 @@ Googleマップの iOS版とともに公開された [iOS用のMaps SDK](https:/
 
 **Google Maps** を探しだして [Add to App] します。
 
-![image1](http://blog.amay077.net/assets/images/posts/gmap_on_xamarin_ios_1.png)
+![image1](/assets/images/posts/gmap_on_xamarin_ios_1.png)
 
 しばらくすると、左側のビューの Components の中に "Google Maps" が作成されるので、それをダブルクリックして開きます。
 
 右に表示されるコンテンツのタブから「Samples」を選択します。
 
-![image2](http://blog.amay077.net/assets/images/posts/gmap_on_xamarin_ios_2.png)
+![image2](/assets/images/posts/gmap_on_xamarin_ios_2.png)
 
 さらに "iOS Sample" の「Open Sample」を押します。
 すると、左側のビューに「GoogleMapsSample」プロジェクトが追加されます。
 
-![image3](http://blog.amay077.net/assets/images/posts/gmap_on_xamarin_ios_3.png)
+![image3](/assets/images/posts/gmap_on_xamarin_ios_3.png)
 
 この時点で HogeApp は意味がなくなってしまいましたが、ディスクから削除すると GoogleMapsSample も一緒に消えてしまうので、無視しておきます。GoogleMapsSample がどこにあるかは、上図のように「親フォルダを開く」すると Finder で確認できます。
 
@@ -66,7 +66,7 @@ Googleマップの iOS版とともに公開された [iOS用のMaps SDK](https:/
 
 すると、**Key for iOS apps** に 作成されたAPIキーが表示されるはずです。
 
-![image4](http://blog.amay077.net/assets/images/posts/gmap_on_xamarin_ios_4.png)
+![image4](/assets/images/posts/gmap_on_xamarin_ios_4.png)
 
 この API key をコピーしておいて、Xamarin Studio に戻ります。
 
@@ -74,13 +74,13 @@ Googleマップの iOS版とともに公開された [iOS用のMaps SDK](https:/
 
 Google API Console で設定した Identifier と一致させる必要があるので「com.example.myapp」を設定します。(普通は先にアプリの Identifier を決めてから API key を取得するのでしょうが)
 
-![image5](http://blog.amay077.net/assets/images/posts/gmap_on_xamarin_ios_5.png)
+![image5](/assets/images/posts/gmap_on_xamarin_ios_5.png)
 
 ## AppDelegate.cs を開いて、API key を設定する
 
 コピーしておいた API key を、下図の位置に貼り付けます。
 
-![image6](http://blog.amay077.net/assets/images/posts/gmap_on_xamarin_ios_6.png)
+![image6](/assets/images/posts/gmap_on_xamarin_ios_6.png)
 
 
 ## 動かす！
@@ -90,7 +90,7 @@ Google API Console で設定した Identifier と一致させる必要がある�
 
 ばばーん！
 
-![image7](http://blog.amay077.net/assets/images/posts/gmap_on_xamarin_ios_7.png)
+![image7](/assets/images/posts/gmap_on_xamarin_ios_7.png)
 
 あれ？ズームコントロールとか表示されないのね。
 

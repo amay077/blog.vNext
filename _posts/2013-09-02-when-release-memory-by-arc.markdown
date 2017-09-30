@@ -27,7 +27,7 @@ ARC ではスコープを外れ(て参照カウンタがゼロになっ)たオ�
 
 これを Instruments でプロファイルするとこうなる。
 
-![img](http://blog.amay077.net/assets/images/posts/arc_memory_release_timing_01.png)
+![img](/assets/images/posts/arc_memory_release_timing_01.png)
 
 じゃんじゃんメモリ確保してしまう（汗
 ARC で ``data`` は ``nil`` にしてるからスコープ外れた時にメモリ解放されると思っていたのだが。
@@ -53,7 +53,7 @@ ARC で ``data`` は ``nil`` にしてるからスコープ外れた時にメモ
 
 この時のメモリ確保状況は、期待した通りになった。
 
-![img](http://blog.amay077.net/assets/images/posts/arc_memory_release_timing_02.png)
+![img](/assets/images/posts/arc_memory_release_timing_02.png)
 
 メモリ使用量が線形に**増えない**ことが分かる。ARC 利用時にもこうなるようにしたい。
 
@@ -92,7 +92,7 @@ for の中の処理を ``@autoreleasepool { }`` で括ってみた。
 
 すると、
 
-![img](http://blog.amay077.net/assets/images/posts/arc_memory_release_timing_03.png)
+![img](/assets/images/posts/arc_memory_release_timing_03.png)
 
 やたー、期待する動きになったぞ。
 
