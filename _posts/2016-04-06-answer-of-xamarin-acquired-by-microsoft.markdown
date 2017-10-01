@@ -24,7 +24,7 @@ categories: [Xamarin, C#, Android, iOS]
 期待以上でしたね。
 プロダクトとしては無償になります。
 すべての機能が制約なしに使えます。
-ソースコードが MIT Lisence なオープンソースになります。
+ソースコードが MIT License なオープンソースになります。
 
 ## [Xamarin.Mac](https://xamarin.com/platform#desktop) → ◎
 
