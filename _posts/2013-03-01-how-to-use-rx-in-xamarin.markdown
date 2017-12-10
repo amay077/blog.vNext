@@ -51,8 +51,8 @@ XamarinAndroidRxSample から、今追加した３つのプロジェクトを参
 
 ソリューションツリーの XamarinAndroidRxSample のところで右クリック→参照アセンブリの追加 から、
 
-!["add_project_reference"](https://dl.dropbox.com/u/264530/qiita/xamarin_android_rxm4a_add_reference.png)
-!["add_project_reference"](https://dl.dropbox.com/u/264530/qiita/xamarin_android_rxm4a_add_reference2.png)
+(画像紛失しますた)(画像紛失しますた)
+
 
 ダイアログのタブで Projects を選ぶと３つ出てくるのでチェックをいれて OK してください。
 
@@ -60,7 +60,8 @@ XamarinAndroidRxSample から、今追加した３つのプロジェクトを参
 
 ボタンを押した時の処理で Rx を使ってみます。
 
-```c# Main.cs
+```c#
+// Main.cs
 (ここまで省略)
 using Android.Util;
 
@@ -96,7 +97,7 @@ namespace XamarinAndroidRxSample
 
 動かしてみた結果
 
-!["output"](https://dl.dropbox.com/u/264530/qiita/xamarin_android_rxm4a_output.png)
+(画像紛失しますた)
 
 全然 Rx っぽくない(Linq だけでできる) 処理ですけど、Rx 関連クラスが使えることは確認できました。
 
@@ -114,7 +115,7 @@ namespace XamarinAndroidRxSample
 
 そしたらアプリは動くには動いたのですが、ソリューションツリーに怪しげなエラーが↓
 
-!["error"](https://dl.dropbox.com/u/264530/qiita/xamarin_android_rxm4a_error.png)
+(画像紛失しますた)
 
 アプリとDLLでターゲットフレームワークが違う(アプリは ICS4.0.3 でDLLは 4.0.0) だとこうなるんでしょうか？
 Yes、アプリ側を 4.0.0 にしてプロジェクトクリーン→Xamarin Studio を再起動したら消えました。(けどアプリの方がバージョン上位だったのに、下位互換性はどうなってるんでしょ？)
