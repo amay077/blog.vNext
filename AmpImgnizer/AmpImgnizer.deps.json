@@ -1,0 +1,86 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "6d027183833ffea3b0621fbb3f22847f56f8dca9"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "AmpImgnizer/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "SkiaSharp": "1.60.1",
+          "Svg": "2.3.0"
+        },
+        "runtime": {
+          "AmpImgnizer.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SkiaSharp/1.60.1": {
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native"
+          },
+          "runtimes/tizen-armel/native/libSkiaSharp.so": {
+            "rid": "tizen-armel",
+            "assetType": "native"
+          },
+          "runtimes/tizen-x86/native/libSkiaSharp.so": {
+            "rid": "tizen-x86",
+            "assetType": "native"
+          },
+          "runtimes/win7-x64/native/libSkiaSharp.dll": {
+            "rid": "win7-x64",
+            "assetType": "native"
+          },
+          "runtimes/win7-x86/native/libSkiaSharp.dll": {
+            "rid": "win7-x86",
+            "assetType": "native"
+          }
+        }
+      },
+      "Svg/2.3.0": {
+        "runtime": {
+          "lib/net35/Svg.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AmpImgnizer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "SkiaSharp/1.60.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-da8H19f23Kr7dZkL3fgFJ154d9xS6JKhNsn+Wmtt2LoAscwLYLH8EMSb65Z9LB0Wx40jV0WUaKMHD02QvX5NYg==",
+      "path": "skiasharp/1.60.1",
+      "hashPath": "skiasharp.1.60.1.nupkg.sha512"
+    },
+    "Svg/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NCE/3rd+dKUX7StG37J6ygrKPXKqjudEVAj9S5ukbCgTlWpyLVrX0cex/e0NJVM+10uCBUi20pQb7T1NR8nqaQ==",
+      "path": "svg/2.3.0",
+      "hashPath": "svg.2.3.0.nupkg.sha512"
+    }
+  }
+}
