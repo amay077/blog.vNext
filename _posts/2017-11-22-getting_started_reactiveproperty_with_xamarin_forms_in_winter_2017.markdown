@@ -8,7 +8,7 @@ categories: [Xamarin, C#, .NET, Android, iOS]
 つい最近まで PCL な Xamarin.Forms では、 ReactiveProperty の 2.x 系しか使えないと思っていたのですが、いろいろな方の協力で使える方法が分かったので示しておく。
 <!--more-->
 
-今から ReactiveProperty を（Xamarin で）使ってみたいぞ、という人向けのクイックスタートも兼ねているです。
+今から ReactiveProperty を（Xamarin で）使ってみたいぞ、という人向けのクイックスタートも兼ねていますです。
 
 ## 1. ソリューションを作る
 
