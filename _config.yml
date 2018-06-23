@@ -11,6 +11,7 @@ email: okuokuoku[at]gmail.com
 description: >
   Try and try again
 logo: "/assets/images/logo.svg"
+logo_png: "/assets/images/logo.png"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.amay077.net" # the base hostname & protocol for your site
 
