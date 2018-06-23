@@ -289,22 +289,22 @@ body {
       border-collapse: collapse;
     }
 
-    .highlight {
-      border: 1px solid #d8d8d8;
-      border-radius: 5px;
-      background-color: #f8f8f8;
+    // .highlight {
+    //   border: 1px solid #d8d8d8;
+    //   border-radius: 5px;
+    //   background-color: #f8f8f8;
 
-      table {
-        line-height: 20px;
-        border: 1px solid transparent;
-      }
-    } 
-
-    table::not(".highlight"), th, td {
-      border: 1px solid black;
-      padding: 5px;
-      text-align:left;
-    }
+    //   table {
+    //     line-height: 20px;
+    //     border: 1px solid transparent;
+    //   }
+    // } 
+    // 
+    // table::not(".highlight"), th, td {
+    //   border: 1px solid black;
+    //   padding: 5px;
+    //   text-align:left;
+    // }
     p {
       font-weight: 400;
       font-style: normal;
