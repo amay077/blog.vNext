@@ -32,7 +32,7 @@ RxProperty について書くの何度目なんだ、自分。
 
 ``RxProperty<T>`` は基本的には ``Observable<T>``(というか ``Subject<T>``)なのですが、 ``.value`` プロパティで ``ObservableField<T>`` に変換できます。
 
-```kotlin
+```kotlin:
 // MainViewModel.kt
 class MainViewModel : ViewModel() {
 
