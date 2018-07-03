@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MVP Renewal"
-date: 2018/07/03 23:59:00 +0900
+date: 2018/07/02 23:59:00 +0900
 comments: true
 categories: [Microsoft, MVP]
 ---
