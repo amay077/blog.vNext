@@ -18,6 +18,10 @@ Build Insider にて、 [Xamarin逆引きTips](http://www.buildinsider.net/mobil
 
 よゐこ濱口に似てるらしいです。
 
+## 経歴的な
+
+[こちらへ](job_history.html)
+
 ## BOOKS(共著)
 
 技術書典2で頒布した Essential Xamarin Yin陰/Yang が、商業本としてインプレスR&Dより発売中です！
