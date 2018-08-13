@@ -20,7 +20,7 @@ Build Insider にて、 [Xamarin逆引きTips](http://www.buildinsider.net/mobil
 
 ## 経歴的な
 
-[こちらへ](job_history.html)
+[こちらへ](/job_history/index.html)
 
 ## BOOKS(共著)
 
