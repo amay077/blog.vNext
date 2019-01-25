@@ -1,4 +1,4 @@
-cd _site
+cd $(cd $(dirname $0); pwd)/_site
 git reset --hard
 git pull
 
