@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Job History
 permalink: /job_history/
 ---
 
