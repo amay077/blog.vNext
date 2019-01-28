@@ -9,7 +9,7 @@ categories: [Android, Kotlin, RxJava]
 
 <!--more-->
 
-* [RxJava,Kotlin,Databindingでイケてる入力フォームをスッキリ実装する | eureka tech blog](https://developers.eure.jp/tech/android_cool_form)
+* [RxJava,Kotlin,Databindingでイケてる入力フォームをスッキリ実装する / eureka tech blog](https://developers.eure.jp/tech/android_cool_form)
 
 興味深く読ませていただきました。
 
