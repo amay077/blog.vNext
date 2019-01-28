@@ -100,7 +100,7 @@ HTML+Javascript のソースコードはこんな感じ([Geekなぺーじ:Google
       #map { height: 100% }
     </style>
  
-    <script src="http://maps.google.com/maps/api/js?v=3&sensor=false"
+    <script src="https://maps.google.com/maps/api/js?v=3&sensor=false"
         type="text/javascript" charset="UTF-8"></script>
  
     <script type="text/javascript">
