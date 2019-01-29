@@ -423,7 +423,7 @@ mac の Terminal だと ``launchctl setenv`` を使います。
 
 ```
 launchctl setenv FCMSAMPLE_APP_ID 1:7618378357:android:70bef98060071fe6
-launchctl setenv FCMSAMPLE_API_KEY AIzaSyDIUooI-LGeKAAaT6lf8sQEAemJcGx7R4s
+launchctl setenv FCMSAMPLE_API_KEY xxxxxxxx
 ```
 
 こんな感じで。
