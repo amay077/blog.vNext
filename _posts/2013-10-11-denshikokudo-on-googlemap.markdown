@@ -146,7 +146,7 @@ HTML+Javascript のソースコードはこんな感じ([Geekなぺーじ:Google
       #map { height: 100% }
     </style>
 
-    <script src="http://maps.google.com/maps/api/js?v=3&sensor=false"
+    <script src="https://maps.google.com/maps/api/js?v=3&sensor=false"
         type="text/javascript" charset="UTF-8"></script>
 
     <script type="text/javascript">
@@ -164,7 +164,7 @@ HTML+Javascript のソースコードはこんな感じ([Geekなぺーじ:Google
       });
 
       // 地理院タイルを Overlay する
-      // via http://portal.cyberjapan.jp/help/development.html
+      // via https://portal.cyberjapan.jp/help/development.html
       map.mapTypes.set("GsiMaps", {
         name:"地理院地図(GSI Maps)",
         tileSize:new google.maps.Size(256,256),
@@ -176,7 +176,7 @@ HTML+Javascript のソースコードはこんな感じ([Geekなぺーじ:Google
           img.style.height = "256px";
           var x = (tileCoord.x % Math.pow(2, zoom)).toString();
           var y = tileCoord.y.toString();
-          img.src = "http://cyberjapandata.gsi.go.jp/xyz/std/" + zoom +  "/" + x + "/" + y + ".png";
+          img.src = "https://cyberjapandata.gsi.go.jp/xyz/std/" + zoom +  "/" + x + "/" + y + ".png";
           return img;
         }
       });
@@ -185,7 +185,7 @@ HTML+Javascript のソースコードはこんな感じ([Geekなぺーじ:Google
       var logo = document.createElement('DIV');
       logo.style.padding = '3px';
       map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(logo);
-      logo.innerHTML = '<a href="http://portal.cyberjapan.jp/portalsite/kiyaku/index.html" target="_blank"><img style="width:32px, height:32px" src="http://cyberjapan.jp/images/icon01.gif" alt="電子国土" /></a>';    }
+      logo.innerHTML = '<a href="https://portal.cyberjapan.jp/portalsite/kiyaku/index.html" target="_blank"><img style="width:32px, height:32px" src="https://cyberjapan.jp/images/icon01.gif" alt="電子国土" /></a>';    }
     </script>
   </head>
 
