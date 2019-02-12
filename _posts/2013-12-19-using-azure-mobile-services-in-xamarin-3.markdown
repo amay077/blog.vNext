@@ -234,7 +234,7 @@ public string DeviceToken { get; set; }
 
 ### それでもまだ、プッシュ通知が来ません
 
-[チュートリアル](http://www.windowsazure.com/en-us/develop/mobile/tutorials/get-started-with-push-xamarin-ios/?fb=ja-jp)にある、
+チュートリアル(リンクが死んだ…)にある、
 
 ```csharp
 public override void RegisteredForRemoteNotifications(UIApplication application, NSData deviceToken)

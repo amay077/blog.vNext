@@ -11,7 +11,7 @@ categories: [Firebase, Kotlin, Android]
 
 Firebase Firestore の Android 用 SDK では、データの取得はコールバックスタイルで行うようです。
 
-* [Cloud Firestore でデータを取得する  |  Firebase](https://firebase.google.com/docs/firestore/query-data/get-data?hl=ja)
+* [Cloud Firestore でデータを取得する  /  Firebase](https://firebase.google.com/docs/firestore/query-data/get-data?hl=ja)
 
 また、コード例が Java のみで Kotlin の例がないので、Java のコード例を Kotlin で書き換えたあと、さらに Kotlin-coroutine を使って async/await 化してみます。
 
