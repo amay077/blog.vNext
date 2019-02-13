@@ -4,6 +4,7 @@ title: "DroidKaigi2019 でクロスプラットフォーム開発ツールにつ
 date: 2019/02/11 23:59:00 +0900
 comments: true
 published: true
+image: /assets/images/posts/2019_02_10_droidkaigi2019.png
 categories: [Kotlin, Android, DroidKaigi]
 ---
 2019.2.7〜2.8 に行われた [DroidKaigi2019](https://droidkaigi.jp/2019/) に登壇させてもらいました。

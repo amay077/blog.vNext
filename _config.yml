@@ -44,8 +44,6 @@ google_analytics_tracking_id: UA-224332-7
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
-gems:
   - jekyll-seo-tag
 
 exclude:
