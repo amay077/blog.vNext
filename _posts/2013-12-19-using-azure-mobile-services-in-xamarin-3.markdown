@@ -181,7 +181,7 @@ Xamarin Studio から、実機で実行します。
 
 アプリ起動直後、通知の受信を許可するかどうかを尋ねられますので「Yes」で。(一度答えると二度と出ないのでしょうか？なのでチュートリアルの画像で。)
 
-![](http://www.windowsazure.com/media/devcenter/mobile/mobile-quickstart-push1-ios.png)
+![](https://www.windowsazure.com/media/devcenter/mobile/mobile-quickstart-push1-ios.png)
 
 Twitter 認証後、適当に項目を追加します。
 
