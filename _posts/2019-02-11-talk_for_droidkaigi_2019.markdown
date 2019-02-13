@@ -3,11 +3,11 @@ layout: post
 title: "DroidKaigi2019 でクロスプラットフォーム開発ツールについて話しました"
 date: 2019/02/11 23:59:00 +0900
 comments: true
-published: false
+published: true
 categories: [Kotlin, Android, DroidKaigi]
 ---
 2019.2.7〜2.8 に行われた [DroidKaigi2019](https://droidkaigi.jp/2019/) に登壇させてもらいました。
-[参加者としての感想は別に書きました](https://qiita.com/amay077/items/ed43ef822c34677d2254)。
+参加者としての感想は [別に書きました](https://qiita.com/amay077/items/ed43ef822c34677d2254)。
 <!--more-->
 
 ![](/assets/images/posts/2019_02_10_droidkaigi2019.png)
