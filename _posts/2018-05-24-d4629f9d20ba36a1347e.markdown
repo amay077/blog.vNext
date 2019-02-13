@@ -39,7 +39,7 @@ Rx の真髄は豊富な Operator を組合せて、ストリーミングデー�
 
 ### 3. Java に対する不安、Pure Kotlin への期待
 
-* [OracleがJavaの著作権侵犯裁判でGoogleに勝利 | TechCrunch Japan](https://jp.techcrunch.com/2018/03/28/2018-03-27-oracle-wins-appeal-against-google-in-copyright-case/)
+* [OracleがJavaの著作権侵犯裁判でGoogleに勝利 / TechCrunch Japan](https://jp.techcrunch.com/2018/03/28/2018-03-27-oracle-wins-appeal-against-google-in-copyright-case/)
 
 の通り、今後の "疑似Java" の使用には幾ばくかの不安があります。
 
