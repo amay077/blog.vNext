@@ -5,8 +5,11 @@ date: 2018/12/26 23:59:00 +0900
 comments: true
 categories: [Azure, AzureDevOps, Android]
 ---
-[Azure Pipelines](https://azure.microsoft.com/ja-jp/services/devops/pipelines/) で Android アプリ(Not Xamarin)をビルドする時、普通にテンプレから作った gradle タスクは、 ``gradlew build`` を実行しますが、これはアプリのプロジェクトに含まれる全てのビルドタイプをビルドするため、多くの場合ムダです。[^1]
+[Azure Pipelines](https://azure.microsoft.com/ja-jp/services/devops/pipelines/) で Android アプリ(Not Xamarin)をビルドする時、
+
 <!--more-->
+
+普通にテンプレから作った gradle タスクは、 ``gradlew build`` を実行しますが、これはアプリのプロジェクトに含まれる全てのビルドタイプをビルドするため、多くの場合ムダです。[^1]
 
 [^1]: Debug ビルドで単体テストを行い、同時に配布用 Release ビルドを生成したい、というケースでもあるのでしょうか？わからん。
 
