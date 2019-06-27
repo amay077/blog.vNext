@@ -47,3 +47,9 @@ JetBrains OpenSource License に申請できる条件は、
 ありがたいことに、この1年間でコミッターの数が15人ほどに増えてきたので、更新時に「コミッターの数」を「15」として申請したのですが、もらえたライセンスは変わらず「3」でした（汗）。まあコアコミッターと呼べる人は私以外にまだ居ないので妥当ではあります。
 
 ということで、OSS開発をしている人は JetBrains 全製品が使用できるライセンスをもらえるチャンスがありますので、応募してみるとよいと思います。
+
+なお、このプログラムで支給されるライセンスは
+
+> Licenses can be used for non-commercial OS development only. Please consider purchasing separate licenses to work on commercial projects.
+
+ということで、非商用のオープンソースソフトウェア開発目的でのみ使用可能です。商用で使用する場合は [ライセンスを購入](https://twitter.com/yusuke/status/1144116495871434753) しましょう。
