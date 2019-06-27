@@ -39,6 +39,12 @@ categories: [opensource, jetbrains]
 
 　ほかのプロダクトは…あまり知らなかったけどいろいろ使ってみるぞ！
 
+なお、このプログラムで支給されるライセンスは
+
+> Licenses can be used for non-commercial OS development only. Please consider purchasing separate licenses to work on commercial projects.
+
+ということで、非商用のオープンソースソフトウェア開発目的でのみ使用可能です。商用で使用する場合は [ライセンスを購入](https://twitter.com/yusuke/status/1144116495871434753) しましょう。
+
 ## みんなもワンチャンあるで
 
 　申請時、 Number of commiters 的な項目があったので、 [Xamarin.Forms.GoogleMaps にコミットしてくれていた人の数](https://github.com/amay077/Xamarin.Forms.GoogleMaps/graphs/contributors) で「3」と入力したら、ライセンスも3つくれました（残りの２つはコミッターの方々に提供するつもりです）。
