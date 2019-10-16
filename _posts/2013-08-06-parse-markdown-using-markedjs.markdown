@@ -26,7 +26,9 @@ var formatted = marked(markdown_text)
 
 Typescript クイックガイドでは、HTML 内に Markdown テキストがベタ書きされていたが、せっかくなので管理がしやすいように外部 Markdown ファイルを読みこむようにしてみた。
 
-```html md_renderer.html
+**md_renderer.html**
+
+```html
 <!DOCTYPE html>
 <html lang="ja">
     <head>
