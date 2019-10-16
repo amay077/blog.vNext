@@ -167,7 +167,7 @@ liveData.postValue(5)
 liveData.postValue(5)// 最初の1回しか onChanged は呼ばれない
 ```
 
-## やっぱり Observable<T> がイイ！
+## やっぱり ``Observable<T>`` がイイ！
 
 LiveData の購読管理が楽になるところは良いんですけど、 ``map`` や ``switchMap(flatMap かな)`` など最低限の合成メソッドしかない点や、DataBinding との併用が面倒そうな点は微妙です。
 

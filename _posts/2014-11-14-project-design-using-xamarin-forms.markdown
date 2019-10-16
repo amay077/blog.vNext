@@ -36,7 +36,7 @@ categories: [Xamarin, Android, iOS]
 　ViewModel から View へシグナルを送るために "XFではない" Messengerを使う。（MvvmLight とか Prism とかから引っこ抜いてくればいいかな？）
 　Model にはビジネスロジックのみを記述し、通信処理やデータI/Oなどのプラットフォーム共通なAPIはModelから直接使い、プラットフォーム固有の機能は、ServiceInterface を使う。
 　ServiceInteface は、ServiceLocator によって App.Android/iOS から実体が Inject される。ServiceLocator は "XFではない"…以下略
-　Rx を使うので、たぶん Model のメソッドの返り値は全部 IObservable<T> になります。
+　Rx を使うので、たぶん Model のメソッドの返り値は全部 ``IObservable<T>`` になります。
 
 ### App.Android, App.iOS
 

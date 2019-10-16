@@ -46,7 +46,9 @@ Mac + Xamarin Studio を使いますが、Windows + Visual Studio + Xamarin-Addi
 
 これらの実装が下のようになります。
 
-```csharp FirstViewModel.cs
+**FirstViewModel.cs**
+
+```csharp
 using System;
 using Codeplex.Reactive;
 using System.Reactive.Linq;
@@ -101,7 +103,9 @@ namespace FormsWithRxProperty.ViewModels
 
 　PCL のプロジェクトに、 ``FirstPage.cs`` を作成し、以下のように実装します。
 
-```csharp FirstPage.cs
+**FirstPage.cs**
+
+```csharp
 using System;
 using Xamarin.Forms;
 using FormsWithRxProperty.ViewModels;
@@ -163,7 +167,9 @@ namespace FormsWithRxProperty.Pages
 
 　もともとあった ``App.cs`` は、``FirstPage`` を生成するだけにします。
 
-```csharp App.cs
+**App.cs**
+
+```csharp
 using System;
 using Xamarin.Forms;
 using FormsWithRxProperty.Pages;
@@ -196,7 +202,9 @@ namespace FormsWithRxProperty
 
 ViewModel は ``INotifyPropertyChanged`` を実装して作成するのが一般的です。既にそのようにして作られた ViewModel でも ``IObservable`` 化して、ReactiveProperty で利用できます。
 
-```csharp SecondViewModel.cs
+**SecondViewModel.cs**
+
+```csharp
 public class SecondViewModel : INotifyPropertyChanged
 {
     public ReactiveProperty<string> ValidationAttr { get; private set; }

@@ -83,7 +83,8 @@ LINQ の方は Mac+Mono(Xamarin) で試しています（ぼそり
 
 0〜9 を、偶数値だけ抽出して、降順にソートして、値を10倍して、出力。
 
-```csharp C#
+```csharp
+// C#
 Enumerable.Range(0, 10)
   .Where(x => x % 2 == 0)
   .OrderByDescending(x => x)
@@ -107,7 +108,8 @@ Arrays.asList(0,1,2,3,4,5,6,7,8,9).stream()
 
 1〜5のリストから、「n×10から始まるn件」のリストを生成。(結果見たほうが分かりやすいな（^_^;)
 
-```csharp C#
+```csharp
+//C#
 Enumerable.Range(1, 5)
   .SelectMany(x => Enumerable.Range(10 * x, x))
   .ToList().ForEach(Console.WriteLine);
@@ -131,7 +133,8 @@ Arrays.asList(1,2,3,4,5).stream()
 
 1〜10のリストの3件飛ばして、5件取得。
 
-```csharp C#
+```csharp
+// C#
 Enumerable.Range(1, 10)
   .Skip(3)
   .Take(5)
@@ -152,7 +155,8 @@ Stream.iterate(1, x-> x++)
 
 LINQ には件数でなく条件を指定できる ``TakeWhile`` ``SkipWhile`` がありますが、Java にはなさそうなので ``filter`` で代用しないといけなさそう。
 
-```csharp C#
+```csharp
+// C#
 Enumerable.Range(1, 10)
   .SkipWhile(x => x < 4)
   .TakeWhile(x => x < 9)
@@ -163,12 +167,14 @@ Enumerable.Range(1, 10)
 
 2つのリストをつなげる
 
-```csharp C#
+```csharp
+// C#
 new int[] { 1, 2, 3 }.Concat(new int[]{ 30, 20, 10 })
 .ToList().ForEach(Console.WriteLine);
 ```
 
-```java Java
+```java
+// Java
 Stream.concat(
   Arrays.asList(1,2,3).stream(), 
   Arrays.asList(30,20,10).stream())
@@ -187,7 +193,8 @@ Stream.concat(
 和集合：2つのリストをマージする。
 差集合：リスト1を基準にリスト2との差分を得る。
 
-```csharp C#
+```csharp
+// C#
 var list1 = new int[]{1,2,3,4,5,6};
 var list2 = new int[]{8,7,6,5,4};
 
@@ -201,7 +208,8 @@ list1.Except(list2)
   .ToList().ForEach(Console.WriteLine);
 ```
 
-```java Java
+```java
+// Java
 // 自力で実現かよｗ
 list1.stream().filter(x -> list2.stream().anyMatch(y -> y == x))
   .forEach(System.out::println);
@@ -224,7 +232,8 @@ list1.stream().filter(x -> list2.stream().noneMatch(y -> y == x))
 
 商品マスタと売上テーブルを INNER JOIN する的な。
 
-```csharp C#
+```csharp
+// C#
 var master = new [] {
     new { Id = 1, Name = "Apple" },
     new { Id = 2, Name = "Grape" }
@@ -244,7 +253,8 @@ master.Join(sales,
 .ToList().ForEach(Console.WriteLine);
 ```
 
-```java Java
+```java
+// Java
 // 自力
 List<Pair<Integer, String>> master = Arrays.asList(
   new Pair<>(1, "Apple"),
@@ -275,7 +285,8 @@ master.stream()
 
 商品マスタと売上テーブルを OUTER JOIN する的な。結合先のテーブルに行が見つからなかったものは null になる。
 
-```csharp C#
+```csharp
+// C#
 var master = new [] {
     new { Id = 1, Name = "Apple" },
     new { Id = 2, Name = "Grape" },
@@ -298,7 +309,8 @@ master.GroupJoin(sales,
 
 たぶん普通は First じゃなくて Sum とか使うんだろう。
 
-```java Java
+```java
+// Java
 // これも自力
 List<Pair<Integer, String>> master = Arrays.asList(
   new Pair<>(1, "Apple"),
@@ -337,7 +349,8 @@ Orange=Optional.empty // Option だから empty になるのは良い
 
 ２つのリストの値をひとつずつセットにして流す。
 
-```csharp C#
+```csharp 
+// C#
 var arr1 = new int[] { 1, 2, 3, 4, 5 };
 var arr2 = new string[] { "hoge", "fuga", "piyo" };
 
@@ -346,7 +359,8 @@ arr1.Zip(arr2, (x, y) =>  new {x, y})
     .ForEach(Console.WriteLine);
 ```
 
-```java Java
+```java
+// Java
 // FIXME どうやるの？ Streams.zip はどこいった？
 ```
 
@@ -360,13 +374,15 @@ arr1.Zip(arr2, (x, y) =>  new {x, y})
 
 重複する数値リストから重複をなくす。
 
-```csharp C#
+```csharp
+// C#
 new int[]{1,3,4,3,2,4}
   .Distinct()
   .ToList().ForEach(Console.WriteLine);
 ```
 
-```java Java
+```java
+// Java
 Arrays.asList(1,3,4,3,2,4).stream()
   .distinct()
   .forEach(System.out::println);
@@ -381,13 +397,15 @@ Arrays.asList(1,3,4,3,2,4).stream()
 いろいろな集計の素、畳み込み。言語により fold とか reduce とか aggregate とか、いろいろな呼び名がありますね。
 よい例が浮かなかったので Max を実装してみました。
 
-```csharp C#
+```csharp
+// C#
 var max = new int[]{1,5,3,7,2,4}
     .Aggregate(Int32.MinValue, (x, y) => Math.Max(x, y));
 Console.WriteLine(max);
 ```
 
-```java Java
+```java
+// Java
 int max = Arrays.asList(1,5,3,7,2,4).stream()
   .reduce(Integer.MIN_VALUE, (x, y) -> Math.max(x, y));
 System.out.println(max);
@@ -401,7 +419,8 @@ System.out.println(max);
 
 リストの要素をキーにしてグループ化する。Salesは合計を計算する。
 
-```csharp C#
+```csharp
+// C#
 var sales = new [] { 
     new { Id = 1, Sales = 100 },
     new { Id = 2, Sales = 200 },
@@ -417,7 +436,8 @@ sales.GroupBy(x=>x.Id, (Id, groupedSales) => new {Id,
 
 （LINQ ではありませんが、 ``List.LookUp`` を使って実現することもできるようです → [コメント:2014/03/22 00:29](http://qiita.com/amay077/items/9d2941283c4a5f61f302#comment-82388821b902ad7999b0)）
 
-```java Java
+```java
+// Java
 // javafx に Pair があったので Tuple 代わりに使っちゃった
 List<Pair<Integer, Integer>> list1 = Arrays.asList(
   new Pair<>(1, 100),
@@ -459,7 +479,8 @@ Java の方、カオスすぎる…。.NET の ``IGrouping`` を Map でやっ�
 
 集計いろいろ。
 
-```csharp C#
+```csharp
+// C#
 var list1 = Enumerable.Range(0, 10);
 Console.WriteLine("Sum={0}", list1.Sum());
 Console.WriteLine("Max={0}", list1.Max());
@@ -470,7 +491,8 @@ Console.WriteLine("Last={0}", list1.Last());
 Console.WriteLine("Average={0}", list1.Average());
 ```
 
-```java Java
+```java
+// Java
 List<Integer> list1 = Arrays.asList(0,1,2,3,4,5,6,7,8,9);
 IntSummaryStatistics stats = list1.stream().collect(Collectors.summarizingInt(x -> x)); // Max,Min,Count,Average が取得できる
 System.out.println("Sum=" + stats.getSum());

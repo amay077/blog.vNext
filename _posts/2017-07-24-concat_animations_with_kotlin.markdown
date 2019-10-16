@@ -73,7 +73,7 @@ view.startAnimation(anim1);
 
 コールバックのネストに、行いたい処理とコードの記述順が逆という二重苦、これはやってられません。
 
-これだけで Kotlin を使いたい案件です（Java でも Deferred が使えるライブラリ<RxJava でも可>を使えばマシにはなります）。
+これだけで Kotlin を使いたい案件です（Java でも Deferred が使えるライブラリ＜RxJava でも可＞を使えばマシにはなります）。
 
 ## これが Kotlin だと…
 

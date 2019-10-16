@@ -75,7 +75,9 @@ Starter-Android, Starter-iOS はそれぞれの View層になります。
 
 Starter-iOS の TestViewController.cs を見てみます。
 
-```csharp TestViewController.cs
+**TestViewController.cs**
+
+```csharp
 namespace Starter.Views
 {
     public partial class TestViewController : ReactiveViewController, IViewFor<TestViewModel>
@@ -154,7 +156,9 @@ namespace Starter.Core.ViewModels
 
 ``MyText``, ``MyLabel`` に、vm.MyName をバインドします。
 
-```csharp TestViewController.cs
+**TestViewController.cs**
+
+```csharp
 namespace Starter.Views
 {
     public partial class TestViewController : ReactiveViewController, IViewFor<TestViewModel>
