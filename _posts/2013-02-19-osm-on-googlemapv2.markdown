@@ -82,7 +82,7 @@ URL は OpenStreetMap のものを使います。y軸の値は、Google Moon で
 
 こんな感じで表示できます。
 
-![OpenStreetMap on Google Map API](https://dl.dropbox.com/u/264530/qiita/advent2012_osm.png)
+![OpenStreetMap on Google Map API](https://blog.amay0777.net/assets/images/posts/advent2012_osm.png)
 
 移動、拡大・縮小だけでなく、API v2 の恩恵で、回転やチルトもできるのが嬉しいですね。
 
@@ -239,7 +239,7 @@ public class TransparencyUrlTileProvider implements TileProvider {
 
 動かしてみます。
 
-![OpenStreetMap with Google Map API](https://dl.dropbox.com/u/264530/qiita/advent2012_osmwithg.png)
+![OpenStreetMap with Google Map API](https://blog.amay0777.net/assets/images/posts/advent2012_osmwithg.png)
 
 これは、GoogleMap の衛星写真の上に OpenStreetMap を透過して重ねた例です（分かりづらい
 

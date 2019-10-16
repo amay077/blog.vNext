@@ -20,8 +20,8 @@ categories: [OpenStreetMap, Map]
 
 というわけで Googleマップ と、OSM で私が最近ロギングして描いた地図で比較してみました。
 
-!["1"](https://dl.dropbox.com/u/264530/qiita/osm_bing_1.png)
-!["2"](https://dl.dropbox.com/u/264530/qiita/osm_bing_2.png)
+!["1"](https://blog.amay0777.net/assets/images/posts/osm_bing_1.png)
+!["2"](https://blog.amay0777.net/assets/images/posts/osm_bing_2.png)
 
 一つ目が Google 、 二つ目が OSM (Bing) です。
  

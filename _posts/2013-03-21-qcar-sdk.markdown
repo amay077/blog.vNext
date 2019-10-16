@@ -10,7 +10,7 @@ categories: [Android, AR, QCAR]
 
 ## Detecting and Tracking Image Targets Simultaneously
 
-!["1"](https://dl.dropbox.com/u/264530/qiita/qcar_1.png)
+!["1"](https://blog.amay0777.net/assets/images/posts/qcar_1.png)
 
 > The QCAR SDK is also capable of simultaneous tracking of up to 5 Image Targets - as shown in the screenshot on top of this page. This feature can be enabled by providing hints to the QCAR SDK. The Image Targets sample allows you to switch on this feature by uncommenting the highlighted two lines in the native source ImageTargets.cpp:
 >
@@ -36,7 +36,7 @@ Java_com_qualcomm_QCARSamples_ImageTargets_ImageTargets_onQCARInitializedNative
 
 ３つの画像を認識するようにしてみましたよ。
 
-!["2"](https://dl.dropbox.com/u/264530/qiita/qcar_2.png)
+!["2"](https://blog.amay0777.net/assets/images/posts/qcar_2.png)
 
 おぉ～、なんかスゲー。
 

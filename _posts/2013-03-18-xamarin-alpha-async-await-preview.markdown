@@ -68,7 +68,7 @@ private static int HeavyCalc()
 こんな感じ。
 動かしてみます。
 
-!["anr"](https://dl.dropbox.com/u/264530/qiita/xamarin_async_await_preview_anr.png)
+!["anr"](https://blog.amay0777.net/assets/images/posts/xamarin_async_await_preview_anr.png)
 
 あえなくフリーズ＆ANR、当然です。
 
@@ -120,7 +120,7 @@ private Task<int> HeavyCalcAsync()
 
 動かしてみます。
 
-!["async"](https://dl.dropbox.com/u/264530/qiita/xamarin_async_await_preview_asyc.png)
+!["async"](https://blog.amay0777.net/assets/images/posts/xamarin_async_await_preview_asyc.png)
 
 ANR でませんし、ちゃんと計算後に画面が更新されます。
 

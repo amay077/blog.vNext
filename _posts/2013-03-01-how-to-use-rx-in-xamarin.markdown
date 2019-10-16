@@ -31,11 +31,11 @@ Mono で使えるということは Xamarin でももちろん…ということ
 
 ソリューションツリーのソリューションのところで右クリック→追加→既存のプロジェクトを追加 
 
-!["add_project"](https://dl.dropbox.com/u/264530/qiita/xamarin_android_rxm4a.png)
+!["add_project"](https://blog.amay0777.net/assets/images/posts/xamarin_android_rxm4a.png)
 
 で、先ほど取得した RxM4A のディレクトリへ移動します。
 
-!["projects"](https://dl.dropbox.com/u/264530/qiita/xamarin_android_rxm4a_projects.png)
+!["projects"](https://blog.amay0777.net/assets/images/posts/xamarin_android_rxm4a_projects.png)
 
 RxMonoForAndroid の中から以下のプロジェクトを追加します。
 

@@ -13,8 +13,8 @@ Mac の場合、「**``option`` キーを押しながらマウスをドラッグ
 
 を見てください。
 
-!["1"](https://dl.dropbox.com/u/264530/qiita/sublimetext2_boxselection_1.png)
+!["1"](https://blog.amay0777.net/assets/images/posts/sublimetext2_boxselection_1.png)
 
 切り取った後は、左詰めされます。
 
-!["2"](https://dl.dropbox.com/u/264530/qiita/sublimetext2_boxselection_2.png)
+!["2"](https://blog.amay0777.net/assets/images/posts/sublimetext2_boxselection_2.png)

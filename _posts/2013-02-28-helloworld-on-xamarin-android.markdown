@@ -21,13 +21,13 @@ dmg 開いてインストーラっぽいのを実行するだけ。Android と i
 
 C# - Android - Android Ice Cream Sandwitch Application を選択。
 
-!["create_project"](https://dl.dropbox.com/u/264530/qiita/xamarin_create_project.png)
+!["create_project"](https://blog.amay0777.net/assets/images/posts/xamarin_create_project.png)
 
 ちなみに VB.NET もありますが、Android用のプロジェクトテンプレがありませんでした。
 
 ## プロジェクトの中身はこんな感じ
 
-!["project"](https://dl.dropbox.com/u/264530/qiita/xamarin_helloworld.png)
+!["project"](https://blog.amay0777.net/assets/images/posts/xamarin_helloworld.png)
 
 ソリューションツリー、Visual Studio っぽさと Android っぽさが同居していてなんか不思議な感じです。
 
@@ -116,7 +116,7 @@ button.Click += (sender, e) =>
 ## ビルド、実行
 実行すると、こんなダイアログが出てきます。
 
-!["devices"](https://dl.dropbox.com/u/264530/qiita/xamarin_device_select.png)
+!["devices"](https://blog.amay0777.net/assets/images/posts/xamarin_device_select.png)
 
 実機もちゃんと認識されます。
 

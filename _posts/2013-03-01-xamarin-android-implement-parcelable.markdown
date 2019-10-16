@@ -13,7 +13,7 @@ categories: [Xamarin, Android, C#]
 
 メニュー → 新規 → ファイル と選択するとこんなダイアログが出るので Activity クラス名を入力して決定します。
 
-!["new_file_dialog"](https://dl.dropbox.com/u/264530/qiita/xamarin_percelable_create_activity.png)
+!["new_file_dialog"](https://blog.amay0777.net/assets/images/posts/xamarin_percelable_create_activity.png)
 
 すると ``NextActivity.cs`` ができます。
 
@@ -100,7 +100,7 @@ Android では、Activity とか Service をまたぐオブジェクトは Perce
 
 いきなりこれを忘れて、謎のビルドエラーと１０分程格闘しました(汗)
 
-!["assembly_reference"](https://dl.dropbox.com/u/264530/qiita/xamarin_assenbly_reference.png)
+!["assembly_reference"](https://blog.amay0777.net/assets/images/posts/xamarin_assenbly_reference.png)
 
 ソリューションツリーの参照の右クリックメニューからアセンブリ参照ダイアログが出るので、``Mono.Android.Export`` を見つけて追加します。
 
@@ -263,7 +263,7 @@ namespace HelloXamarinAndroid
 
 これで実装完了。動かしてみます。
 
-!["receive_parcel"](https://dl.dropbox.com/u/264530/qiita/xamarin_parcel_received.png)
+!["receive_parcel"](https://blog.amay0777.net/assets/images/posts/xamarin_parcel_received.png)
 
 以上、受け渡し可能なクラスの実装方法でした。
 

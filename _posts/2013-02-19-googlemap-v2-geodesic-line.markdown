@@ -15,7 +15,7 @@ GoogleMap は[メルカトル図法](http://ja.wikipedia.org/wiki/%E3%83%A1%E3%8
 
 こんな感じ、赤がただの直線、青が大圏コースです。
 
-![greatcircle](https://dl.dropbox.com/u/264530/qiita/greatcircle.png)
+![greatcircle](https://blog.amay0777.net/assets/images/posts/greatcircle.png)
 
 やり方は以下のとおりで、```geodesic``` を ```true``` にすれば大圏コースになります。
 

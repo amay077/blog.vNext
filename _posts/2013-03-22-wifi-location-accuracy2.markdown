@@ -27,7 +27,7 @@ WiFi 位置測位の精度を調べてみた で、WiFi（というか NETWORK_P
  
 ### 結果（青：GPS、赤：NETWORK） 
 
-!["1"](https://dl.dropbox.com/u/264530/qiita/wifilocation_21.png)
+!["1"](https://blog.amay0777.net/assets/images/posts/wifilocation_21.png)
 
 ロギング間隔を前回の1分から5分にしたので、点と点の距離が結構開いてます。
 前回の電車通勤時では、線路周辺に WiFi 基地局がたくさんあるため NETWORK_PROVIDER でもなかなかの精度が出ると予想しましたが、その推測は正しかったようで、今回の場合、家がほとんどない沿岸道路（浜名バイパス）を走行時の測位はかなり精度が落ちています。

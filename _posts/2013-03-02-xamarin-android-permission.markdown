@@ -11,16 +11,16 @@ GPS使いたいんだけど権限設定どうしよう、と思ったらこう�
 <!-- more -->
 
 プロジェクトのオプションから、
-!["option"](https://dl.dropbox.com/u/264530/qiita/xamarin_android_project_option.png)
+!["option"](https://blog.amay0777.net/assets/images/posts/xamarin_android_project_option.png)
 
 ビルド→Android Application と来て、
-!["add"](https://dl.dropbox.com/u/264530/qiita/xamarin_android_application_add.png)
+!["add"](https://blog.amay0777.net/assets/images/posts/xamarin_android_application_add.png)
 
 Add すると権限などが設定できるようになります。
-!["added"](https://dl.dropbox.com/u/264530/qiita/xamarin_android_application_created.png)
+!["added"](https://blog.amay0777.net/assets/images/posts/xamarin_android_application_created.png)
 
 その後、おなじみ AndroidManifest.xml ができてました。
-!["source"](https://dl.dropbox.com/u/264530/qiita/xamarin_android_androidmanifestxml.png)
+!["source"](https://blog.amay0777.net/assets/images/posts/xamarin_android_androidmanifestxml.png)
 
 Activity の設定はオートでやってくれるみたいなのでありません。
 これでオレオレ Applocation クラスも動かせるのかなあ。。。

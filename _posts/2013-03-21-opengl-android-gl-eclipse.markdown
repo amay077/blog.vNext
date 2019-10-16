@@ -20,6 +20,6 @@ categories: [Android, Java, OpenGL]
 
 ↓こんなサンプルアプリが実行できるハズですよ、と。
 
-!["1"](https://dl.dropbox.com/u/264530/qiita/open_gl_1.png)
-!["2"](https://dl.dropbox.com/u/264530/qiita/open_gl_2.png)
-!["3"](https://dl.dropbox.com/u/264530/qiita/open_gl_3.png)
+!["1"](https://blog.amay0777.net/assets/images/posts/open_gl_1.png)
+!["2"](https://blog.amay0777.net/assets/images/posts/open_gl_2.png)
+!["3"](https://blog.amay0777.net/assets/images/posts/open_gl_3.png)

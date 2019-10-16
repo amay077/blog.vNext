@@ -19,8 +19,8 @@ Bing Map は…ガンガレ！
 しかし、見た目は違えど地図データはすべて ゼンリン提供。おそるべしゼンリン！ 
 それからデザインの努力でこうも印象が変わるもんですねぇ。デザイナーさんおそるべし！
 
-!["yahoo"](https://dl.dropbox.com/u/264530/qiita/map_vs_yahoo.png)
-!["bing"](https://dl.dropbox.com/u/264530/qiita/map_vs_bing.png)
-!["google"](https://dl.dropbox.com/u/264530/qiita/map_vs_google.png)
-!["mapion"](https://dl.dropbox.com/u/264530/qiita/map_vs_mapion.png)
+!["yahoo"](https://blog.amay0777.net/assets/images/posts/map_vs_yahoo.png)
+!["bing"](https://blog.amay0777.net/assets/images/posts/map_vs_bing.png)
+!["google"](https://blog.amay0777.net/assets/images/posts/map_vs_google.png)
+!["mapion"](https://blog.amay0777.net/assets/images/posts/map_vs_mapion.png)
 

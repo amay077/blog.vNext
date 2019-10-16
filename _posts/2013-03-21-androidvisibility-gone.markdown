@@ -20,7 +20,7 @@ visibility は[リファレンス](http://developer.android.com/reference/androi
 
 それが↓これ。
 
-!["1"](https://dl.dropbox.com/u/264530/qiita/androidvisibility_1.png)
+!["1"](https://blog.amay0777.net/assets/images/posts/androidvisibility_1.png)
 
 なるほど。
 invisible は、そこに存在するけど見えていない。ので空白の領域ができる。

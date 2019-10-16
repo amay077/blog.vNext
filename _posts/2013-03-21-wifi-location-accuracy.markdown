@@ -31,12 +31,12 @@ GPS を起動し、計測が完了したらすぐにGPSを終了する。1分後
 
 まず GPS です。画面左上から右下へ向かうルートです。73点測位されました。（★は気にしないで下さい。私のお気に入りの場所です(^^）
 
-!["1"](https://dl.dropbox.com/u/264530/qiita/wifilocation_1.png)
+!["1"](https://blog.amay0777.net/assets/images/posts/wifilocation_1.png)
 
 つぎに WiFi です。こちらは 65 点測位されました。Android の位置取得の仕組みは位置情報が変化しないとイベントが発生しないため、GPS よりもやや少なくなっています。それでも予想外の多さでした。
 
-!["2"](https://dl.dropbox.com/u/264530/qiita/wifilocation_2.png)
-!["3"](https://dl.dropbox.com/u/264530/qiita/wifilocation_3.png)
+!["2"](https://blog.amay0777.net/assets/images/posts/wifilocation_2.png)
+!["3"](https://blog.amay0777.net/assets/images/posts/wifilocation_3.png)
 
 途中、ヒゲのようなものが出ています。大きな誤差のように見えますが、異常なのは1点だけです。
 それを削除したのが 2枚目の画像で、キレイな線になっています。
@@ -47,7 +47,7 @@ GPS を起動し、計測が完了したらすぐにGPSを終了する。1分後
 
 GPS と WiFi（ゴミ削除後）を重ねてみました。
 
-!["4"](https://dl.dropbox.com/u/264530/qiita/wifilocation_4.png)
+!["4"](https://blog.amay0777.net/assets/images/posts/wifilocation_4.png)
 
 意外な程、ぴったりと重なっています。もっと拡大すると1～2km ズレているところもありますが、俯瞰した地図では、 WiFi 測位は GPS と比べてもまったく問題とならない精度であることが分かりました。
  

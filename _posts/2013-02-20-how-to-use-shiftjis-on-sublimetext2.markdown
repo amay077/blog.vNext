@@ -9,7 +9,7 @@ SublimeText2 は大変便利なテキストエディタですが、shift-jis に
 
 <!-- more -->
 
-![mojibake](https://dl.dropbox.com/u/264530/qiita/shiftjis.png)
+![mojibake](https://blog.amay0777.net/assets/images/posts/shiftjis.png)
 
 そんな時、@umibose さんのツイートが！
 
@@ -41,11 +41,11 @@ SublimeText2 を起動し、 ```shift + ctrl + @``` (ctrl+`) を押すと、画�
 
 インストールが終わったら Sublime を再起動すれば…
 
-![choice](https://dl.dropbox.com/u/264530/qiita/choise_charcode.png)
+![choice](https://blog.amay0777.net/assets/images/posts/choise_charcode.png)
 
 お、なんか文字コード選択が出た（でない場合もある？）
 そして…
-![choice](https://dl.dropbox.com/u/264530/qiita/shiftjis_correct.png)
+![choice](https://blog.amay0777.net/assets/images/posts/shiftjis_correct.png)
 
 おっしゃー！
 これであとは日本語入力時の挙動が直ってくれたら最強エディタですね。

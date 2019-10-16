@@ -11,7 +11,7 @@ Xamarin には Component Store というものがあって、Xamarin で利用�
 
 * [Components / Xamarin](http://components.xamarin.com/)
 
-!["1"](https://dl.dropbox.com/u/264530/qiita/walking_xamarin_components_1.png)
+!["1"](https://blog.amay0777.net/assets/images/posts/walking_xamarin_components_1.png)
 
 TAGS のところで対応プラットフォームを絞りこめます。
 iOS は MonoTouch の歴史が長いだけあってなかなかの数のコンポーネントがありますが、Android, Windows に関してはまだこれから、という感じでしょうか。
@@ -23,7 +23,7 @@ iOS/Android 両対応のコンポーネントも1ページに収まる程度の�
 
 * [Alert Center / Components / Xamarin](http://components.xamarin.com/view/alert-center/)
 
-!["2"](https://dl.dropbox.com/u/264530/qiita/walking_xamarin_components_2.png)
+!["2"](https://blog.amay0777.net/assets/images/posts/walking_xamarin_components_2.png)
 
 を使ってみます。
 
@@ -37,26 +37,26 @@ Android Application、名称は **AlertCenterSample** としました。
 
 メニュー → プロジェクト → Edit Components… から。
 
-!["3"](https://dl.dropbox.com/u/264530/qiita/walking_xamarin_components_3.png)
+!["3"](https://blog.amay0777.net/assets/images/posts/walking_xamarin_components_3.png)
 
 こんな画面になりました。次に **Open Conponent Store** をクリック。
 
-!["4"](https://dl.dropbox.com/u/264530/qiita/walking_xamarin_components_4.png)
+!["4"](https://blog.amay0777.net/assets/images/posts/walking_xamarin_components_4.png)
 
 Xamarin Components が出ました。Webサイトと同じやつです
 。この中から **Alert Center** をクリック。
 
-!["5"](https://dl.dropbox.com/u/264530/qiita/walking_xamarin_components_5.png)
+!["5"](https://blog.amay0777.net/assets/images/posts/walking_xamarin_components_5.png)
 
 なんか動画が真っ黒ですが。気にせず **Add to App** をクリック。
 
-!["6"](https://dl.dropbox.com/u/264530/qiita/walking_xamarin_components_6.png)
+!["6"](https://blog.amay0777.net/assets/images/posts/walking_xamarin_components_6.png)
 
 ソリューションエクスプローラの Components に Alert Center が追加されました。また Getting Started が表示されています。
 
 これで部品が追加できたようです、簡単でした。ちなみにコレ、NuGet というものが使われているそうです。(私は VS2005 以前の人なので使った事がありません)
 
-!["7"](https://dl.dropbox.com/u/264530/qiita/walking_xamarin_components_7.png)
+!["7"](https://blog.amay0777.net/assets/images/posts/walking_xamarin_components_7.png)
 
 ここから、Getting Started に表示されている通りに実装して動かしてみます。
 
@@ -70,7 +70,7 @@ Xamarin Studio での AndroidManifest.xml 編集については、
 
 確かに、``SYSTEM_ALERT_WINDOW`` もありますね。
 
-!["9"](https://dl.dropbox.com/u/264530/qiita/walking_xamarin_components_9.png)
+!["9"](https://blog.amay0777.net/assets/images/posts/walking_xamarin_components_9.png)
 
 この手順を飛ばすと、ボタンをクリックした瞬間にアプリが落ちます(経験者
 
@@ -115,13 +115,13 @@ namespace AlertCenterSample
 
 そういえば、コンポーネントを取得直後、なぜか Xamarin Studio さんがそれを認識してくれずエラーが出ていました(ビルドはできた)が、Xamarin Studio を再起動したらエラーは消えました。
 
-!["8"](https://dl.dropbox.com/u/264530/qiita/walking_xamarin_components_8.png)
+!["8"](https://blog.amay0777.net/assets/images/posts/walking_xamarin_components_8.png)
 
 ### 動かす
 
 ビルドして実行するだけです。
 
-!["10"](https://dl.dropbox.com/u/264530/qiita/walking_xamarin_components_10.png)
+!["10"](https://blog.amay0777.net/assets/images/posts/walking_xamarin_components_10.png)
 
 ### iOS/Android 両対応と言っても 'Write once' ではない(かも知れない)
 Alert Center は、iOS/Android 両対応とされていますが、Getting Started の iOS と Android のコードをよく見るとわかりますが、異なっています。「Android は iOS に '似せて' いる」とも書かれています。
