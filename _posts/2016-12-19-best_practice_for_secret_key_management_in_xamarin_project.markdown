@@ -115,7 +115,7 @@ Visual Studio Team Services(VSTS)などの CI サービスで自動ビルドす�
 
 Connect(); で発表され、今はプレビュー版を誰でも試せるようになっている 
 
-* [Visual Studio Mobile Center | Visual Studio](https://www.visualstudio.com/vs/mobile-center/)
+* [Visual Studio Mobile Center / Visual Studio](https://www.visualstudio.com/vs/mobile-center/)
 
 にも、github などからソースを取得して自動ビルドできる機能があります。
 が、今のところ、VSTS や他のCIサービスほど機能が用意されていない為か、ビルド前に任意のコマンドを実行させることはできません、今のところ(期待を込めて２回言った)。

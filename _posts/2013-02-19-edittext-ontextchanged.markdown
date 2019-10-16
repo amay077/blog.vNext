@@ -9,11 +9,11 @@ Android の EditText の文字列と、String 変数値を同期させたいケ�
 
 <!-- more -->
 
-じゃあ [onTextChanged](http://developer.android.com/reference/android/text/TextWatcher.html#onTextChanged(java.lang.CharSequence, int, int, int) だぜ、って仕込んでみると、Android のこれは IME で変換中の文字列もバンバン飛んで来まして大変使い勝手が悪い。(サジェストなんかする際には必要なんでしょうけども)
+じゃあ [onTextChanged](http://developer.android.com/reference/android/text/TextWatcher.html) だぜ、って仕込んでみると、Android のこれは IME で変換中の文字列もバンバン飛んで来まして大変使い勝手が悪い。(サジェストなんかする際には必要なんでしょうけども)
 
 例えば、以下で紹介されている方法
 
-* [TextWatcherでEditTextの入力内容をリアルタイムに反映する ｜ GE Android Blog](http://blog.global-eng.co.jp/android/2011/04/08/textwatcher%e3%81%a7edittext%e3%81%ae%e5%85%a5%e5%8a%9b%e5%86%85%e5%ae%b9%e3%82%92%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%bf%e3%82%a4%e3%83%a0%e3%81%ab%e5%8f%8d%e6%98%a0%e3%81%99%e3%82%8b/)
+* [TextWatcherでEditTextの入力内容をリアルタイムに反映する / GE Android Blog](http://blog.global-eng.co.jp/android/2011/04/08/textwatcher%e3%81%a7edittext%e3%81%ae%e5%85%a5%e5%8a%9b%e5%86%85%e5%ae%b9%e3%82%92%e3%83%aa%e3%82%a2%e3%83%ab%e3%82%bf%e3%82%a4%e3%83%a0%e3%81%ab%e5%8f%8d%e6%98%a0%e3%81%99%e3%82%8b/)
 
 を実装しますと、IME確定前の文字列もじゃんじゃん同期してくれちゃいます。
 
@@ -33,7 +33,9 @@ Android の EditText の文字列と、String 変数値を同期させたいケ�
 
 これらを使って、文字列が確定されているかどうか？を識別することができるのではないかと考え、前出の記事のコードを以下のように修正してみました。
 
-```java DetermineComposingText.java
+**DetermineComposingText.java**
+
+```java
 edit1.addTextChangedListener(new TextWatcher()
 {
     int currentLength = 0;
