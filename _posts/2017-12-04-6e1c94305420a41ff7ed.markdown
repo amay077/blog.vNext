@@ -66,7 +66,7 @@ ViewModel が持つプロパティは、値が変わった時に通知し、View
 * TwoWay バインディングを何も考えずに作ると無限ループで死ぬ
 
 後者は、このサンプル作成で体験しました。
-画面の EditText と ViewModel の LiveData<String> の TwoWay バインディングを次のように「何も考えず」実装しました。
+画面の EditText と ViewModel の ``LiveData<String>`` の TwoWay バインディングを次のように「何も考えず」実装しました。
 
 ```kotlin
 // viewModel.user の TwoWay バインド
@@ -94,7 +94,7 @@ editUserName.setTextKeepState(viewModel.user?.value ?: "")
 
 ### setValue はUIスレッドで呼び出さないといけない(postValue を使おう)
 
-LiveData<T> の実際に値を設定できるクラスである ``MutableLiveData<T>`` には、 ``setValue()`` と ``postValue()`` の２つの値更新メソッドがあります。
+``LiveData<T>`` の実際に値を設定できるクラスである ``MutableLiveData<T>`` には、 ``setValue()`` と ``postValue()`` の２つの値更新メソッドがあります。
 
 はじめは ``setValue()`` しか知らなくてそれを使っていたのですが、非UIスレッドで（Retrofitのコールバックスレッドで） ``setValue()`` を使用したら IllegalなんとかException が出ました。
 LiveData のコードを追ってみると、次図のようにUIスレッドかどうかをチェックして例外を出していました。
