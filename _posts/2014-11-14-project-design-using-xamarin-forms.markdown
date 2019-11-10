@@ -46,7 +46,7 @@ categories: [Xamarin, Android, iOS]
 
 * PUSH通知受信とか、本来は Platform Specific APIs で担当したいが、プラットフォームの都合で、View で受信しなければならない機能の落としどころ。
 * App.core をもっと分割した方がよい「ViewModelからAPI呼ばないよね？」とか「App.AndroidからModelにアクセスできるのがイヤ」とかを厳格に制限しようと思ったら分割した方が良さそう。
-* Model から左側を全部 IObservable<T> 化しようと思っているが、Callback→Observable変換をModelでやるか、API層でやるか。"ビジネス"ロジックではないので、右側かな。
+* Model から左側を全部 ``IObservable<T>`` 化しようと思っているが、Callback→Observable変換をModelでやるか、API層でやるか。"ビジネス"ロジックではないので、右側かな。
 * XF.Core にどれだけ詰め込むか。画面レイアウトもXFでできるだけ頑張る、画面遷移フレームワークもXFで用意する、か？Sketches がどこまで活用できるか？
 
 さて、どんなもんでしょ？
