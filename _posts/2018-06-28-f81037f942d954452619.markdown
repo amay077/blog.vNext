@@ -16,7 +16,7 @@ categories: [RxJava, Kotlin]
 * [[Kotlin]コルーチンのChannelのハマり所 ｜ Developers.IO](https://dev.classmethod.jp/smartphone/kotlin-coroutine-channel-1/)
 * [Kotlinコルーチンによるリアクティブストリームのガイド (日本語訳) - Qiita](https://qiita.com/pljp/items/f748125934fd3f880565)
 
-## Kotlin の Channel<T> と BroadcastChannel<T>
+## Kotlin の ``Channel<T>`` と ``BroadcastChannel<T>``
 
 ``Channel`` は「キューのようなもの」と例えられます、``BroadcastChannel`` も同じく。
 
