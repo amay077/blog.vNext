@@ -114,7 +114,9 @@ Nuget でインストールされるはずのクラスを実装します。
 
 まず、ViewModels というフォルダを作ってその中に ``FirstViewModel`` クラスを作ります。
 
-```csharp ViewModels/FirstViewModel.cs
+**ViewModels/FirstViewModel.cs**
+
+```csharp
 using System;
 using Cirrious.MvvmCross.ViewModels;
 
@@ -146,7 +148,9 @@ namespace FirstDemo.Core.ViewModels
 
 次に ``App`` クラスはルートに。
 
-```csharp App.cs
+**App.cs**
+
+```csharp
 using System;
 using Cirrious.CrossCore.IoC;
 using FirstDemo.Core.ViewModels;
@@ -203,7 +207,9 @@ namespace FirstDemo.Core
 
 ``FirstView`` は、MainView.cs をリファクタでリネーム＆ Views フォルダ移動して内容を下のように書き換えます。
 
-```csharp Views/FirstView.cs
+**Views/FirstView.cs**
+
+```csharp
 using System;
 using Android.App;
 using Android.Content;
@@ -229,7 +235,9 @@ namespace FirstDemo.Droid.Views
 
 Setup.cs はルートに作ります。
 
-```csharp Setup.cs
+**Setup.cs**
+
+```csharp
 using System;
 using Cirrious.MvvmCross.Droid.Platform;
 using Android.Content;
@@ -258,7 +266,9 @@ namespace FirstDemo.Droid
 
 ``Resource/values`` フォルダ内に以下の xml ファイルを作成します。
 
-```xml Resources/values/MvxBindingAttributes.xml
+**Resources/values/MvxBindingAttributes.xml**
+
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <declare-styleable name="MvxBinding">
@@ -292,7 +302,9 @@ Xamarin Studio の Android用 UI デザイナは強力なので、ここだけ�
 
 ``Main.axml`` の「ソース」を開いて、データバインディングについての記述をします。完成形は下のようになります。
 
-```xml Resources/layout/Main.xml
+**Resources/layout/Main.xml**
+
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:local="http://schemas.android.com/apk/res-auto"
@@ -366,7 +378,9 @@ MvvmCross の作者である slodge さんが下で回答されています。
 
 まず、Setup.cs をルートに作成して以下のように実装します。
 
-```objc Setup.cs
+**Setup.cs**
+
+```objc
 using System;
 using Cirrious.MvvmCross.Touch.Platform;
 using Cirrious.MvvmCross.Touch.Views.Presenters;
@@ -389,7 +403,9 @@ namespace FirstDemo.Touch
 
 既存の AppDelegate.cs を以下のように書き換えます。
 
-```objc AppDelegate.cs
+**AppDelegate.cs**
+
+```objc
 using MonoTouch.Foundation;
 using Cirrious.MvvmCross.Touch.Platform;
 using MonoTouch.UIKit;
@@ -433,7 +449,9 @@ MvvmCross を iOS で使う場合、残念ながら storyboard 側にバイン�
 
 ``ViewDidLoad`` に以下のように追記します。
 
-```objc Views/FirstView.cs
+**Views/FirstView.cs**
+
+```objc
 using System;
 using Cirrious.MvvmCross.Binding.BindingContext;
 using Cirrious.MvvmCross.Touch.Views;
