@@ -4,6 +4,7 @@ title: "トグルスイッチとチェックボックスの違い"
 date: 2019/11/21 22:30:00 +0900
 comments: true
 published: true
+image: /assets/images/posts/20191121b.png
 categories: [UI, UX]
 ---
 [トグルスイッチの誤用をやめよう | UX MILK](https://uxmilk.jp/83368) を読んでの私見です。
@@ -19,12 +20,22 @@ categories: [UI, UX]
 > ユーザーはスイッチをオンにするとすぐに効果が現れると期待します。
 
 これは賛同する。
-私は、「スイッチ」とは、家の壁にある [こういうの](https://www.monotaro.com/p/4105/7816/?utm_medium=cpc&utm_source=Adwords&utm_campaign=246-833-4061_6515858576&utm_content=86698184788&utm_term=_380604181365_1o3_pla-799401264920&gclid=Cj0KCQiAiNnuBRD3ARIsAM8KmltAvZoTFj-Uwyy3x0KxSs2Pl-qTNgyJE2RfW4qMMouS7XSx2CHszdEaAjZZEALw_wcB) をイメージしている。このスイッチは「押すとすぐに電気が付いたり消えたりする」事を期待する。
+私は、「スイッチ」とは、家の壁にある [こういうの](https://www.monotaro.com/p/4105/7816/?utm_medium=cpc&utm_source=Adwords&utm_campaign=246-833-4061_6515858576&utm_content=86698184788&utm_term=_380604181365_1o3_pla-799401264920&gclid=Cj0KCQiAiNnuBRD3ARIsAM8KmltAvZoTFj-Uwyy3x0KxSs2Pl-qTNgyJE2RfW4qMMouS7XSx2CHszdEaAjZZEALw_wcB) をイメージしている。
+
+![](/assets/images/posts/20191121a.png)
+
+このスイッチは「押すとすぐに電気が付いたり消えたりする」事を期待する。
 なので、スイッチを「状態を表現する」為だけに使われていると違和感を覚える。
 
-少し前に Xamarin.Forms を使って TODO アプリを作ってみたのだけど、当時の Xamarin.Forms には「チェックボックス」が無くて、まあいいやと思って「スイッチ」を使って、「タスクが完了したか」を示したのだが、アプリを実際に動かしてみると違和感ありまくりで、結局画像を使ってチェックボックスの ON/OFF を表現した(尚、現在の Xamarin.Forms には ``CheckBox`` がある)。
+少し前に [Xamarin.Forms を使って TODO アプリを作ってみた](https://github.com/amay077/XamMaterialTodo) のだけど、当時の Xamarin.Forms には「チェックボックス」が無くて、まあいいやと思って「スイッチ」を使って、「タスクが完了したか」を示したのだが、アプリを実際に動かしてみると違和感ありまくりだった。
 
-GMail とか、アイテムが一覧表示される画面でアイテムを選択するとき、それが「スイッチ」ではなく「チェック」であるというのは、現実世界に置き換えても自然な表現だと思う。
+![](/assets/images/posts/20191121b.png)
+
+結局画像を使ってチェックボックスの ON/OFF を表現した(尚、現在の Xamarin.Forms には ``CheckBox`` がある)。
+
+
+
+GMail とか、アイテムが一覧表示される画面でアイテムを一つまたは複数選択するとき、それが「スイッチ」ではなく「チェック」であるというのは、現実世界に置き換えても自然な表現だと思う。
 
 ## 0か1の選択 vs 対立する選択
 
