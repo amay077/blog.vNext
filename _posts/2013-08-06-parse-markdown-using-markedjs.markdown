@@ -29,22 +29,22 @@ Typescript クイックガイドでは、HTML 内に Markdown テキストがベ
 **md_renderer.html**
 
 ```html
-<!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <meta charset="utf-8">
+&gt;!DOCTYPE html>
+&gt;html lang="ja">
+    &gt;head>
+        &gt;meta charset="utf-8">
 
-        <title>Markdown renderer</title>
-        <meta name="description" content="Markdown renderer">
+        &gt;title>Markdown renderer&gt;/title>
+        &gt;meta name="description" content="Markdown renderer">
 
-        <!-- bootstrap -->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" rel="stylesheet">
+        &gt;!-- bootstrap -->
+        &gt;link rel="stylesheet" type="text/css" href="css/bootstrap.css" rel="stylesheet">
+        &gt;link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" rel="stylesheet">
 
-        <!-- js libraries -->
-        <script type="text/javascript" src="js/jquery-2.0.3.js"></script>
-        <script type="text/javascript" src="js/marked.js"></script>
-        <script>
+        &gt;!-- js libraries -->
+        &gt;script type="text/javascript" src="js/jquery-2.0.3.js">&gt;/script>
+        &gt;script type="text/javascript" src="js/marked.js">&gt;/script>
+        &gt;script>
             $(document).ready(function(){
                 var target = $("#markdown_content");
 
@@ -56,16 +56,16 @@ Typescript クイックガイドでは、HTML 内に Markdown テキストがベ
                     target.append("This content failed to load.");
                 });
             });
-        </script>
-    </head>
+        &gt;/script>
+    &gt;/head>
 
-    <body>
-        <!-- Content -->
-        <div class="container">
-            <div id="markdown_content" src="./sample.markdown"> </div>
-        </div>
-    </body>
-</html>
+    &gt;body>
+        &gt;!-- Content -->
+        &gt;div class="container">
+            &gt;div id="markdown_content" src="./sample.markdown"> &gt;/div>
+        &gt;/div>
+    &gt;/body>
+&gt;/html>
 ```
 
 一番下の ```<div id="markdown_content" src="./sample.markdown">``` の src に読み込む Markdown ファイルを指定するようにした。
