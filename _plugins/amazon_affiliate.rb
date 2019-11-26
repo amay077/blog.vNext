@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 AMAZON_ASSOCIATE_ID = 'oku2008-22'
-AMAZON_AFFILIATE_TEMPLATE_URL = 'https://ws-fe.assoc-amazon.com/widgets/cm?o=9&p=48&l=ur1&category=manga_anime&f=ifr&linkID=df82ebeeda21125f8fc45ac1de9b5e8c&t=' + AMAZON_ASSOCIATE_ID + '&tracking_id=' + AMAZON_ASSOCIATE_ID
+AMAZON_AFFILIATE_TEMPLATE_URL = '<amp-iframe src="https://ws-fe.assoc-amazon.com/widgets/cm?o=9&p=48&l=ur1&category=manga_anime&f=ifr&linkID=df82ebeeda21125f8fc45ac1de9b5e8c&t=' + AMAZON_ASSOCIATE_ID + '&tracking_id=' + AMAZON_ASSOCIATE_ID + '" width="728" height="90" frameborder="0" scrolling="no"></amp-iframe>'
 
 DEFAULT_MAKING_LINK_COUNT = 3
 
