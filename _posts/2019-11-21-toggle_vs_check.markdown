@@ -8,6 +8,7 @@ image: /assets/images/posts/20191121b.png
 categories: [UI, UX]
 ---
 [トグルスイッチの誤用をやめよう | UX MILK](https://uxmilk.jp/83368) を読んでの私見です。
+
 <!--more-->
 
 ## 文脈上の状態 vs システムの状態
