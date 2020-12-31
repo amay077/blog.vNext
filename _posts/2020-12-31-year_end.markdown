@@ -6,8 +6,8 @@ date: 2020/12/31 20:30:00 +0900
 comments: true
 published: true
 ---
-お仕事では2019年あたりから Web フロントエンド開発がメインになってきて、個人の関心もそちらに移ってしまった。
-今年も専ら TypeScript + Angular で Web アプリを作るのがほとんど。
+お仕事では2019年あたりから Web フロントエンド+ REST API開発がメインになってきて、個人の関心もそちらに移ってしまった。
+今年も専ら TypeScript + Angular/node で Web アプリを作るのがほとんど。
 
 <!--more-->
 
