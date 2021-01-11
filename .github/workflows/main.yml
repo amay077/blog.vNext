@@ -1,0 +1,45 @@
+name : build site
+on : 
+  push :
+    branches:
+      - main
+
+jobs:
+  build:
+    name : generate
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: build
+        run: |
+          docker-compose run --rm eleventy-build
+          ls -lh _site
+      - name: upload
+        uses: actions/upload-artifact@v1
+        with:
+          name: upload-data
+          path: ./_site
+  push:
+    needs: build
+    name: push data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_KEY }}
+          public-key: ${{ secrets.SSH_KEY_PUBLIC }}
+          known_hosts: ${{ secrets.KNOWN_HOSTS }}
+      - run: git clone -b master git@github.com:amay077/amay077.github.com.git data --depth 1
+      - name: upload
+        uses: actions/download-artifact@v1
+        with:
+          name: upload-data
+      - run: rm -rf data/*
+      - run: cp -r upload-data/* data
+      - run: cd data && git config user.email "bot@github.com"
+      - run: cd data && git config user.name "BOT"
+      - run: cd data && git add .
+      - run: cd data && git commit -m "update site"
+      - run: cd data && git push origin master

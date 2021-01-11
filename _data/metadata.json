@@ -1,0 +1,23 @@
+{
+  "title": "Experiments Never Fail",
+  "url": "https://blog.amay0777.net/",
+  "description": "Try and try again",
+  "feed": {
+    "subtitle": "Try and try again",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://blog.amay0777.net/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://blog.amay0777.net/feed/feed.json"
+  },
+  "author": {
+    "name": "amay077",
+    "email": "amay077[at]gmail.com",
+    "url": "https://blog.amay0777.net/about/"
+  },
+  "google_analytics" : {
+    "tracking_id": "UA-224332-7"
+  }
+}
