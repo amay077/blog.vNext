@@ -37,3 +37,5 @@ permalink: "/blog/{{ page.date | date: '%Y/%m/%d' }}/{{ page_name }}/index.html"
 - Discus の復活
 - portfolio の復活
 - tag の大文字小文字整理
+- Edit on GitHub の復活
+- Share by twitter などの復活
