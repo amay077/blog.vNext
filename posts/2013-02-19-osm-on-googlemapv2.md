@@ -85,7 +85,7 @@ URL は OpenStreetMap のものを使います。y軸の値は、Google Moon で
 
 こんな感じで表示できます。
 
-![OpenStreetMap on Google Map API](https://blog.amay0777.net/img/posts/advent2012_osm.png)
+![OpenStreetMap on Google Map API](https://blog.amay077.net/img/posts/advent2012_osm.png)
 
 移動、拡大・縮小だけでなく、API v2 の恩恵で、回転やチルトもできるのが嬉しいですね。
 
@@ -123,10 +123,10 @@ public class TransparencyUrlTileProvider implements TileProvider {
 
 	private int _transparency; // 透過率(0〜255)
 	private UrlTileProvider _osmTileProv; // 内包する TileProvider
-	
+
 	public TransparencyUrlTileProvider(int width, int height, int transparency) {
 		_transparency = transparency;
-		
+
 		_osmTileProv = new UrlTileProvider(width, height) {
 			@Override
 			public URL getTileUrl(int x, int y, int zoom) {
@@ -141,13 +141,13 @@ public class TransparencyUrlTileProvider implements TileProvider {
 			}
 		};
 	}
-	
+
 	@Override
 	public Tile getTile(int x, int y, int zoom) {
 		Tile tile = _osmTileProv.getTile(x, y, zoom);
-		
+
 		// TODO ここで Tile の透過処理を行う
-		
+
 		return tile;
 	}
 
@@ -193,22 +193,22 @@ Tile.bM の byte[] から Bitmap インスタンスを生成します。
 
 ```java makeTransparentBmp.java
 private static Bitmap makeTransparentBmp(final Bitmap bmp, int transparency) {
-     int width = bmp.getWidth(); 
-     int height = bmp.getHeight(); 
-     int[] pixels = new int[width * height]; 
+     int width = bmp.getWidth();
+     int height = bmp.getHeight();
+     int[] pixels = new int[width * height];
 
      Bitmap bitmap = Bitmap.createBitmap(width,height,Bitmap.Config.ARGB_8888 );
-     bmp.getPixels(pixels, 0, width, 0, 0, width, height); 
-     for (int y = 0; y < height; y++) { 
-       for (int x = 0; x < width; x++) { 
+     bmp.getPixels(pixels, 0, width, 0, 0, width, height);
+     for (int y = 0; y < height; y++) {
+       for (int x = 0; x < width; x++) {
       	 int pixel = pixels[x + y * width];
-      	 pixels[x + y * width] = Color.argb(transparency, 
-      			 Color.red(pixel), Color.green(pixel), Color.blue(pixel)); 
-       } 
-     } 
-     bitmap.eraseColor(Color.argb(0, 0, 0, 0)); 
-     bitmap.setPixels(pixels, 0, width, 0, 0, width, height); 
-     
+      	 pixels[x + y * width] = Color.argb(transparency,
+      			 Color.red(pixel), Color.green(pixel), Color.blue(pixel));
+       }
+     }
+     bitmap.eraseColor(Color.argb(0, 0, 0, 0));
+     bitmap.setPixels(pixels, 0, width, 0, 0, width, height);
+
      return bitmap;
 }
 ```
@@ -219,11 +219,11 @@ private static Bitmap makeTransparentBmp(final Bitmap bmp, int transparency) {
 public class TransparencyUrlTileProvider implements TileProvider {
 
     <前略>
-	
+
 	@Override
 	public Tile getTile(int x, int y, int zoom) {
 		Tile tile = _osmTileProv.getTile(x, y, zoom);
-		
+
 		// Tile の透過処理を行う
        Bitmap bmp = BitmapFactory.decodeByteArray(tile.bM, 0, tile.bM.length);
        Bitmap transparentBmp = makeTransparentBmp(bmp, _transparency);
@@ -232,7 +232,7 @@ public class TransparencyUrlTileProvider implements TileProvider {
 		ByteArrayOutputStream bos = new ByteArrayOutputStream();
 		transparentBmp.compress(CompressFormat.PNG, 100, bos);
 		Tile tranparentTile = new Tile(tile.width, tile.height, bos.toByteArray());
-		
+
 		return tranparentTile;
 	}
 
@@ -242,7 +242,7 @@ public class TransparencyUrlTileProvider implements TileProvider {
 
 動かしてみます。
 
-![OpenStreetMap with Google Map API](https://blog.amay0777.net/img/posts/advent2012_osmwithg.png)
+![OpenStreetMap with Google Map API](https://blog.amay077.net/img/posts/advent2012_osmwithg.png)
 
 これは、GoogleMap の衛星写真の上に OpenStreetMap を透過して重ねた例です（分かりづらい
 

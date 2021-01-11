@@ -14,13 +14,13 @@ permalink: "/blog/{{ page.date | date: '%Y/%m/%d' }}/{{ page_name }}/index.html"
 1. SVN からソースコードをエクスポートします。
 2. 他の Android プロジェクト（なんでもいい）から "default.properties" というファイルをコピーします。
 3. "/src/edu/union/" ディレクトリから R.java ファイルを削除します。（R.java は本来自動生成されるものなので）
-4. "/res/layout/main.xml" ファイルを <TextView id="@+id/text" から <TextView android:id="@+id/text" に修正します。 
+4. "/res/layout/main.xml" ファイルを <TextView id="@+id/text" から <TextView android:id="@+id/text" に修正します。
 5. Eclipse でプロジェクトをインポートします。
 6. ビルドすると "android requires .class compatibility set to 5.0" というエラーが出るので、このエラーメッセージでググって解決します。（よくあるエラーみたいです）
 7. もう一度ビルドすると成功するハズです。
 
 ↓こんなサンプルアプリが実行できるハズですよ、と。
 
-!["1"](https://blog.amay0777.net/img/posts/open_gl_1.png)
-!["2"](https://blog.amay0777.net/img/posts/open_gl_2.png)
-!["3"](https://blog.amay0777.net/img/posts/open_gl_3.png)
+!["1"](https://blog.amay077.net/img/posts/open_gl_1.png)
+!["2"](https://blog.amay077.net/img/posts/open_gl_2.png)
+!["3"](https://blog.amay077.net/img/posts/open_gl_3.png)

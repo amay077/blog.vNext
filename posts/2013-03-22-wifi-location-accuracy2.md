@@ -16,7 +16,7 @@ WiFi 位置測位の精度を調べてみた で、WiFi（というか NETWORK_P
 
 * 使用端末： IS03
 * 移動ルート： 愛知県豊橋市 → 静岡県浜松市
-* 移動手段： 車（主に国道1号線、国道23号線） 
+* 移動手段： 車（主に国道1号線、国道23号線）
 * 移動時間： 約50分
 * GPS 有効、WiFi 有効
 
@@ -25,10 +25,10 @@ WiFi 位置測位の精度を調べてみた で、WiFi（というか NETWORK_P
 * 5分に1回計測を行う。
 * GPS（GPS_PROVIDER） と WiFi（NETWORK_PROVIDER） を同時に計測開始する。
 * GPS を起動し、計測が完了したらすぐにGPSを終了する。5分後また起動…その繰り返し。
- 
-### 結果（青：GPS、赤：NETWORK） 
 
-!["1"](https://blog.amay0777.net/img/posts/wifilocation_21.png)
+### 結果（青：GPS、赤：NETWORK）
+
+!["1"](https://blog.amay077.net/img/posts/wifilocation_21.png)
 
 ロギング間隔を前回の1分から5分にしたので、点と点の距離が結構開いてます。
 前回の電車通勤時では、線路周辺に WiFi 基地局がたくさんあるため NETWORK_PROVIDER でもなかなかの精度が出ると予想しましたが、その推測は正しかったようで、今回の場合、家がほとんどない沿岸道路（浜名バイパス）を走行時の測位はかなり精度が落ちています。

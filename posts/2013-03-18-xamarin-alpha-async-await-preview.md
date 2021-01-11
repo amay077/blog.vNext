@@ -50,10 +50,10 @@ Xamarin Studio のシステムメニュー → アップデートをチェック
 private void button1_Click(Object sender, EventArgs e)
 {
     button.Enabled = false; // 実行中はボタン使えなくする
-    
+
     // 超時間のかかる計算
     var result = HeavyCalc();
-    
+
     button.Text = String.Format("result:{0}", result); // 結果を表示する
     button.Enabled = true;
 }
@@ -69,7 +69,7 @@ private static int HeavyCalc()
 こんな感じ。
 動かしてみます。
 
-!["anr"](https://blog.amay0777.net/img/posts/xamarin_async_await_preview_anr.png)
+!["anr"](https://blog.amay077.net/img/posts/xamarin_async_await_preview_anr.png)
 
 あえなくフリーズ＆ANR、当然です。
 
@@ -86,10 +86,10 @@ async/await については、ググればたくさん情報が出てきます�
 private async void button1_Click(Object sender, EventArgs e)
 {
     button.Enabled = false; // 実行中はボタン使えなくする
-    
+
     // 超時間のかかる計算
     var result = await HeavyCalcAsync();
-    
+
     // ここから下は UIスレッド で実行される
     button.Text = String.Format("result:{0}", result); // 結果を表示する
     button.Enabled = true;
@@ -121,7 +121,7 @@ private Task<int> HeavyCalcAsync()
 
 動かしてみます。
 
-!["async"](https://blog.amay0777.net/img/posts/xamarin_async_await_preview_asyc.png)
+!["async"](https://blog.amay077.net/img/posts/xamarin_async_await_preview_asyc.png)
 
 ANR でませんし、ちゃんと計算後に画面が更新されます。
 

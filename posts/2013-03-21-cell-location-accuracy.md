@@ -13,7 +13,7 @@ permalink: "/blog/{{ page.date | date: '%Y/%m/%d' }}/{{ page_name }}/index.html"
 計測方法も同じで、ただ GPS も WiFi も端末の設定で OFF にしています。
 で結果です。（青が 前回と同じGPSデータ、黄色が基地局の測位結果です）
 
-!["photo"](https://blog.amay0777.net/img/posts/celllocation_map.png)
+!["photo"](https://blog.amay077.net/img/posts/celllocation_map.png)
 
 どうです？こちらも結構使えそうでしょ？
 Accuracy （精度）の値は、3000～5000ｍ 、だいたい目視でもその範囲内で収まってる感じです。

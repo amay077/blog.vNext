@@ -14,7 +14,7 @@ permalink: "/blog/{{ page.date | date: '%Y/%m/%d' }}/{{ page_name }}/index.html"
 
 メニュー → 新規 → ファイル と選択するとこんなダイアログが出るので Activity クラス名を入力して決定します。
 
-!["new_file_dialog"](https://blog.amay0777.net/img/posts/xamarin_percelable_create_activity.png)
+!["new_file_dialog"](https://blog.amay077.net/img/posts/xamarin_percelable_create_activity.png)
 
 すると ``NextActivity.cs`` ができます。
 
@@ -33,7 +33,7 @@ using Android.Widget;
 
 namespace HelloXamarinAndroid
 {
-    [Activity (Label = "NextActivity")]			
+    [Activity (Label = "NextActivity")]
     public class NextActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
@@ -57,7 +57,7 @@ Android本家だと今はウィザードで Javaソース、レイアウトXML�
 画面遷移は本家と同じく Intent を使います。
 
 ```csharp MainActivity.cs
-button.Click += (sender, e) => 
+button.Click += (sender, e) =>
 {
     // Goto NextActivity
     var intent = new Intent(this, typeof(NextActivity));
@@ -101,7 +101,7 @@ Android では、Activity とか Service をまたぐオブジェクトは Perce
 
 いきなりこれを忘れて、謎のビルドエラーと１０分程格闘しました(汗)
 
-!["assembly_reference"](https://blog.amay0777.net/img/posts/xamarin_assenbly_reference.png)
+!["assembly_reference"](https://blog.amay077.net/img/posts/xamarin_assenbly_reference.png)
 
 ソリューションツリーの参照の右クリックメニューからアセンブリ参照ダイアログが出るので、``Mono.Android.Export`` を見つけて追加します。
 
@@ -222,7 +222,7 @@ namespace HelloXamarinAndroid
 まず渡す方。Intent に詰めます。
 
 ```csharp MainActivity.cs
-button.Click += (sender, e) => 
+button.Click += (sender, e) =>
 {
     var card = new Card("amay", "987-654-3321");
 
@@ -251,8 +251,8 @@ namespace HelloXamarinAndroid
             var card = this.Intent.GetParcelableExtra("card") as Card;
 
             // Show toast
-            Toast.MakeText(this, 
-                String.Format("name:{0}, phone:{1}", card.Name, card.Phone), 
+            Toast.MakeText(this,
+                String.Format("name:{0}, phone:{1}", card.Name, card.Phone),
                 ToastLength.Long).Show();
         }
     }
@@ -264,7 +264,7 @@ namespace HelloXamarinAndroid
 
 これで実装完了。動かしてみます。
 
-!["receive_parcel"](https://blog.amay0777.net/img/posts/xamarin_parcel_received.png)
+!["receive_parcel"](https://blog.amay077.net/img/posts/xamarin_parcel_received.png)
 
 以上、受け渡し可能なクラスの実装方法でした。
 

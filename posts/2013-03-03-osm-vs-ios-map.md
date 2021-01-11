@@ -33,38 +33,38 @@ OpenStreetMap は「地図データ」、MapQuest社はそのデータを利用�
 
 ##東京スカイツリー
 ###iOS6:
-![sky](https://blog.amay0777.net/img/posts/sky-ios.png)
+![sky](https://blog.amay077.net/img/posts/sky-ios.png)
 
 ###OpenStreetMap(MapQuest):[→本家](http://www.openstreetmap.org/?lat=35.71003&lon=139.81066&zoom=17&layers=M)
-![sky](https://blog.amay0777.net/img/posts/sky-osm.png)
+![sky](https://blog.amay077.net/img/posts/sky-osm.png)
 
 ちゃんとあるよスカイツリー。
 
 ##渋谷ヒカリエ
 ###iOS6:
-![hikarie](https://blog.amay0777.net/img/posts/hirarie-ios.png)
+![hikarie](https://blog.amay077.net/img/posts/hirarie-ios.png)
 
 ###OpenStreetMap(MapQuest):[→本家](http://www.openstreetmap.org/?lat=35.659051&lon=139.70417&zoom=18&layers=M)
-![hikarie](https://blog.amay0777.net/img/posts/hirarie-osm.png)
+![hikarie](https://blog.amay077.net/img/posts/hirarie-osm.png)
 
 ちゃんとあるよヒカ…な、ない！
 ※本家にはちゃんとヒカリエありました！[hal_sk](http://qiita.com/items/03cf7e04cac886b84136#comment-055c7f54ebf92d3bd05b) さん、ありがとうございます。
 
 ##新宿駅周辺
 ###iOS6:
-![shinjuku](https://blog.amay0777.net/img/posts/shinjuku-ios.png)
+![shinjuku](https://blog.amay077.net/img/posts/shinjuku-ios.png)
 
 ###OpenStreetMap(MapQuest):[→本家](http://www.openstreetmap.org/?lat=35.68926&lon=139.70072&zoom=17&layers=M)
-![sinjuku](https://blog.amay0777.net/img/posts/shinjuku-osm.png)
+![sinjuku](https://blog.amay077.net/img/posts/shinjuku-osm.png)
 
 Apple よ、これが線路だ！
 
 ##新東名高速道
 ###iOS6:
-![tomei](https://blog.amay0777.net/img/posts/tomei-ios.png)
+![tomei](https://blog.amay077.net/img/posts/tomei-ios.png)
 
 ###OpenStreetMap(MapQuest):[→本家](http://www.openstreetmap.org/?lat=34.9941&lon=138.4068&zoom=12&layers=M)
-![tomei](https://blog.amay0777.net/img/posts/tomei-osm.png)
+![tomei](https://blog.amay077.net/img/posts/tomei-osm.png)
 
 最初に新東名を描いたのは誰でしょう？
 

@@ -16,7 +16,7 @@ GoogleMap は[メルカトル図法](http://ja.wikipedia.org/wiki/%E3%83%A1%E3%8
 
 こんな感じ、赤がただの直線、青が大圏コースです。
 
-![greatcircle](https://blog.amay0777.net/img/posts/greatcircle.png)
+![greatcircle](https://blog.amay077.net/img/posts/greatcircle.png)
 
 やり方は以下のとおりで、```geodesic``` を ```true``` にすれば大圏コースになります。
 
@@ -58,7 +58,7 @@ Developper Guide に説明があります。
 
 あと、iOS 版の Google Maps API にもあるみた…あれ、ないや。
 (余談ですが iOS 版の API には Polygon を描く機能もないんですね)
- 
+
 * [Polylines - Google Maps SDK for iOS](https://developers.google.com/maps/documentation/ios/lines)
 
 ## その他

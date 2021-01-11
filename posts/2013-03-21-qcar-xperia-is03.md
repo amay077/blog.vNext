@@ -24,8 +24,8 @@ QCAR とは クアルコム社 が[提供している](http://japanese.engadget.
 
 お、できた！（QCAR というより NDK と Cygwin でかなりてこずりましたが、順番にやれば大丈夫）
 
-!["1"](https://blog.amay0777.net/img/posts/qcar_xperia_1.png)
-!["2"](https://blog.amay0777.net/img/posts/qcar_xperia_2.png)
+!["1"](https://blog.amay077.net/img/posts/qcar_xperia_1.png)
+!["2"](https://blog.amay077.net/img/posts/qcar_xperia_2.png)
 
 なかなかイイ感じに認識します。
 
@@ -34,21 +34,21 @@ QCAR とは クアルコム社 が[提供している](http://japanese.engadget.
 
 (2010.12.2追記)あ、動いた。なかなか認識してくれなかったけど、正面（ライオンがついてない方）をまっすぐ映してじっとしてたらできました。
 
-!["3"](https://blog.amay0777.net/img/posts/qcar_xperia_3.png)
+!["3"](https://blog.amay077.net/img/posts/qcar_xperia_3.png)
 
 ミンティアの上にポットを載せてみました(^ ^)
 
-!["4"](https://blog.amay0777.net/img/posts/qcar_xperia_4.png)
- 
+!["4"](https://blog.amay077.net/img/posts/qcar_xperia_4.png)
+
 自分の画像を使うには、Qualcomm Developper Network の AR SDK のページ内にある [My Trackables](https://ar.qualcomm.com/qdevnet/projects) へ行き、プロジェクトを作った後、画像（JPG か PNG で 2MB未満）をアップロードします。
 
-!["5"](https://blog.amay0777.net/img/posts/qcar_xperia_5.png)
+!["5"](https://blog.amay077.net/img/posts/qcar_xperia_5.png)
 
 アップロードできると↑こんな画面になります。たぶん ☆ が多い方が認識しやすい画像です。（試しにホットペッパーの見開き２ページをアップしたら ☆ がひとつも付きませんでした。→追記(2010.12.2)ちゃんとスキャンしてもらってグレイスケールに変換して制限2MBギリギリな画像でアップしたら、☆が4つ付きました。）
 
 このデータをアプリで使うには、項目をチェックして download selected trackables をクリックすると ZIP がダウンロードできるので、その中身を ImageTargets サンプル の assets フォルダに上書きしてあげると適用できます。（たぶん、複数項目をチェックしてダウンロードすると画像によってポットの色が変わるようになると思います。→追記(2010.12.2)大嘘。JNI 側の ImageTargets.cpp をダウンロードした画像の名前（config.xml を見ると分かる）に合わせて修正してあげないとダメっぽい）
 
-自分で動かすと相当オモシロイので、是非お試しください！ 
+自分で動かすと相当オモシロイので、是非お試しください！
 
 次に IS03 ですが、、、動きませんでしたー(^ ^;
 
@@ -72,5 +72,5 @@ QCAR SDK のページに 「Xperia で動かすとバグがある」的な情報
 * ホットペッパーの各ページは、構図は似ているけど、店の写真がそれぞれ違うので認識率は高い。
 * 店内写真だけ切り抜いてアップしたら、写真によってバラつきがある。下の左の写真は認識率が高いが、右は低い。
 
-!["6"](https://blog.amay0777.net/img/posts/qcar_xperia_6.png)
-!["7"](https://blog.amay0777.net/img/posts/qcar_xperia_7.png)
+!["6"](https://blog.amay077.net/img/posts/qcar_xperia_6.png)
+!["7"](https://blog.amay077.net/img/posts/qcar_xperia_7.png)

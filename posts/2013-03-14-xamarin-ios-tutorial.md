@@ -19,7 +19,7 @@ Xamarin の公式チュートリアルがあるので、それを英語も読ま
 とりあえず Xamarin Studio をたちあげて、新規 → ソリューション、C# → iOS → iPhone → Single View Application を選択、ソリューション名は「HelloWorld_iPhone」としました。
 
 ## 作成されたファイルを眺めてみる
-!["create_solution"](https://blog.amay0777.net/img/posts/xamarin_ios_created_screen.png)
+!["create_solution"](https://blog.amay077.net/img/posts/xamarin_ios_created_screen.png)
 
 ソリューションツリーを眺めてみます。
 
@@ -35,7 +35,7 @@ Tutorial(英語)では突然 Xcode の説明が始まります、なんのこっ
 ##UI レイアウトの作成 (Creating the Interface)
 見よう見まねで、Tutorial と同じようにレイアウトしました。
 
-!["ib1"](https://blog.amay0777.net/img/posts/xamarin_ios_ib_1.png)
+!["ib1"](https://blog.amay077.net/img/posts/xamarin_ios_ib_1.png)
 
 ## アウトレットとアクションを追加する (Adding Outlets and Actions to the UI)
 だんだん和訳にすらならなくなって来てますが。。。
@@ -44,14 +44,14 @@ Outlets とは、「UI要素と関連づいた変数」、Actions は「イベ�
 さて、Xcode のバーを展開して、``HelloWorld_iPhoneViewController.h`` を表示、それを ``option`` キーを押しながらクリックします。
 するとウィンドウが縦に分割されて、右側にソースコードが表示されます。
 
-!["ib1"](https://blog.amay0777.net/img/posts/xamarin_ios_ib_2.png)
+!["ib1"](https://blog.amay077.net/img/posts/xamarin_ios_ib_2.png)
 
 ### アウトレットの追加(Adding an Outlet)
 [Click Me] と書かれたボタンを、``control``キーを押しながら、隣のソースコードの @end の上らへんにドラッグ＆ドロップします。
-!["ib1"](https://blog.amay0777.net/img/posts/xamarin_ios_ib_3.png)
+!["ib1"](https://blog.amay077.net/img/posts/xamarin_ios_ib_3.png)
 次に表示されるウィンドウで Name を **btnClickMe** と入力して [Connect] ボタンを押すと、、、
 
-!["ib1"](https://blog.amay0777.net/img/posts/xamarin_ios_ib_4.png)
+!["ib1"](https://blog.amay077.net/img/posts/xamarin_ios_ib_4.png)
 
 ```objc
 @property (retain, nonatomic) IBOutlet UIButton *btnClickMe;
@@ -69,7 +69,7 @@ namespace HelloWorld_iPhone
 	{
 		[Outlet]
 		MonoTouch.UIKit.UIButton btnClickMe { get; set; }
-		
+
 		void ReleaseDesignerOutlets ()
 		{
 			if (btnClickMe != null) {
@@ -83,13 +83,13 @@ namespace HelloWorld_iPhone
 
 ``btnClickMe`` がこっちにも追加されてる！なにこれすごい。
 
-再び Xcode へ、btnClickMe と同じ要領で、次は Label もドラッグ＆ドロップし、Name は **lblOutput** とします。 
+再び Xcode へ、btnClickMe と同じ要領で、次は Label もドラッグ＆ドロップし、Name は **lblOutput** とします。
 
 ### アクションの追加(Adding an Action)
 次はアクションを追加してみます。
 [Action1] と書かれたボタンを ``control`` を押しながらD&D、次のウィンドウで、Connection を **Action** に変更、Name を **actnButtonClick** とします。
 
-!["ib1"](https://blog.amay0777.net/img/posts/xamarin_ios_ib_5.png)
+!["ib1"](https://blog.amay077.net/img/posts/xamarin_ios_ib_5.png)
 
 ```objc
 - (IBAction)actnButtonClick:(id)sender;
@@ -113,20 +113,20 @@ namespace HelloWorld_iPhone
         protected int _numberOfTimesClicked = 0;
 
         <省略>
-        		
+
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-			
+
             // Perform any additional setup after loading the view, typically from a nib.
-            btnClickMe.TouchUpInside += (sender, e) => 
+            btnClickMe.TouchUpInside += (sender, e) =>
             {
                 _numberOfTimesClicked++;
                 lblOutput.Text = "Clicked [" +
                     _numberOfTimesClicked.ToString() + "] times!";
             };
         }
-		
+
         <省略>
 
         partial void actnButtonClick(NSObject sender)
@@ -135,11 +135,11 @@ namespace HelloWorld_iPhone
         }
     }
 }
-```  
+```
 
 実装できたら、動かしてみます。
 
-!["ib1"](https://blog.amay0777.net/img/posts/xamarin_ios_created_debugger_scceeded.png)
+!["ib1"](https://blog.amay077.net/img/posts/xamarin_ios_created_debugger_scceeded.png)
 
 動いた！(Action2 は実装してないので動きません)
 

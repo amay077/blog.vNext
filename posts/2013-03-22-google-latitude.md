@@ -15,10 +15,10 @@ permalink: "/blog/{{ page.date | date: '%Y/%m/%d' }}/{{ page_name }}/index.html"
 
 試しに自分の行動履歴を晒してみます。
 
-!["1"](https://blog.amay0777.net/img/posts/latitude_1.png)
+!["1"](https://blog.amay077.net/img/posts/latitude_1.png)
 
 といっても 自宅（豊橋）と職場（名古屋）を往復するだけの日々ですねｗ
-これなら Google さんにとっても自宅と職場の位置は容易に推測できるでしょう。 
+これなら Google さんにとっても自宅と職場の位置は容易に推測できるでしょう。
 なんか、大阪 や 岡山 へ行ったことになってますが、記憶にないですｗ
 恐らく例の WiFi による測位で位置がぶっ飛ぶ現象だと思います。
 データの時刻を見てみると、驚くことに２４時間、定期的に位置情報が送信されていることが分かります。こわー。
@@ -26,7 +26,7 @@ permalink: "/blog/{{ page.date | date: '%Y/%m/%d' }}/{{ page_name }}/index.html"
 位置の取得方法は、 GPS＋WiFi＋携帯基地局 のハイブリッドなようです。
 次の画像を見てください。
 
-!["2"](https://blog.amay0777.net/img/posts/latitude_2.png)
+!["2"](https://blog.amay077.net/img/posts/latitude_2.png)
 
 履歴の点をクリックすると、Accuracy （精度） の円が表示されます。
 この絵では半径５kmくらいなので恐らく携帯基地局からの推定位置ですが、他の点をクリックすると、円の大きさが小さいものも確認できます。

@@ -9,7 +9,7 @@ permalink: "/blog/{{ page.date | date: '%Y/%m/%d' }}/{{ page_name }}/index.html"
 まあそういうことです。
 <!--more-->
 
-* [初めて Microsoft MVP になりました！](http://blog.amay0777.net/blog/2016/10/02/become-microsoft-mvp-for-the-first-timme/)
+* [初めて Microsoft MVP になりました！](http://blog.amay077.net/blog/2016/10/02/become-microsoft-mvp-for-the-first-timme/)
 
 更新のタイミング変更の影響で初受賞から２年近く経ってますね。
 

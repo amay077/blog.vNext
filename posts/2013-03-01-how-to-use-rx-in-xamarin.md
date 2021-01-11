@@ -30,13 +30,13 @@ Mono で使えるということは Xamarin でももちろん…ということ
 
 ## ソリューションにプロジェクトを追加する
 
-ソリューションツリーのソリューションのところで右クリック→追加→既存のプロジェクトを追加 
+ソリューションツリーのソリューションのところで右クリック→追加→既存のプロジェクトを追加
 
-!["add_project"](https://blog.amay0777.net/img/posts/xamarin_android_rxm4a.png)
+!["add_project"](https://blog.amay077.net/img/posts/xamarin_android_rxm4a.png)
 
 で、先ほど取得した RxM4A のディレクトリへ移動します。
 
-!["projects"](https://blog.amay0777.net/img/posts/xamarin_android_rxm4a_projects.png)
+!["projects"](https://blog.amay077.net/img/posts/xamarin_android_rxm4a_projects.png)
 
 RxMonoForAndroid の中から以下のプロジェクトを追加します。
 
@@ -83,7 +83,7 @@ namespace XamarinAndroidRxSample
             // Get our button from the layout resource,
             // and attach an event to it
             Button button = FindViewById<Button>(Resource.Id.myButton);
-			
+
             button.Click += delegate
             {
                 Observable.Range(0, 10) // 0〜9 のリスト
@@ -124,7 +124,7 @@ Yes、アプリ側を 4.0.0 にしてプロジェクトクリーン→Xamarin St
 ## サンプルプロジェクト
 これも github においておこう。RxM4A は Submodule として登録してみた。
 
-* [amay077 / XamarinAndroid_RxSample](https://github.com/amay077/XamarinAndroid_RxSample) 
+* [amay077 / XamarinAndroid_RxSample](https://github.com/amay077/XamarinAndroid_RxSample)
 
 ## 参考
 * [Reactive Extensionsの概要と利用方法 － ＠IT](http://www.atmarkit.co.jp/fdotnet/introrx/introrx_01/introrx_01_01.html)

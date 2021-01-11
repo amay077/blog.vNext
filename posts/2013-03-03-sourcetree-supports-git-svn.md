@@ -16,17 +16,17 @@ I. Terminal で git svn clone する。※リポジトリがデカイと結構�
 git svn clone -s http://osmdroid.googlecode.com/svn osmdroid
 ```
 -s オプションをつけているので、最後 /trunk としない所がミソ。
- 
+
 II. SourceTree の ファイル → 開く で I. のフォルダを作業フォルダとして開く。
 
 III. ごらんの通り、普通に SourceTree で開けました。
 
-![sourcetree](https://blog.amay0777.net/img/posts/sourcetree01.png)
+![sourcetree](https://blog.amay077.net/img/posts/sourcetree01.png)
 
 * プッシュは ``git svn dcommit`` と同じ、つまり SVN へのコミットになります。
 * プルは ``git svn rebase`` つまり SVN からの Update になります。
 * ブランチは少し注意が必要で、git のローカルブランチとして作成するか、SVN のブランチとして作成するかを選択するダイアログが表示されます。前者を選択した場合は、SVN へは手動でマージしなければなりません。
-![sourcetree_branch](https://blog.amay0777.net/img/posts/sourcetree02.png)
+![sourcetree_branch](https://blog.amay077.net/img/posts/sourcetree02.png)
 
 git svn のコマンドは普通の git と少し違うのですが、SourceTree がそのあたりを吸収してくれて、SVN をリモートリポジトリと見立てて動作します。
 

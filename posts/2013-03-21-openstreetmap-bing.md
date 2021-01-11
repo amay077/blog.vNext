@@ -15,17 +15,17 @@ permalink: "/blog/{{ page.date | date: '%Y/%m/%d' }}/{{ page_name }}/index.html"
 
 って少し気になることが。
 
- 
+
 
 たしか Googleマップ もそうだったですけど、衛生写真 と通常の地図（ベクトル地図）で少しズレてません？
 
 というわけで Googleマップ と、OSM で私が最近ロギングして描いた地図で比較してみました。
 
-!["1"](https://blog.amay0777.net/img/posts/osm_bing_1.png)
-!["2"](https://blog.amay0777.net/img/posts/osm_bing_2.png)
+!["1"](https://blog.amay077.net/img/posts/osm_bing_1.png)
+!["2"](https://blog.amay077.net/img/posts/osm_bing_2.png)
 
 一つ目が Google 、 二つ目が OSM (Bing) です。
- 
+
 
 やっぱりズレてますねー。
 
@@ -33,10 +33,10 @@ Googleマップ も Bing マップもズレの量はともかく、同じ方向�
 
 地点によっては、まったくズレていない所もあるし、画像補正の関係でこうなっちゃうのかな…。
 
- 
+
 
 ということで、OSM に Bing のチカラが加わったのは嬉しいのですが、精度が要求される所では、やっぱり GPS ログを収集しましょう、ということでご注意ください。
 
- 
+
 
 それにしても加入して即、Bing を OSM に持ち込むなんてスゴいですね。まるで メカドックに那智さんが加入して即、サバンナRX-7 をスリーローターに改造しちゃうみたいな。。。(わかるひといるかなー？)

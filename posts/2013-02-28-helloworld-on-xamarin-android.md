@@ -22,13 +22,13 @@ dmg 開いてインストーラっぽいのを実行するだけ。Android と i
 
 C# - Android - Android Ice Cream Sandwitch Application を選択。
 
-!["create_project"](https://blog.amay0777.net/img/posts/xamarin_create_project.png)
+!["create_project"](https://blog.amay077.net/img/posts/xamarin_create_project.png)
 
 ちなみに VB.NET もありますが、Android用のプロジェクトテンプレがありませんでした。
 
 ## プロジェクトの中身はこんな感じ
 
-!["project"](https://blog.amay0777.net/img/posts/xamarin_helloworld.png)
+!["project"](https://blog.amay077.net/img/posts/xamarin_helloworld.png)
 
 ソリューションツリー、Visual Studio っぽさと Android っぽさが同居していてなんか不思議な感じです。
 
@@ -67,7 +67,7 @@ namespace HelloXamarinAndroid
             // Get our button from the layout resource,
             // and attach an event to it
             Button button = FindViewById<Button>(Resource.Id.myButton);
-			
+
             button.Click += delegate
             {
                 button.Text = string.Format("{0} clicks!", count++);
@@ -92,7 +92,7 @@ onCreate を override するのも、その中で setContentView するのも、
 
 ```csharp
 Button button = FindViewById<Button>(Resource.Id.myButton);
-			
+
 button.Click += delegate
 {
     button.Text = string.Format("{0} clicks!", count++);
@@ -104,8 +104,8 @@ C# ならではの匿名delegate 使ってます。OnClickListener インター�
 
 ```csharp
 var button = FindViewById<Button>(Resource.Id.myButton);
-            
-button.Click += (sender, e) => 
+
+button.Click += (sender, e) =>
     button.Text = string.Format("{0} clicks!", count++);
 ```
 
@@ -117,7 +117,7 @@ button.Click += (sender, e) =>
 ## ビルド、実行
 実行すると、こんなダイアログが出てきます。
 
-!["devices"](https://blog.amay0777.net/img/posts/xamarin_device_select.png)
+!["devices"](https://blog.amay077.net/img/posts/xamarin_device_select.png)
 
 実機もちゃんと認識されます。
 

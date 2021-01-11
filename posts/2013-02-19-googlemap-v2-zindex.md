@@ -58,7 +58,7 @@ mMap.addPolygon(new PolygonOptions()
 
 結果、こうなりました。
 
-![noZindex](https://blog.amay0777.net/img/posts/zindex_off.png)
+![noZindex](https://blog.amay077.net/img/posts/zindex_off.png)
 
 前後関係を見ると、奥から
 
@@ -108,7 +108,7 @@ mMap.addPolygon(new PolygonOptions()
 
 結果は以下のとおり。
 
-![noZindex](https://blog.amay0777.net/img/posts/zindex_on.png)
+![noZindex](https://blog.amay077.net/img/posts/zindex_on.png)
 
 1. 線(太)
 2. 線(細)

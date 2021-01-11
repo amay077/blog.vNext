@@ -34,7 +34,7 @@ SDK で Google Play services が取得できていれば、
 
 ※Xamarin.Android で使われる Android SDK は、Xamarin Studio のPreferences → SDK Locations → Android で確認できます。
 
-!["sdklocations"](https://blog.amay0777.net/img/posts/xamarin_android_sdk_locations.png)
+!["sdklocations"](https://blog.amay077.net/img/posts/xamarin_android_sdk_locations.png)
 
 
 ``google-play-services_lib`` へ移動して、Ant 用のビルドファイルを生成します。
@@ -53,9 +53,9 @@ ant の実行に成功すると /bin の中に classes.jar とかができてる
 
 一連の画像貼っときます。
 
-!["red"](https://blog.amay0777.net/img/posts/xamarin_studio_delete_file.png)
-!["red"](https://blog.amay0777.net/img/posts/xamarin_studio_add_exist_file.png)
-!["red"](https://blog.amay0777.net/img/posts/xamarin_studio_add_a_link.png)
+!["red"](https://blog.amay077.net/img/posts/xamarin_studio_delete_file.png)
+!["red"](https://blog.amay077.net/img/posts/xamarin_studio_add_exist_file.png)
+!["red"](https://blog.amay077.net/img/posts/xamarin_studio_add_a_link.png)
 
 
 ## Google Maps v2 API Key
@@ -74,7 +74,7 @@ Google Maps v2 API Key の取得も本家と同じですが、
 を参考に、Google API Console から、API key を取得します。
 API Key を取得する際に必要なパッケージ名、取得した API Key を貼り付ける場所は、いずれも MapsAndLocationDemo プロジェクトの AndroidManifest.xml にあるので、先に開いておくとよいでしょう。
 
-!["apikey"](https://blog.amay0777.net/img/posts/xamarin_studio_android_manifest.png)
+!["apikey"](https://blog.amay077.net/img/posts/xamarin_studio_android_manifest.png)
 
 API Key を取得したら、``com.google.android.maps.v2.API_KEY`` のところに貼り付けて準備完了です。
 
@@ -86,7 +86,7 @@ Google Play Services が端末にインストールされてないと動かん�
 
 「実機で」動かしてみます。
 
-!["play"](https://blog.amay0777.net/img/posts/xamarin_studio_android_google_maps_api_v2.png)
+!["play"](https://blog.amay077.net/img/posts/xamarin_studio_android_google_maps_api_v2.png)
 
 動いてます。(上は Show Map with Overlays を動かしたところ)
 

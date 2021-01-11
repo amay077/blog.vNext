@@ -15,19 +15,19 @@ visibility は[リファレンス](http://developer.android.com/reference/androi
 
 レイアウトにボタン（じゃなくても良いけど）を２つ貼り、一つ（A とします）を可変幅に、もう一つ（B とします）を固定幅にしました。
 ボタンBは常に固定幅で画面右にあって、ボタンAは残った領域に fill するイメージです。
-（※ボタンA の layout_weight を B より大きな値にセットするのがミソです） 
+（※ボタンA の layout_weight を B より大きな値にセットするのがミソです）
 
 この状態で、ボタン B の visibility を変えてみて、どんな変化が起こるか確認してみました。
 
 それが↓これ。
 
-!["1"](https://blog.amay0777.net/img/posts/androidvisibility_1.png)
+!["1"](https://blog.amay077.net/img/posts/androidvisibility_1.png)
 
 なるほど。
 invisible は、そこに存在するけど見えていない。ので空白の領域ができる。
 gone は、存在自体が無くなる。ので ボタンA がいっぱいまで表示される。
-VB6 や C# に例えていうなら、Visible の true が "visible" で、false は "gone" なんですね、納得。 
+VB6 や C# に例えていうなら、Visible の true が "visible" で、false は "gone" なんですね、納得。
 
- 
+
 
 ちなみに "gone" を[英和辞典で調べる](http://eow.alc.co.jp/gone/)と、「消失した、いなくなった」 という意味もあるそうで、なるほど。
