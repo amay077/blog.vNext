@@ -11,7 +11,7 @@ permalink: "/blog/{{ page.date | date: '%Y/%m/%d' }}/{{ page_name }}/index.html"
 
 Android Developper では、Activity のライフサイクルは以下の図で説明されています。
 
-!["image1"](http://developer.android.com/images/activity_lifecycle.png)
+!["image1"](https://developer.android.com/images/activity_lifecycle.png)
 
 この図の説明は、[日本Androidの会のページ](http://www.android-group.jp/index.php?cmd=read&page=%CA%D9%B6%AF%B2%F1%2FAndroid%20SDK%20WG%20%C2%E81%B2%F3%20%A5%BB%A5%C3%A5%B7%A5%E7%A5%F3%A1%CA2008.10.25%A1%CB&word=activity#iee83184) などで解説されているので、ここでは割愛しますが、ポイントなのは、
 

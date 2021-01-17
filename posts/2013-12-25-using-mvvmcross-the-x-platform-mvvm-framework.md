@@ -16,7 +16,7 @@ MvvmCross ってやつを紹介したいのですが、まずは事前知識か�
 MVVM は、 Model-View-ViewModel の頭文字を取ったものです。
 MVC パターンの派生で、Microsoft が WPF/Silverlight のために作ったそうですが、今では JavaScript の [Knockout.js](http://knockoutjs.com/) などでも利用されています。
 
-![](http://upload.wikimedia.org/wikipedia/commons/8/87/MVVMPattern.png)
+![](https://upload.wikimedia.org/wikipedia/commons/8/87/MVVMPattern.png)
 (via [Model View ViewModel - WikiPedia](http://ja.wikipedia.org/wiki/Model_View_ViewModel) CC-BY 3.0) 
 
 * Model - MVC の Model と一緒。ビジネスロジックはここに。
