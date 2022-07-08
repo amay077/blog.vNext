@@ -1,5 +1,5 @@
 ---
-title: GitHub Actions で "git@github.com: Permission denied (publickey)." が出ていたので直した
+title: GitHub Actions で Permission denied (publickey) が出ていたので直した
 tags: [GitHub,GitHub Actions]
 date: 2022-07-08
 layout: layouts/post.njk
